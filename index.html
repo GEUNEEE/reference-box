@@ -64,6 +64,9 @@ main{padding:12px 16px;display:grid;gap:14px;grid-template-columns:repeat(auto-f
 .t{padding:3px 9px;border-radius:6px;font-size:11.5px;font-weight:600}
 .t.need{background:#233150;color:#8fb0ff}
 .t.type{background:#3a2a4d;color:#d3a8ff}
+.rating{display:flex;gap:3px;font-size:17px;line-height:1;user-select:none}
+.rating span{color:#3d4452;cursor:pointer;transition:color .1s}
+.rating span.on{color:#f0b64a}
 .cfoot{margin-top:auto;display:flex;align-items:center;gap:6px;padding-top:4px}
 .cfoot select{width:auto;font-size:12.5px;padding:6px 8px}
 .iconb{background:var(--panel2);border:1px solid var(--line);color:var(--sub);width:32px;height:32px;border-radius:8px;font-size:13px}
@@ -149,7 +152,7 @@ table.stats .hot{color:var(--accent);font-weight:800}
     <select id="sortSel">
       <option value="new">등록 최신순</option>
       <option value="old">등록 오래된순</option>
-      <option value="star">별표 우선</option>
+      <option value="star">별점 높은순</option>
     </select>
     <select id="prevSel">
       <option value="auto">미리보기 자동</option>
@@ -360,7 +363,7 @@ function load(){
   d.version = 2;
   d.tagGroups = d.tagGroups || structuredClone(DEFAULT_DATA.tagGroups);
   d.tagGroups.needs = d.tagGroups.needs||[]; d.tagGroups.types = d.tagGroups.types||[];
-  d.items.forEach(i=>{ i.needs=i.needs||[]; i.types=i.types||[]; i.updatedAt=i.updatedAt||i.addedAt; });
+  d.items.forEach(i=>{ i.needs=i.needs||[]; i.types=i.types||[]; i.updatedAt=i.updatedAt||i.addedAt; if(i.rating==null) i.rating=i.star?5:0; });
   d.accounts=d.accounts||[]; d.logs=d.logs||[];
   // 오래된 톰스톤(삭제 기록) 정리
   const cut = Date.now() - TOMB_DAYS*864e5;
@@ -424,7 +427,7 @@ function renderTabs(){
   for(const k in STATUS) counts[k]=a.filter(i=>i.status===k).length;
   el.innerHTML = ['all',...Object.keys(STATUS)].map(k=>
     `<button class="tab ${filter.status===k?'on':''}" data-st="${k}">${k==='all'?'전체':STATUS[k]} ${counts[k]||0}</button>`).join("")
-    + `<button class="tab ${filter.star?'on':''}" id="starTab">⭐ ${a.filter(i=>i.star).length}</button>`;
+    + `<button class="tab ${filter.star?'on':''}" id="starTab">⭐ ${a.filter(i=>i.rating>0).length}</button>`;
   el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.status=b.dataset.st;render();});
   document.getElementById("starTab").onclick=()=>{filter.star=!filter.star;render();};
 }
@@ -445,13 +448,13 @@ function visibleItems(){
   const q=filter.q.toLowerCase();
   const arr = alive().filter(i=>
     (filter.status==="all"||i.status===filter.status) &&
-    (!filter.star || i.star) &&
+    (!filter.star || i.rating>0) &&
     filter.needs.every(t=>i.needs.includes(t)) &&
     filter.types.every(t=>i.types.includes(t)) &&
     (!q || (i.title+" "+i.memo+" "+i.url).toLowerCase().includes(q))
   );
   arr.sort((a,b)=>{
-    if(filter.sort==="star" && (!!b.star)!==(!!a.star)) return (b.star?1:0)-(a.star?1:0);
+    if(filter.sort==="star" && (b.rating||0)!==(a.rating||0)) return (b.rating||0)-(a.rating||0);
     return filter.sort==="old" ? a.addedAt.localeCompare(b.addedAt) : b.addedAt.localeCompare(a.addedAt);
   });
   return arr;
@@ -488,12 +491,13 @@ function renderGrid(){
         ${i.needs.map(t=>`<span class="t need">${esc(t)}</span>`).join("")}
         ${i.types.map(t=>`<span class="t type">${esc(t)}</span>`).join("")}
       </div>
+      <div class="rating">${[1,2,3,4,5].map(n=>`<span class="${(i.rating||0)>=n?'on':''}" data-rate="${i.id}" data-n="${n}">★</span>`).join("")}</div>
       <div class="cfoot">
         <select data-status="${i.id}">
           ${Object.entries(STATUS).map(([k,v])=>`<option value="${k}" ${i.status===k?"selected":""}>${v}</option>`).join("")}
         </select>
-        <button class="iconb" data-starbtn="${i.id}" title="별표" style="${i.star?'color:#f0b64a;border-color:#f0b64a':''}">${i.star?"⭐":"☆"}</button>
         <span style="margin-left:auto"></span>
+        ${canDelete()?`<button class="iconb" data-carddel="${i.id}" title="삭제">🗑</button>`:""}
         <button class="iconb" data-open="${esc(i.url)}" title="원본 열기">↗</button>
         <button class="iconb" data-edit="${i.id}" title="수정">✏️</button>
       </div>
@@ -520,9 +524,20 @@ function renderGrid(){
     addLog("상태변경",(it.title||it.embedId||"").slice(0,30)+" → "+STATUS[el.value]);
     persist(); toast("상태 변경: "+STATUS[el.value]);
   });
-  grid.querySelectorAll("[data-starbtn]").forEach(el=>el.onclick=()=>{
-    const it=state.items.find(x=>x.id===el.dataset.starbtn);
-    it.star=!it.star; it.updatedAt=now(); persist();
+  grid.querySelectorAll("[data-rate]").forEach(el=>el.onclick=()=>{
+    const it=state.items.find(x=>x.id===el.dataset.rate);
+    const n=parseInt(el.dataset.n);
+    it.rating = (it.rating===n)? 0 : n;
+    it.star = it.rating>0;
+    it.updatedAt=now(); persist();
+  });
+  grid.querySelectorAll("[data-carddel]").forEach(el=>el.onclick=()=>{
+    if(!canDelete()){ toast("삭제 권한이 없어요 (마스터에게 요청하세요)"); return; }
+    const it=state.items.find(x=>x.id===el.dataset.carddel);
+    if(!confirm("이 레퍼런스를 삭제할까요?\n"+(it.title||it.embedId||""))) return;
+    it.deleted=true; it.updatedAt=now();
+    addLog("삭제",(it.title||it.embedId||"").slice(0,40));
+    persist(); toast("삭제됨");
   });
   grid.querySelectorAll("[data-edit]").forEach(el=>el.onclick=()=>openAdd(el.dataset.edit));
   grid.querySelectorAll("[data-open]").forEach(el=>el.onclick=()=>window.open(el.dataset.open,"_blank"));
@@ -750,7 +765,7 @@ async function ghPut(sha){
 }
 function mergeRemote(remote){
   if(!remote||!remote.items) return;
-  const byId={}; remote.items.forEach(i=>{ i.needs=i.needs||[]; i.types=i.types||[]; byId[i.id]=i; });
+  const byId={}; remote.items.forEach(i=>{ i.needs=i.needs||[]; i.types=i.types||[]; if(i.rating==null) i.rating=i.star?5:0; byId[i.id]=i; });
   state.items.forEach(i=>{
     const r=byId[i.id];
     if(!r || (i.updatedAt||i.addedAt) > (r.updatedAt||r.addedAt)) byId[i.id]=i;
