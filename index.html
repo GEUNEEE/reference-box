@@ -83,6 +83,8 @@ main{padding:12px 16px;display:grid;gap:14px;grid-template-columns:repeat(auto-f
 .bulkbar button{font-size:12.5px;padding:8px 12px}
 
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:50;display:none;align-items:flex-end;justify-content:center}
+#mLogin{background:radial-gradient(900px 500px at 50% -10%, #1d2536, var(--bg) 62%);align-items:center;z-index:80}
+body.locked header,body.locked .filters,body.locked main,body.locked .fab,body.locked .bulkbar{display:none!important}
 .modal.open{display:flex}
 @media(min-width:640px){.modal{align-items:center}}
 .sheet{background:var(--panel);border:1px solid var(--line);width:100%;max-width:560px;max-height:92vh;overflow-y:auto;border-radius:18px 18px 0 0;padding:20px}
@@ -465,6 +467,7 @@ function thumbStyle(i){
 }
 function renderGrid(){
   const grid=document.getElementById("grid");
+  if(!me()){ grid.innerHTML=""; document.getElementById("cnt").textContent=""; return; }
   const items=visibleItems();
   document.getElementById("cnt").textContent = items.length+"개";
   if(!items.length){
@@ -935,6 +938,7 @@ function addLog(a,d){
 }
 function requireLogin(){
   const ok=!!me();
+  document.body.classList.toggle("locked", !ok);
   document.getElementById("mLogin").classList.toggle("open", !ok);
   document.getElementById("lHint").textContent = (state.accounts&&state.accounts.length)?"":"계정 정보를 불러오는 중… 몇 초 뒤 로그인해 주세요";
   document.getElementById("btnAdmin").style.display = isMaster()? "":"none";
@@ -950,7 +954,7 @@ document.getElementById("lGo").onclick=async()=>{
 document.getElementById("lPw").onkeydown=e=>{ if(e.key==="Enter") document.getElementById("lGo").click(); };
 document.getElementById("sLogout").onclick=()=>{
   sess=null; localStorage.removeItem("refbox_sess");
-  document.getElementById("mSet").classList.remove("open"); requireLogin();
+  document.getElementById("mSet").classList.remove("open"); render(); requireLogin();
 };
 document.getElementById("sPwSave").onclick=async()=>{
   const m=me(); if(!m) return;
