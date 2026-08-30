@@ -836,6 +836,37 @@ document.getElementById("sSaImport").onclick=async()=>{
   }
 })();
 
+/* 주기 동기화: 5분마다 + 탭 복귀 시 원격 변경 자동 반영 */
+function effRepo(){
+  return conf.repo || (location.hostname.endsWith("github.io")
+    ? location.hostname.split(".")[0]+"/"+location.pathname.split("/").filter(Boolean)[0] : "");
+}
+let lastPull=0;
+async function silentPull(){
+  const repo=effRepo();
+  if(!repo || syncState==="busy") return;
+  if(Date.now()-lastPull<20000) return;
+  lastPull=Date.now();
+  try{
+    let data=null;
+    if(conf.token&&conf.repo){ data=(await ghGet()).data; }
+    else{
+      const r=await fetch(`https://raw.githubusercontent.com/${repo}/${conf.branch||"main"}/${GH_PATH}?t=`+Date.now());
+      if(r.ok) data=await r.json();
+    }
+    if(data){
+      const before=JSON.stringify(state);
+      mergeRemote(data);
+      if(JSON.stringify(state)!==before){
+        localStorage.setItem(LS_DATA,JSON.stringify(state));
+        render(); toast("↻ 새 변경사항 반영됨");
+      }
+    }
+  }catch(e){}
+}
+setInterval(silentPull, 300000);
+document.addEventListener("visibilitychange",()=>{ if(!document.hidden) silentPull(); });
+
 if("serviceWorker" in navigator && location.protocol==="https:"){
   navigator.serviceWorker.register("sw.js").catch(()=>{});
 }

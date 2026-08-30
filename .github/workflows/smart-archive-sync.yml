@@ -1,0 +1,23 @@
+name: smart-archive-sync
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refbox-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync from smart-archive
+        run: python3 scripts/smart_archive_sync.py
+      - name: Commit changes
+        run: |
+          git config user.name refbox-bot
+          git config user.email refbox-bot@users.noreply.github.com
+          git add -A
+          git diff --cached --quiet || (git commit -m "refbox: smart-archive sync" && git pull --rebase && git push)
