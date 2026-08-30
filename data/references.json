@@ -1,8 +1,102 @@
 {
   "version": 2,
   "tagGroups": {
-    "needs": ["다이어트","미백","탈모","가슴크기","바디라인","관절","모공","남자 성기능","갱년기","수면","잡티"],
-    "types": ["문제사연","후킹"]
+    "needs": [
+      "다이어트",
+      "미백",
+      "탈모",
+      "가슴크기",
+      "바디라인",
+      "관절",
+      "모공",
+      "남자 성기능",
+      "갱년기",
+      "수면",
+      "잡티"
+    ],
+    "types": [
+      "문제사연",
+      "후킹"
+    ]
   },
-  "items": []
+  "items": [
+    {
+      "id": "sa-test-01",
+      "url": "https://www.instagram.com/reel/Dbu10CPCvHH/",
+      "platform": "instagram",
+      "embedId": "Dbu10CPCvHH",
+      "title": "화이트태닝",
+      "memo": "SA: 화이트태닝, 뷰티, 참고",
+      "needs": [
+        "미백"
+      ],
+      "types": [],
+      "status": "inbox",
+      "addedBy": "스마트아카이브",
+      "addedAt": "2026-08-11T00:00:00.000Z",
+      "updatedAt": "2026-08-30T06:00:00.000Z"
+    },
+    {
+      "id": "sa-test-02",
+      "url": "https://www.instagram.com/reel/DbSIufbJmc_/",
+      "platform": "instagram",
+      "embedId": "DbSIufbJmc_",
+      "title": "초반 후킹 괜찮네",
+      "memo": "SA: 후킹, 콘텐츠제작, 참고",
+      "needs": [],
+      "types": [
+        "후킹"
+      ],
+      "status": "inbox",
+      "addedBy": "스마트아카이브",
+      "addedAt": "2026-08-11T00:00:00.000Z",
+      "updatedAt": "2026-08-30T06:00:00.000Z"
+    },
+    {
+      "id": "sa-test-03",
+      "url": "https://www.instagram.com/reel/Db2eDLTzxdK/",
+      "platform": "instagram",
+      "embedId": "Db2eDLTzxdK",
+      "title": "겨드랑이 착색",
+      "memo": "겨드랑이 착색\nSA: 겨드랑이착색, 뷰티고민, 참고",
+      "needs": [
+        "미백"
+      ],
+      "types": [
+        "문제사연"
+      ],
+      "status": "inbox",
+      "addedBy": "스마트아카이브",
+      "addedAt": "2026-08-11T00:00:00.000Z",
+      "updatedAt": "2026-08-30T06:00:00.000Z"
+    },
+    {
+      "id": "sa-test-04",
+      "url": "https://www.instagram.com/reel/DZmbXpFhcwV/",
+      "platform": "instagram",
+      "embedId": "DZmbXpFhcwV",
+      "title": "약사 컨셉 참고",
+      "memo": "약사 이런거 참고해서 해봐도 좋을듯\nSA: 약사, 전문가컨셉, 참고",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "addedBy": "스마트아카이브",
+      "addedAt": "2026-08-11T00:00:00.000Z",
+      "updatedAt": "2026-08-30T06:00:00.000Z"
+    },
+    {
+      "id": "sa-test-05",
+      "url": "https://www.instagram.com/reel/DZ8v-WNy0_J/",
+      "platform": "instagram",
+      "embedId": "DZ8v-WNy0_J",
+      "title": "성분이 같음으로 승부",
+      "memo": "성분이 같음으로 갔다\nSA: 성분마케팅, 참고",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "addedBy": "스마트아카이브",
+      "addedAt": "2026-08-11T00:00:00.000Z",
+      "updatedAt": "2026-08-30T06:00:00.000Z"
+    }
+  ]
 }

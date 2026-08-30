@@ -149,6 +149,10 @@ table.stats .hot{color:var(--accent);font-weight:800}
       <option value="new">최신순</option>
       <option value="old">오래된순</option>
     </select>
+    <select id="prevSel">
+      <option value="auto">미리보기 자동</option>
+      <option value="manual">미리보기 수동</option>
+    </select>
   </div>
 </div>
 
@@ -267,6 +271,14 @@ table.stats .hot{color:var(--accent);font-weight:800}
     <button class="btn-p" id="sSaveConf">저장 &amp; 연결확인</button>
   </div>
   <hr class="divider">
+  <div class="frow"><label>스마트 아카이브 연동</label>
+    <div class="hint">스마트 아카이브에 저장해둔 인스타/유튜브/틱톡 링크를 전부 가져옵니다. (중복·삭제했던 항목은 제외, 태그는 자동 매칭)</div>
+  </div>
+  <div class="frow"><input id="sSaRepo" placeholder="GEUNEEE/smart-archive@master"></div>
+  <div class="mfoot">
+    <button class="btn-g" id="sSaImport">📦 스마트 아카이브 가져오기</button>
+  </div>
+  <hr class="divider">
   <div class="mfoot">
     <button class="btn-g" id="sExport">JSON 내보내기</button>
     <button class="btn-g" id="sImport">JSON 가져오기</button>
@@ -293,6 +305,7 @@ const TOMB_DAYS = 30;
 let state = load();
 let conf = JSON.parse(localStorage.getItem(LS_CONF)||"{}");
 let filter = {status:"all", needs:[], types:[], q:"", sort:"new"};
+let previewMode = localStorage.getItem("refbox_prev")||"auto";
 let editId = null;
 let selMode=false, selIds=new Set();
 
@@ -442,9 +455,9 @@ function renderGrid(){
   });
   grid.querySelectorAll("[data-play]").forEach(el=>el.onclick=()=>{
     if(selMode){ toggleSel(el.dataset.play); return; }
-    const it=state.items.find(x=>x.id===el.dataset.play);
-    el.parentElement.innerHTML = `<iframe src="${embedSrc(it)}" allow="autoplay; encrypted-media; fullscreen" allowfullscreen scrolling="no"></iframe>`;
+    loadEmbed(el);
   });
+  setupAutoPreview(grid);
   grid.querySelectorAll("[data-openurl]").forEach(el=>el.onclick=()=>{
     if(selMode){ toggleSel(el.closest(".card").dataset.card); return; }
     window.open(el.dataset.openurl,"_blank");
@@ -457,6 +470,27 @@ function renderGrid(){
   grid.querySelectorAll("[data-open]").forEach(el=>el.onclick=()=>window.open(el.dataset.open,"_blank"));
 }
 function toggleSel(id){ selIds.has(id)?selIds.delete(id):selIds.add(id); render(); }
+
+/* 자동 미리보기: 화면에 들어오는 카드의 임베드를 자동 로드 */
+let previewObs=null;
+function loadEmbed(holder){
+  const it=state.items.find(x=>x.id===holder.dataset.play);
+  if(!it) return;
+  holder.parentElement.innerHTML = `<iframe loading="lazy" src="${embedSrc(it)}" allow="autoplay; encrypted-media; fullscreen" allowfullscreen scrolling="no"></iframe>`;
+}
+function setupAutoPreview(grid){
+  if(previewObs){ previewObs.disconnect(); previewObs=null; }
+  if(previewMode!=="auto"||selMode) return;
+  previewObs=new IntersectionObserver(es=>{
+    es.forEach(en=>{
+      if(en.isIntersecting){ previewObs.unobserve(en.target); loadEmbed(en.target); }
+    });
+  },{rootMargin:"250px"});
+  grid.querySelectorAll("[data-play]").forEach(el=>{
+    const it=state.items.find(x=>x.id===el.dataset.play);
+    if(it && (it.platform==="instagram"||it.platform==="tiktok")) previewObs.observe(el);
+  });
+}
 
 /* ====================== 일괄 작업 ====================== */
 function renderBulkbar(){
@@ -744,6 +778,37 @@ document.querySelectorAll("[data-close]").forEach(b=>b.onclick=()=>b.closest(".m
 document.querySelectorAll(".modal").forEach(m=>m.onclick=e=>{if(e.target===m)m.classList.remove("open");});
 document.getElementById("q").oninput=e=>{filter.q=e.target.value;renderGrid();};
 document.getElementById("sortSel").onchange=e=>{filter.sort=e.target.value;renderGrid();};
+document.getElementById("prevSel").value=previewMode;
+document.getElementById("prevSel").onchange=e=>{previewMode=e.target.value;localStorage.setItem("refbox_prev",previewMode);renderGrid();};
+
+/* 스마트 아카이브 가져오기 */
+document.getElementById("sSaImport").onclick=async()=>{
+  const spec=(document.getElementById("sSaRepo").value.trim()||"GEUNEEE/smart-archive@master");
+  const parts=spec.split("@"), saRepo=parts[0], saBr=parts[1]||"master";
+  const btn=document.getElementById("sSaImport"); btn.disabled=true; btn.textContent="가져오는 중…";
+  try{
+    const r=await fetch(`https://raw.githubusercontent.com/${saRepo}/${saBr}/data/archive.json?t=`+Date.now());
+    if(!r.ok) throw new Error("응답 "+r.status);
+    const arr=await r.json();
+    let added=0;
+    arr.forEach(e=>{
+      const p=parseUrl(e.url||""); if(!p||p.platform==="link") return;
+      if(p.embedId && state.items.some(x=>x.embedId===p.embedId&&x.platform===p.platform)) return;
+      const hay=((e.title||"")+" "+(e.memo||"")+" "+((e.tags||[]).join(" ")));
+      state.items.push({id:uid(), addedAt:(e.date?e.date+"T00:00:00.000Z":now()), updatedAt:now(),
+        addedBy:"스마트아카이브", url:p.url, platform:p.platform, embedId:p.embedId,
+        title:(e.title||"").replace(/^인스타 릴스( - )?/,""),
+        memo:[(e.memo||""),(e.tags&&e.tags.length?"SA: "+e.tags.join(", "):"")].filter(Boolean).join("\n"),
+        needs:state.tagGroups.needs.filter(t=>hay.includes(t)),
+        types:state.tagGroups.types.filter(t=>hay.includes(t)),
+        status:"inbox"});
+      added++;
+    });
+    persist(); toast("📦 스마트 아카이브에서 "+added+"개 가져옴");
+    document.getElementById("mSet").classList.remove("open");
+  }catch(err){ toast("가져오기 실패: "+err.message); }
+  btn.disabled=false; btn.textContent="📦 스마트 아카이브 가져오기";
+};
 
 /* 공유 타깃 / URL 파라미터 유입: ?url= ?text= ?add= */
 (function(){
