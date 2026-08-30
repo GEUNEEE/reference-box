@@ -3102,5 +3102,41 @@
       "addedAt": "2026-08-30T23:12:04.000Z",
       "updatedAt": "2026-08-30T23:12:04.000Z"
     }
-  ]
+  ],
+  "accounts": [
+    {
+      "id": "눈길",
+      "hash": "a366010bf0bae8b82034d7d0825c85a788017f2d793bb8445adcb882e0b6eb51",
+      "role": "master",
+      "perms": {
+        "delete": true
+      },
+      "removed": false,
+      "createdAt": "2026-08-31T00:00:00.000Z",
+      "updatedAt": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "비에스",
+      "hash": "c7c72cb59692a5b0dc977a154ce381d01182648dfd77ad9d84f099dd5e35212a",
+      "role": "member",
+      "perms": {
+        "delete": false
+      },
+      "removed": false,
+      "createdAt": "2026-08-31T00:00:00.000Z",
+      "updatedAt": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "스카이",
+      "hash": "6bae0ccba0bb42b5195a2e32add312dbbda8baa5b060c5ee24e0b86e18573f94",
+      "role": "member",
+      "perms": {
+        "delete": false
+      },
+      "removed": false,
+      "createdAt": "2026-08-31T00:00:00.000Z",
+      "updatedAt": "2026-08-31T00:00:00.000Z"
+    }
+  ],
+  "logs": []
 }

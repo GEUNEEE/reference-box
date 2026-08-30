@@ -130,6 +130,7 @@ table.stats .hot{color:var(--accent);font-weight:800}
   <div class="hrow">
     <h1>📼 영상 레퍼런스함 <small id="cnt"></small></h1>
     <div class="hbtns">
+      <button class="hbtn" id="btnAdmin" style="display:none">👑</button>
       <button class="hbtn" id="btnSel">☑️ 선택</button>
       <button class="hbtn" id="btnStats">📊</button>
       <button class="hbtn" id="btnTags">🏷️</button>
@@ -146,8 +147,9 @@ table.stats .hot{color:var(--accent);font-weight:800}
   <div class="searchrow">
     <input id="q" type="search" placeholder="제목·메모 검색">
     <select id="sortSel">
-      <option value="new">최신순</option>
-      <option value="old">오래된순</option>
+      <option value="new">등록 최신순</option>
+      <option value="old">등록 오래된순</option>
+      <option value="star">별표 우선</option>
     </select>
     <select id="prevSel">
       <option value="auto">미리보기 자동</option>
@@ -263,7 +265,19 @@ table.stats .hot{color:var(--accent);font-weight:800}
 <!-- 설정 모달 -->
 <div class="modal" id="mSet"><div class="sheet">
   <h2>⚙️ 설정 <button class="x" data-close>✕</button></h2>
-  <div class="frow"><label>내 이름 (등록자 표시용)</label><input id="sName" placeholder="예: 500형"></div>
+  <div class="frow"><label>로그인 계정</label>
+    <div style="display:flex;gap:8px;align-items:center">
+      <b id="sWho" style="font-size:14px"></b>
+      <button class="btn-g" id="sLogout" style="margin-left:auto;padding:8px 14px;font-size:13px">로그아웃</button>
+    </div>
+  </div>
+  <div class="frow"><label>비밀번호 변경</label>
+    <div style="display:flex;gap:6px">
+      <input id="sPwCur" type="password" placeholder="현재 비밀번호">
+      <input id="sPwNew" type="password" placeholder="새 비밀번호">
+      <button class="btn-g" id="sPwSave" style="padding:0 14px;font-size:13px;flex:0 0 auto">변경</button>
+    </div>
+  </div>
   <hr class="divider">
   <div class="frow"><label>GitHub 공용 동기화 (팀 공유)</label>
     <div class="hint">저장소의 <code>data/references.json</code>에 자동 커밋됩니다. 토큰이 없으면 보기 전용 + 이 브라우저에만 저장돼요.</div>
@@ -291,6 +305,29 @@ table.stats .hot{color:var(--accent);font-weight:800}
   <input type="file" id="sFile" accept=".json" style="display:none">
 </div></div>
 
+<!-- 로그인 -->
+<div class="modal" id="mLogin"><div class="sheet" style="max-width:360px">
+  <h2>📼 레퍼런스함 로그인</h2>
+  <div class="frow"><label>아이디</label><input id="lId" placeholder="아이디"></div>
+  <div class="frow"><label>비밀번호</label><input id="lPw" type="password" placeholder="비밀번호"></div>
+  <div class="mfoot"><button class="btn-p" id="lGo">로그인</button></div>
+  <div class="small" id="lHint" style="margin-top:8px"></div>
+</div></div>
+
+<!-- 관리 (마스터) -->
+<div class="modal" id="mAdmin"><div class="sheet">
+  <h2>👑 계정·권한 관리 <button class="x" data-close>✕</button></h2>
+  <div id="admAccs"></div>
+  <div class="addrow" style="margin-top:10px">
+    <input id="admNewId" placeholder="새 아이디">
+    <input id="admNewPw" type="password" placeholder="비밀번호" style="max-width:120px">
+    <button id="admAdd">계정 추가</button>
+  </div>
+  <hr class="divider">
+  <h3 style="font-size:13.5px;color:var(--accent);margin-bottom:8px">📜 활동 로그 (최근 100)</h3>
+  <div id="admLogs" style="max-height:280px;overflow-y:auto"></div>
+</div></div>
+
 <div id="toast"></div>
 
 <script>
@@ -309,7 +346,9 @@ const TOMB_DAYS = 30;
 
 let state = load();
 let conf = JSON.parse(localStorage.getItem(LS_CONF)||"{}");
-let filter = {status:"all", needs:[], types:[], q:"", sort:"new"};
+const SALT="refbox:";
+let sess=null; try{ sess=JSON.parse(localStorage.getItem("refbox_sess")); }catch(e){}
+let filter = {status:"all", needs:[], types:[], q:"", sort:"new", star:false};
 let previewMode = localStorage.getItem("refbox_prev")||"auto";
 let editId = null;
 let selMode=false, selIds=new Set();
@@ -322,6 +361,7 @@ function load(){
   d.tagGroups = d.tagGroups || structuredClone(DEFAULT_DATA.tagGroups);
   d.tagGroups.needs = d.tagGroups.needs||[]; d.tagGroups.types = d.tagGroups.types||[];
   d.items.forEach(i=>{ i.needs=i.needs||[]; i.types=i.types||[]; i.updatedAt=i.updatedAt||i.addedAt; });
+  d.accounts=d.accounts||[]; d.logs=d.logs||[];
   // 오래된 톰스톤(삭제 기록) 정리
   const cut = Date.now() - TOMB_DAYS*864e5;
   d.items = d.items.filter(i=> !i.deleted || new Date(i.updatedAt).getTime() > cut);
@@ -383,8 +423,10 @@ function renderTabs(){
   const counts={all:a.length};
   for(const k in STATUS) counts[k]=a.filter(i=>i.status===k).length;
   el.innerHTML = ['all',...Object.keys(STATUS)].map(k=>
-    `<button class="tab ${filter.status===k?'on':''}" data-st="${k}">${k==='all'?'전체':STATUS[k]} ${counts[k]||0}</button>`).join("");
-  el.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{filter.status=b.dataset.st;render();});
+    `<button class="tab ${filter.status===k?'on':''}" data-st="${k}">${k==='all'?'전체':STATUS[k]} ${counts[k]||0}</button>`).join("")
+    + `<button class="tab ${filter.star?'on':''}" id="starTab">⭐ ${a.filter(i=>i.star).length}</button>`;
+  el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.status=b.dataset.st;render();});
+  document.getElementById("starTab").onclick=()=>{filter.star=!filter.star;render();};
 }
 function renderFilterChips(){
   const mk=(rowId,group,key,label)=>{
@@ -403,11 +445,15 @@ function visibleItems(){
   const q=filter.q.toLowerCase();
   const arr = alive().filter(i=>
     (filter.status==="all"||i.status===filter.status) &&
+    (!filter.star || i.star) &&
     filter.needs.every(t=>i.needs.includes(t)) &&
     filter.types.every(t=>i.types.includes(t)) &&
     (!q || (i.title+" "+i.memo+" "+i.url).toLowerCase().includes(q))
   );
-  arr.sort((a,b)=> filter.sort==="old" ? a.addedAt.localeCompare(b.addedAt) : b.addedAt.localeCompare(a.addedAt));
+  arr.sort((a,b)=>{
+    if(filter.sort==="star" && (!!b.star)!==(!!a.star)) return (b.star?1:0)-(a.star?1:0);
+    return filter.sort==="old" ? a.addedAt.localeCompare(b.addedAt) : b.addedAt.localeCompare(a.addedAt);
+  });
   return arr;
 }
 function thumbStyle(i){
@@ -446,6 +492,7 @@ function renderGrid(){
         <select data-status="${i.id}">
           ${Object.entries(STATUS).map(([k,v])=>`<option value="${k}" ${i.status===k?"selected":""}>${v}</option>`).join("")}
         </select>
+        <button class="iconb" data-starbtn="${i.id}" title="별표" style="${i.star?'color:#f0b64a;border-color:#f0b64a':''}">${i.star?"⭐":"☆"}</button>
         <span style="margin-left:auto"></span>
         <button class="iconb" data-open="${esc(i.url)}" title="원본 열기">↗</button>
         <button class="iconb" data-edit="${i.id}" title="수정">✏️</button>
@@ -469,7 +516,13 @@ function renderGrid(){
   });
   grid.querySelectorAll("[data-status]").forEach(el=>el.onchange=()=>{
     const it=state.items.find(x=>x.id===el.dataset.status);
-    it.status=el.value; it.updatedAt=now(); persist(); toast("상태 변경: "+STATUS[el.value]);
+    it.status=el.value; it.updatedAt=now();
+    addLog("상태변경",(it.title||it.embedId||"").slice(0,30)+" → "+STATUS[el.value]);
+    persist(); toast("상태 변경: "+STATUS[el.value]);
+  });
+  grid.querySelectorAll("[data-starbtn]").forEach(el=>el.onclick=()=>{
+    const it=state.items.find(x=>x.id===el.dataset.starbtn);
+    it.star=!it.star; it.updatedAt=now(); persist();
   });
   grid.querySelectorAll("[data-edit]").forEach(el=>el.onclick=()=>openAdd(el.dataset.edit));
   grid.querySelectorAll("[data-open]").forEach(el=>el.onclick=()=>window.open(el.dataset.open,"_blank"));
@@ -502,6 +555,7 @@ function renderBulkbar(){
   const bar=document.getElementById("bulkbar");
   bar.classList.toggle("open", selMode);
   document.getElementById("bulkN").textContent = selIds.size+"개";
+  document.getElementById("bulkDel").style.display = canDelete()? "":"none";
   const mkOpts=(sel,group,label)=>{
     sel.innerHTML = `<option value="">${label}</option>`+state.tagGroups[group].map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join("");
   };
@@ -514,6 +568,7 @@ document.getElementById("bulkAll").onclick=()=>{ visibleItems().forEach(i=>selId
 document.getElementById("bulkStatus").onchange=e=>{
   if(!e.target.value||!selIds.size) return;
   state.items.forEach(i=>{ if(selIds.has(i.id)){ i.status=e.target.value; i.updatedAt=now(); } });
+  addLog("상태변경", selIds.size+"개 → "+STATUS[e.target.value]);
   toast(selIds.size+"개 → "+STATUS[e.target.value]); e.target.value=""; persist();
 };
 function bulkTag(group, val){
@@ -524,9 +579,11 @@ function bulkTag(group, val){
 document.getElementById("bulkNeed").onchange=e=>{ bulkTag("needs",e.target.value); e.target.value=""; };
 document.getElementById("bulkType").onchange=e=>{ bulkTag("types",e.target.value); e.target.value=""; };
 document.getElementById("bulkDel").onclick=()=>{
+  if(!canDelete()){ toast("삭제 권한이 없어요 (마스터에게 요청하세요)"); return; }
   if(!selIds.size) return;
   if(!confirm(selIds.size+"개 레퍼런스를 삭제할까요?")) return;
   state.items.forEach(i=>{ if(selIds.has(i.id)){ i.deleted=true; i.updatedAt=now(); } });
+  addLog("삭제", selIds.size+"개 일괄");
   selIds.clear(); persist(); toast("삭제됨");
 };
 
@@ -548,7 +605,7 @@ function openAdd(id, prefillUrl){
   document.getElementById("aTitle").value = it?it.title:"";
   document.getElementById("aMemo").value = it?it.memo:"";
   document.getElementById("aStatus").value = it?it.status:"inbox";
-  document.getElementById("aDelete").style.display = it?"block":"none";
+  document.getElementById("aDelete").style.display = (it&&canDelete())?"block":"none";
   chipPicker("aNeeds","needs", it?it.needs:[]);
   chipPicker("aTypes","types", it?it.types:[]);
   mAdd.classList.add("open");
@@ -579,6 +636,7 @@ document.getElementById("aSave").onclick=()=>{
     if(!p){ toast("올바른 링크를 입력해 주세요"); return; }
     const it=state.items.find(x=>x.id===editId);
     Object.assign(it, common, {url:p.url, platform:p.platform, embedId:p.embedId, updatedAt:now()});
+    addLog("수정",(common.title||"").slice(0,40));
     toast("수정 완료");
   }else{
     let added=0, dup=0;
@@ -592,15 +650,18 @@ document.getElementById("aSave").onclick=()=>{
       state.items.push(it); newOnes.push(it); added++;
     });
     if(!added){ toast(dup?"이미 등록된 영상이에요":"올바른 링크가 없어요"); return; }
+    addLog("추가", added+"개");
     toast(added+"개 추가"+(dup?` (중복 ${dup}개 제외)`:""));
     newOnes.forEach(autoTitle);
   }
   mAdd.classList.remove("open"); persist();
 };
 document.getElementById("aDelete").onclick=()=>{
+  if(!canDelete()){ toast("삭제 권한이 없어요 (마스터에게 요청하세요)"); return; }
   if(!confirm("이 레퍼런스를 삭제할까요?")) return;
   const it=state.items.find(x=>x.id===editId);
   it.deleted=true; it.updatedAt=now();
+  addLog("삭제", (it.title||it.embedId||"").slice(0,40));
   mAdd.classList.remove("open"); persist(); toast("삭제됨");
 };
 document.getElementById("btnAdd").onclick=()=>openAdd();
@@ -610,7 +671,7 @@ function renderTagMan(){
   const mk=(listId,group)=>{
     const el=document.getElementById(listId);
     el.innerHTML = state.tagGroups[group].map(t=>
-      `<span class="tt"><b>${esc(t)}</b><button data-del="${esc(t)}" data-g="${group}">✕</button></span>`).join("");
+      `<span class="tt"><b>${esc(t)}</b>${isMaster()?`<button data-del="${esc(t)}" data-g="${group}">✕</button>`:""}</span>`).join("");
     el.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{
       const t=b.dataset.del, g=b.dataset.g;
       const used = alive().filter(i=>i[g].includes(t)).length;
@@ -706,6 +767,14 @@ function mergeRemote(remote){
     state.tagGroups[g]=[...set];
   });
   state.deletedTags=delT;
+  // 계정·로그 병합
+  const accs={}; (remote.accounts||[]).forEach(a=>accs[a.id]=a);
+  (state.accounts||[]).forEach(a=>{ const r=accs[a.id]; if(!r||(a.updatedAt||"")>(r.updatedAt||"")) accs[a.id]=a; });
+  state.accounts=Object.values(accs);
+  const lseen=new Set();
+  state.logs=[...(remote.logs||[]),...(state.logs||[])].filter(l=>{
+    const k=l.t+"|"+l.u+"|"+l.a+"|"+l.d; if(lseen.has(k)) return false; lseen.add(k); return true;
+  }).sort((a,b)=>a.t.localeCompare(b.t)).slice(-500);
 }
 async function syncNow(showToast){
   if(!conf.repo||!conf.token) return;
@@ -718,7 +787,7 @@ async function syncNow(showToast){
     syncState="idle";
     if(showToast) toast("☁️ 동기화 완료");
   }catch(e){ syncState="err"; toast("동기화 실패: "+e.message); }
-  render();
+  render(); requireLogin();
 }
 function scheduleSync(){
   if(!conf.repo||!conf.token) return;
@@ -744,14 +813,14 @@ async function pullOnly(){
 
 /* ====================== 설정 ====================== */
 document.getElementById("btnSet").onclick=()=>{
-  document.getElementById("sName").value=conf.name||"";
+  document.getElementById("sWho").textContent=(sess?sess.id:"")+(isMaster()?" (마스터)":"");
   document.getElementById("sRepo").value=conf.repo||"";
   document.getElementById("sBranch").value=conf.branch||"main";
   document.getElementById("sToken").value=conf.token||"";
   document.getElementById("mSet").classList.add("open");
 };
 document.getElementById("sSaveConf").onclick=async()=>{
-  conf={name:document.getElementById("sName").value.trim(),
+  conf={name:(sess?sess.id:""),
         repo:document.getElementById("sRepo").value.trim(),
         branch:document.getElementById("sBranch").value.trim()||"main",
         token:document.getElementById("sToken").value.trim()};
@@ -780,7 +849,7 @@ document.getElementById("sFile").onchange=e=>{
 
 /* ====================== 공통 ====================== */
 document.querySelectorAll("[data-close]").forEach(b=>b.onclick=()=>b.closest(".modal").classList.remove("open"));
-document.querySelectorAll(".modal").forEach(m=>m.onclick=e=>{if(e.target===m)m.classList.remove("open");});
+document.querySelectorAll(".modal").forEach(m=>m.onclick=e=>{if(e.target===m&&m.id!=="mLogin")m.classList.remove("open");});
 document.getElementById("q").oninput=e=>{filter.q=e.target.value;renderGrid();};
 document.getElementById("sortSel").onchange=e=>{filter.sort=e.target.value;renderGrid();};
 document.getElementById("prevSel").value=previewMode;
@@ -831,10 +900,101 @@ document.getElementById("sSaImport").onclick=async()=>{
   if(repo){
     try{
       const r=await fetch(`https://raw.githubusercontent.com/${repo}/${conf.branch||"main"}/${GH_PATH}?t=`+Date.now());
-      if(r.ok){ mergeRemote(await r.json()); localStorage.setItem(LS_DATA,JSON.stringify(state)); render(); }
+      if(r.ok){ mergeRemote(await r.json()); localStorage.setItem(LS_DATA,JSON.stringify(state)); render(); requireLogin(); }
     }catch(e){}
   }
 })();
+
+/* ====================== 계정·권한·로그 ====================== */
+async function sha(t){
+  const b=await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+function me(){ return (sess && (state.accounts||[]).find(a=>a.id===sess.id && !a.removed)) || null; }
+function isMaster(){ const m=me(); return !!m && m.role==="master"; }
+function canDelete(){ const m=me(); return !!m && (m.role==="master" || (m.perms&&m.perms.delete)); }
+function addLog(a,d){
+  if(!state.logs) state.logs=[];
+  state.logs.push({t:now(), u:sess?sess.id:"?", a, d:(d||"").slice(0,80)});
+  if(state.logs.length>500) state.logs=state.logs.slice(-500);
+}
+function requireLogin(){
+  const ok=!!me();
+  document.getElementById("mLogin").classList.toggle("open", !ok);
+  document.getElementById("lHint").textContent = (state.accounts&&state.accounts.length)?"":"계정 정보를 불러오는 중… 몇 초 뒤 로그인해 주세요";
+  document.getElementById("btnAdmin").style.display = isMaster()? "":"none";
+  if(ok && conf.name!==sess.id){ conf.name=sess.id; localStorage.setItem(LS_CONF,JSON.stringify(conf)); }
+}
+document.getElementById("lGo").onclick=async()=>{
+  const id=document.getElementById("lId").value.trim(), pw=document.getElementById("lPw").value;
+  const acc=(state.accounts||[]).find(a=>a.id===id && !a.removed);
+  if(!acc || (await sha(SALT+id+":"+pw))!==acc.hash){ toast("아이디 또는 비밀번호가 달라요"); return; }
+  sess={id}; localStorage.setItem("refbox_sess",JSON.stringify(sess));
+  addLog("로그인",""); persist(); requireLogin(); toast(id+"님, 환영해요!");
+};
+document.getElementById("lPw").onkeydown=e=>{ if(e.key==="Enter") document.getElementById("lGo").click(); };
+document.getElementById("sLogout").onclick=()=>{
+  sess=null; localStorage.removeItem("refbox_sess");
+  document.getElementById("mSet").classList.remove("open"); requireLogin();
+};
+document.getElementById("sPwSave").onclick=async()=>{
+  const m=me(); if(!m) return;
+  const cur=document.getElementById("sPwCur").value, nw=document.getElementById("sPwNew").value;
+  if((await sha(SALT+m.id+":"+cur))!==m.hash){ toast("현재 비밀번호가 달라요"); return; }
+  if(!nw || nw.length<4){ toast("새 비밀번호는 4자 이상으로 해주세요"); return; }
+  m.hash=await sha(SALT+m.id+":"+nw); m.updatedAt=now();
+  addLog("비번변경",""); persist();
+  document.getElementById("sPwCur").value=""; document.getElementById("sPwNew").value="";
+  toast("비밀번호 변경 완료");
+};
+function renderAdmin(){
+  const el=document.getElementById("admAccs");
+  el.innerHTML=(state.accounts||[]).filter(a=>!a.removed).map(a=>`
+    <div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px">
+      <b>${esc(a.id)}</b>${a.role==="master"?'<span class="badge b-selected">마스터</span>':""}
+      <label style="margin-left:auto;font-size:12.5px;color:var(--sub);display:flex;gap:4px;align-items:center">
+        삭제권한 <input type="checkbox" data-perm="${esc(a.id)}" ${(a.role==="master"||(a.perms&&a.perms.delete))?"checked":""} ${a.role==="master"?"disabled":""} style="width:auto">
+      </label>
+      ${a.role==="master"?"":`<button class="iconb" data-pwreset="${esc(a.id)}" title="비번을 0000으로 초기화">🔑</button>
+      <button class="iconb" data-accdel="${esc(a.id)}" title="계정 삭제">🗑</button>`}
+    </div>`).join("");
+  el.querySelectorAll("[data-perm]").forEach(c=>c.onchange=()=>{
+    const a=state.accounts.find(x=>x.id===c.dataset.perm);
+    a.perms=a.perms||{}; a.perms.delete=c.checked; a.updatedAt=now();
+    addLog("권한변경", a.id+" 삭제권한 "+(c.checked?"부여":"회수"));
+    persist(); toast(a.id+" 삭제권한 "+(c.checked?"부여":"회수"));
+  });
+  el.querySelectorAll("[data-pwreset]").forEach(b=>b.onclick=async()=>{
+    const a=state.accounts.find(x=>x.id===b.dataset.pwreset);
+    if(!confirm(a.id+" 비밀번호를 0000으로 초기화할까요?")) return;
+    a.hash=await sha(SALT+a.id+":0000"); a.updatedAt=now();
+    addLog("비번초기화", a.id); persist(); toast(a.id+" → 0000");
+  });
+  el.querySelectorAll("[data-accdel]").forEach(b=>b.onclick=()=>{
+    const a=state.accounts.find(x=>x.id===b.dataset.accdel);
+    if(!confirm(a.id+" 계정을 삭제할까요?")) return;
+    a.removed=true; a.updatedAt=now();
+    addLog("계정삭제", a.id); persist(); renderAdmin(); toast("계정 삭제됨");
+  });
+  document.getElementById("admLogs").innerHTML=`<table class="stats">
+    <tr><th>시각</th><th>계정</th><th>액션</th><th>내용</th></tr>
+    ${[...(state.logs||[])].reverse().slice(0,100).map(l=>
+      `<tr><td style="white-space:nowrap">${(l.t||"").slice(5,16).replace("T"," ")}</td><td>${esc(l.u)}</td><td>${esc(l.a)}</td><td style="text-align:left">${esc(l.d)}</td></tr>`).join("")}
+  </table>`;
+}
+document.getElementById("btnAdmin").onclick=()=>{ if(!isMaster()) return; renderAdmin(); document.getElementById("mAdmin").classList.add("open"); };
+document.getElementById("admAdd").onclick=async()=>{
+  const id=document.getElementById("admNewId").value.trim(), pw=document.getElementById("admNewPw").value;
+  if(!id||!pw){ toast("아이디와 비밀번호를 입력하세요"); return; }
+  const ex=(state.accounts||[]).find(a=>a.id===id);
+  if(ex&&!ex.removed){ toast("이미 있는 아이디예요"); return; }
+  const acc={id, hash:await sha(SALT+id+":"+pw), role:"member", perms:{delete:false}, removed:false, createdAt:now(), updatedAt:now()};
+  state.accounts=(state.accounts||[]).filter(a=>a.id!==id); state.accounts.push(acc);
+  addLog("계정추가", id); persist(); renderAdmin();
+  document.getElementById("admNewId").value=""; document.getElementById("admNewPw").value="";
+  toast(id+" 계정 생성됨 (삭제권한 없음)");
+};
+requireLogin();
 
 /* 주기 동기화: 5분마다 + 탭 복귀 시 원격 변경 자동 반영 */
 function effRepo(){
@@ -859,7 +1019,7 @@ async function silentPull(){
       mergeRemote(data);
       if(JSON.stringify(state)!==before){
         localStorage.setItem(LS_DATA,JSON.stringify(state));
-        render(); toast("↻ 새 변경사항 반영됨");
+        render(); requireLogin(); toast("↻ 새 변경사항 반영됨");
       }
     }
   }catch(e){}
