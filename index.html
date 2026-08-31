@@ -64,6 +64,12 @@ main{padding:12px 16px;display:grid;gap:14px;grid-template-columns:repeat(auto-f
 .t{padding:3px 9px;border-radius:6px;font-size:11.5px;font-weight:600}
 .t.need{background:#233150;color:#8fb0ff}
 .t.type{background:#3a2a4d;color:#d3a8ff}
+.ctitle-in{background:transparent;border:1px solid transparent;padding:4px 6px;font-size:14px;font-weight:700;line-height:1.45;border-radius:6px;color:var(--text)}
+.ctitle-in:hover{border-color:var(--line)}
+.ctitle-in:focus{background:var(--panel2);border-color:var(--accent);outline:none}
+.cmemo-in{background:transparent;border:1px solid transparent;padding:4px 6px;font-size:12.5px;color:var(--sub);line-height:1.5;border-radius:6px;resize:vertical;min-height:34px}
+.cmemo-in:hover{border-color:var(--line)}
+.cmemo-in:focus{background:var(--panel2);border-color:var(--accent);color:var(--text);outline:none;min-height:64px}
 .rating{display:flex;gap:3px;font-size:17px;line-height:1;user-select:none}
 .rating span{color:#3d4452;cursor:pointer;transition:color .1s}
 .rating span.on{color:#f0b64a}
@@ -374,6 +380,7 @@ function load(){
 }
 function alive(){ return state.items.filter(i=>!i.deleted); }
 function persist(){ localStorage.setItem(LS_DATA, JSON.stringify(state)); scheduleSync(); render(); }
+function persistSoft(){ localStorage.setItem(LS_DATA, JSON.stringify(state)); scheduleSync(); }
 function uid(){ return Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
 function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2200); }
 function esc(s){ return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
@@ -488,8 +495,8 @@ function renderGrid(){
         <span class="badge b-${i.status}">${STATUS[i.status]}</span>
         <span style="font-size:11px;color:var(--sub)">${i.addedBy?esc(i.addedBy)+" · ":""}${(i.addedAt||"").slice(0,10)}</span>
       </div>
-      <div class="ctitle">${esc(i.title)||"(제목 없음)"}</div>
-      ${i.memo?`<div class="cmemo">${esc(i.memo)}</div>`:""}
+      <input class="ctitle-in" data-tedit="${i.id}" value="${esc(i.title)}" placeholder="(제목 없음) — 눌러서 입력">
+      <textarea class="cmemo-in" data-medit="${i.id}" rows="1" placeholder="📝 메모 남기기…">${esc(i.memo)}</textarea>
       <div class="ctags">
         ${i.needs.map(t=>`<span class="t need">${esc(t)}</span>`).join("")}
         ${i.types.map(t=>`<span class="t type">${esc(t)}</span>`).join("")}
@@ -526,6 +533,23 @@ function renderGrid(){
     it.status=el.value; it.updatedAt=now();
     addLog("상태변경",(it.title||it.embedId||"").slice(0,30)+" → "+STATUS[el.value]);
     persist(); toast("상태 변경: "+STATUS[el.value]);
+  });
+  grid.querySelectorAll("[data-tedit]").forEach(el=>{
+    el.onkeydown=e=>{ if(e.key==="Enter"){ e.preventDefault(); el.blur(); } };
+    el.onchange=()=>{
+      const it=state.items.find(x=>x.id===el.dataset.tedit);
+      if(it.title===el.value.trim()) return;
+      it.title=el.value.trim(); it.updatedAt=now();
+      addLog("수정","제목: "+it.title.slice(0,40)); persistSoft(); toast("제목 저장됨");
+    };
+  });
+  grid.querySelectorAll("[data-medit]").forEach(el=>{
+    el.onchange=()=>{
+      const it=state.items.find(x=>x.id===el.dataset.medit);
+      if(it.memo===el.value.trim()) return;
+      it.memo=el.value.trim(); it.updatedAt=now();
+      addLog("메모",(it.title||it.embedId||"").slice(0,30)); persistSoft(); toast("메모 저장됨");
+    };
   });
   grid.querySelectorAll("[data-rate]").forEach(el=>el.onclick=()=>{
     const it=state.items.find(x=>x.id===el.dataset.rate);
@@ -1025,6 +1049,8 @@ async function silentPull(){
   const repo=effRepo();
   if(!repo || syncState==="busy") return;
   if(Date.now()-lastPull<20000) return;
+  const ae=document.activeElement;
+  if(ae && (ae.classList.contains("ctitle-in")||ae.classList.contains("cmemo-in"))) return; // 메모 작성 중엔 화면 갱신 보류
   lastPull=Date.now();
   try{
     let data=null;
