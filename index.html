@@ -436,9 +436,14 @@ function renderTabs(){
   for(const k in STATUS) counts[k]=a.filter(i=>i.status===k).length;
   el.innerHTML = ['all',...Object.keys(STATUS)].map(k=>
     `<button class="tab ${filter.status===k?'on':''}" data-st="${k}">${k==='all'?'전체':STATUS[k]} ${counts[k]||0}</button>`).join("")
-    + `<button class="tab ${filter.star?'on':''}" id="starTab">⭐ ${a.filter(i=>i.rating>0).length}</button>`;
+    + `<button class="tab ${filter.star==="any"?'on':''}" id="starTab">⭐ ${a.filter(i=>i.rating>0).length}</button>`
+    + [1,2,3,4,5].map(n=>`<button class="tab ${filter.star===n?'on':''}" data-starn="${n}">${n}★ ${a.filter(i=>i.rating===n).length}</button>`).join("");
   el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.status=b.dataset.st;render();});
-  document.getElementById("starTab").onclick=()=>{filter.star=!filter.star;render();};
+  document.getElementById("starTab").onclick=()=>{filter.star=(filter.star==="any")?0:"any";render();};
+  el.querySelectorAll("[data-starn]").forEach(b=>b.onclick=()=>{
+    const n=parseInt(b.dataset.starn);
+    filter.star=(filter.star===n)?0:n; render();
+  });
 }
 function renderFilterChips(){
   const mk=(rowId,group,key,label)=>{
@@ -457,7 +462,7 @@ function visibleItems(){
   const q=filter.q.toLowerCase();
   const arr = alive().filter(i=>
     (filter.status==="all"||i.status===filter.status) &&
-    (!filter.star || i.rating>0) &&
+    (!filter.star || (filter.star==="any" ? i.rating>0 : i.rating===filter.star)) &&
     filter.needs.every(t=>i.needs.includes(t)) &&
     filter.types.every(t=>i.types.includes(t)) &&
     (!q || (i.title+" "+i.memo+" "+i.url).toLowerCase().includes(q))
