@@ -1,7 +1,8 @@
 name: telegram-ingest
+# cokacdir(데스크톱 봇)가 실시간 인제스트를 담당하므로 예약 실행은 끔.
+# 데스크톱이 꺼져 있을 때 밀린 메시지를 수동으로 처리하려면:
+#   cokacctl stop 후 Actions 탭에서 Run workflow (동시에 켜면 텔레그램 409 충돌)
 on:
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
