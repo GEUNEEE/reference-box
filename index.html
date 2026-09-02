@@ -379,8 +379,14 @@ function load(){
   return d;
 }
 function alive(){ return state.items.filter(i=>!i.deleted); }
-function persist(){ localStorage.setItem(LS_DATA, JSON.stringify(state)); scheduleSync(); render(); }
-function persistSoft(){ localStorage.setItem(LS_DATA, JSON.stringify(state)); scheduleSync(); }
+let warnedLocal=false;
+function warnLocalOnly(){
+  if(conf.token || warnedLocal) return;
+  warnedLocal=true;
+  toast("⚠️ 지금은 이 브라우저에만 저장돼요 — ⚙️설정에 토큰을 넣으면 팀 전체에 공유됩니다");
+}
+function persist(){ localStorage.setItem(LS_DATA, JSON.stringify(state)); scheduleSync(); render(); warnLocalOnly(); }
+function persistSoft(){ localStorage.setItem(LS_DATA, JSON.stringify(state)); scheduleSync(); warnLocalOnly(); }
 function uid(){ return Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
 function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2200); }
 function esc(s){ return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
