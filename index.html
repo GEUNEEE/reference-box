@@ -289,6 +289,7 @@ table.stats .hot{color:var(--accent);font-weight:800}
       <button class="btn-g" id="sPwSave" style="padding:0 14px;font-size:13px;flex:0 0 auto">변경</button>
     </div>
   </div>
+  <div id="ghSection">
   <hr class="divider">
   <div class="frow"><label>GitHub 공용 동기화 (팀 공유)</label>
     <div class="hint">저장소의 <code>data/references.json</code>에 자동 커밋됩니다. 토큰이 없으면 보기 전용 + 이 브라우저에만 저장돼요.</div>
@@ -307,6 +308,7 @@ table.stats .hot{color:var(--accent);font-weight:800}
   <div class="frow"><input id="sSaRepo" placeholder="GEUNEEE/smart-archive@master"></div>
   <div class="mfoot">
     <button class="btn-g" id="sSaImport">📦 스마트 아카이브 가져오기</button>
+  </div>
   </div>
   <hr class="divider">
   <div class="mfoot">
@@ -820,6 +822,7 @@ function mergeRemote(remote){
     state.tagGroups[g]=[...set];
   });
   state.deletedTags=delT;
+  if(remote.vault) state.vault=remote.vault;
   // 계정·로그 병합
   const accs={}; (remote.accounts||[]).forEach(a=>accs[a.id]=a);
   (state.accounts||[]).forEach(a=>{ const r=accs[a.id]; if(!r||(a.updatedAt||"")>(r.updatedAt||"")) accs[a.id]=a; });
@@ -867,6 +870,7 @@ async function pullOnly(){
 /* ====================== 설정 ====================== */
 document.getElementById("btnSet").onclick=()=>{
   document.getElementById("sWho").textContent=(sess?sess.id:"")+(isMaster()?" (마스터)":"");
+  document.getElementById("ghSection").style.display = isMaster()? "":"none";
   document.getElementById("sRepo").value=conf.repo||"";
   document.getElementById("sBranch").value=conf.branch||"main";
   document.getElementById("sToken").value=conf.token||"";
@@ -978,6 +982,16 @@ function requireLogin(){
   document.getElementById("lHint").textContent = (state.accounts&&state.accounts.length)?"":"계정 정보를 불러오는 중… 몇 초 뒤 로그인해 주세요";
   document.getElementById("btnAdmin").style.display = isMaster()? "":"none";
   if(ok && conf.name!==sess.id){ conf.name=sess.id; localStorage.setItem(LS_CONF,JSON.stringify(conf)); }
+  // 팀 공유 토큰 자동 적용 (로그인한 계정만)
+  if(ok && !conf.token && state.vault && state.vault.gh){
+    try{
+      conf.token=atob(state.vault.gh).split("").reverse().join("");
+      conf.repo=state.vault.repo||"GEUNEEE/reference-box";
+      conf.branch=state.vault.branch||"main";
+      localStorage.setItem(LS_CONF,JSON.stringify(conf));
+      scheduleSync();
+    }catch(e){}
+  }
 }
 document.getElementById("lGo").onclick=async()=>{
   const id=document.getElementById("lId").value.trim(), pw=document.getElementById("lPw").value;
