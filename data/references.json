@@ -3705,7 +3705,6 @@
       "star": true
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -3824,8 +3823,15 @@
       "u": "눈길",
       "a": "로그인",
       "d": ""
+    },
+    {
+      "t": "2026-09-02T06:35:31.037Z",
+      "u": "눈길",
+      "a": "로그인",
+      "d": ""
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
