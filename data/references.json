@@ -3535,5 +3535,10 @@
       "a": "계정변경",
       "d": "르네 → 느네"
     }
-  ]
+  ],
+  "vault": {
+    "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
+    "repo": "GEUNEEE/reference-box",
+    "branch": "main"
+  }
 }
