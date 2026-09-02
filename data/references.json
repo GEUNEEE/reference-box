@@ -3515,7 +3515,25 @@
       "removed": false,
       "createdAt": "2026-08-31T00:00:00.000Z",
       "updatedAt": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "르네",
+      "hash": "630df5f222b517143927db1fbc805aa5da47287c2f31ecd82a442ea778bbbb0f",
+      "role": "member",
+      "perms": {
+        "delete": false
+      },
+      "removed": false,
+      "createdAt": "2026-09-02T05:56:21.000Z",
+      "updatedAt": "2026-09-02T05:56:21.000Z"
     }
   ],
-  "logs": []
+  "logs": [
+    {
+      "t": "2026-09-02T05:56:21.000Z",
+      "u": "눈길",
+      "a": "계정추가",
+      "d": "르네"
+    }
+  ]
 }
