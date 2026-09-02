@@ -3668,25 +3668,27 @@
       "needs": [],
       "types": [],
       "status": "inbox",
-      "rating": 0,
+      "rating": 4,
       "addedBy": "눈길",
       "addedAt": "2026-09-02T03:53:18.122Z",
-      "updatedAt": "2026-09-02T05:44:59.643Z"
+      "updatedAt": "2026-09-02T10:57:32.285Z",
+      "star": true
     },
     {
       "id": "1a0603ff02bntrnp",
       "url": "https://www.instagram.com/reel/DbnSpyuBrUC/",
       "platform": "instagram",
       "embedId": "DbnSpyuBrUC",
-      "title": "",
-      "memo": "",
+      "title": "ㅎㅎㅎ",
+      "memo": "ㅎㅎㅎ",
       "needs": [],
       "types": [],
       "status": "inbox",
-      "rating": 0,
+      "rating": 4,
       "addedBy": "눈길",
       "addedAt": "2026-09-02T03:53:18.123Z",
-      "updatedAt": "2026-09-02T05:44:59.643Z"
+      "updatedAt": "2026-09-02T10:42:10.270Z",
+      "star": true
     },
     {
       "id": "1a0603ff02ctmo7q",
@@ -3705,6 +3707,7 @@
       "star": true
     }
   ],
+  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -3843,13 +3846,24 @@
       "d": ""
     },
     {
+      "t": "2026-09-02T10:42:08.755Z",
+      "u": "느네",
+      "a": "메모",
+      "d": "DbnSpyuBrUC"
+    },
+    {
+      "t": "2026-09-02T10:42:10.270Z",
+      "u": "느네",
+      "a": "수정",
+      "d": "제목: ㅎㅎㅎ"
+    },
+    {
       "t": "2026-09-02T10:42:31.018Z",
       "u": "눈길",
       "a": "로그인",
       "d": ""
     }
   ],
-  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
