@@ -34,7 +34,9 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T06:00:00.000Z"
+      "updatedAt": "2026-08-31T00:36:14.333Z",
+      "rating": 0,
+      "star": false
     },
     {
       "id": "sa-test-02",
@@ -50,7 +52,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T06:00:00.000Z"
+      "updatedAt": "2026-08-30T06:00:00.000Z",
+      "rating": 0
     },
     {
       "id": "sa-test-03",
@@ -68,7 +71,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T06:00:00.000Z"
+      "updatedAt": "2026-08-30T06:00:00.000Z",
+      "rating": 0
     },
     {
       "id": "sa-test-04",
@@ -82,7 +86,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T06:00:00.000Z"
+      "updatedAt": "2026-08-30T06:00:00.000Z",
+      "rating": 0
     },
     {
       "id": "sa-test-05",
@@ -96,7 +101,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T06:00:00.000Z"
+      "updatedAt": "2026-08-30T06:00:00.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0483rqur",
@@ -110,7 +116,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-30T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048z49h9",
@@ -124,7 +131,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-31T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048vl4sh",
@@ -138,7 +146,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-04T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048tchgv",
@@ -152,7 +161,9 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-04T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-31T00:28:54.747Z",
+      "rating": 5,
+      "star": true
     },
     {
       "id": "1a054d2c048hno36",
@@ -166,7 +177,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-06T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048sl6kv",
@@ -180,7 +192,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-06T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0489je8u",
@@ -194,7 +207,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0488l4a2",
@@ -208,7 +222,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048rgrsn",
@@ -222,7 +237,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0480g5eq",
@@ -236,7 +252,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048hoeq5",
@@ -250,7 +267,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0481fca4",
@@ -264,7 +282,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048ewex9",
@@ -278,7 +297,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048a6joj",
@@ -292,7 +312,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048t1228",
@@ -306,7 +327,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0482mt3c",
@@ -322,7 +344,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048ygkj7",
@@ -336,7 +359,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048jk0t7",
@@ -350,7 +374,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04813m2u",
@@ -364,7 +389,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0488gq5t",
@@ -380,7 +406,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048rncen",
@@ -394,7 +421,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0484vfwl",
@@ -408,7 +436,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048jsksp",
@@ -422,7 +451,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-08-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048qccmq",
@@ -436,7 +466,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048cdg34",
@@ -450,7 +481,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0488gcfp",
@@ -464,7 +496,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048r62eo",
@@ -478,7 +511,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0482885e",
@@ -492,7 +526,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048y1td5",
@@ -506,7 +541,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-21T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0489gg11",
@@ -520,7 +556,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-21T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048qmep8",
@@ -534,7 +571,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-21T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0481feoo",
@@ -548,7 +586,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-21T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0484e2ng",
@@ -562,7 +601,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-21T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048mmbsm",
@@ -576,7 +616,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-20T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04864xb5",
@@ -590,7 +631,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-20T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048s60en",
@@ -606,7 +648,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-07T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048j2no7",
@@ -620,7 +663,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048ke3d4",
@@ -634,7 +678,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0486k320",
@@ -648,7 +693,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-10T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048xfze7",
@@ -662,7 +708,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-10T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048v1w5z",
@@ -676,7 +723,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0489pdkp",
@@ -690,7 +738,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-16T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048t8kn3",
@@ -704,7 +753,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-16T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048dcfva",
@@ -718,7 +768,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048f928g",
@@ -732,7 +783,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048v4oq5",
@@ -746,7 +798,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-19T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0485yi9p",
@@ -760,7 +813,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-07T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048utvsr",
@@ -774,7 +828,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-07T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048l6pew",
@@ -788,7 +843,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048yvta5",
@@ -802,7 +858,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048r8cjj",
@@ -816,7 +873,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0485r3ky",
@@ -830,7 +888,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-20T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04824lzi",
@@ -844,7 +903,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-21T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048chzkg",
@@ -858,7 +918,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048dat84",
@@ -872,7 +933,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0485r4zb",
@@ -886,7 +948,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-24T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04899iaz",
@@ -900,7 +963,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-24T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048zuwqh",
@@ -914,7 +978,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-16T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048txi5d",
@@ -928,7 +993,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048xvvh2",
@@ -942,7 +1008,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-16T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0486wps5",
@@ -956,7 +1023,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-16T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048cv6np",
@@ -970,7 +1038,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0482m6pz",
@@ -984,7 +1053,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048uozvs",
@@ -998,7 +1068,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048qn9n4",
@@ -1012,7 +1083,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048bb9mi",
@@ -1026,7 +1098,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-17T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048n65i2",
@@ -1042,7 +1115,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048td16q",
@@ -1056,7 +1130,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048fw0a5",
@@ -1070,7 +1145,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048co093",
@@ -1084,7 +1160,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0483778c",
@@ -1098,7 +1175,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048r0pye",
@@ -1114,7 +1192,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048tkiaw",
@@ -1128,7 +1207,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048v4ivy",
@@ -1142,7 +1222,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048mdcom",
@@ -1156,7 +1237,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048h3a6e",
@@ -1170,7 +1252,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048orbfb",
@@ -1184,7 +1267,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c048400dr",
@@ -1198,7 +1282,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04867fkv",
@@ -1212,7 +1297,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049g96qr",
@@ -1226,7 +1312,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049ocu4f",
@@ -1240,7 +1327,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049jwwl2",
@@ -1254,7 +1342,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049idbg9",
@@ -1268,7 +1357,9 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-12T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T23:40:55.442Z",
+      "star": false,
+      "rating": 0
     },
     {
       "id": "1a054d2c0491ybym",
@@ -1282,7 +1373,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-12T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049ejud6",
@@ -1296,7 +1388,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049mnti7",
@@ -1310,7 +1403,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049yxlc0",
@@ -1324,7 +1418,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049bdqa9",
@@ -1338,7 +1433,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-12T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049b29gp",
@@ -1352,7 +1448,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-12T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0492lslr",
@@ -1366,7 +1463,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-12T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049nt672",
@@ -1380,7 +1478,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-12T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0492l4r5",
@@ -1394,7 +1493,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-12T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049g3fyc",
@@ -1408,7 +1508,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0494quc1",
@@ -1422,7 +1523,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049k2l1c",
@@ -1436,7 +1538,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049s1pgd",
@@ -1452,7 +1555,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049sh5e5",
@@ -1468,7 +1572,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049skxzy",
@@ -1482,7 +1587,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049clp6q",
@@ -1496,7 +1602,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049vvarb",
@@ -1510,7 +1617,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0492c0hj",
@@ -1524,7 +1632,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-14T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0490dmff",
@@ -1538,7 +1647,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-15T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0491x4jd",
@@ -1552,7 +1662,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-10T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049gyri5",
@@ -1566,7 +1677,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-10T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0499lsfc",
@@ -1580,7 +1692,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-10T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049kfyfc",
@@ -1594,7 +1707,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-09T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0490yfwl",
@@ -1608,7 +1722,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-09T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0492y35m",
@@ -1622,7 +1737,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-09T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0494ec8i",
@@ -1636,7 +1752,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-01T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0495c4sf",
@@ -1650,7 +1767,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-01T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049idbl1",
@@ -1664,7 +1782,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-02T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049k72bq",
@@ -1678,7 +1797,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-02T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049njftq",
@@ -1692,7 +1812,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-02T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049s4oaw",
@@ -1706,7 +1827,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-02T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049nm14f",
@@ -1720,7 +1842,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-02T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0498wuxb",
@@ -1736,7 +1859,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-02T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049ipu66",
@@ -1750,7 +1874,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-03T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049dwd40",
@@ -1766,7 +1891,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-03T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049fhu0k",
@@ -1780,7 +1906,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-04T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049f5pwy",
@@ -1794,7 +1921,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-04T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0493l936",
@@ -1808,7 +1936,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-04T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0492662d",
@@ -1822,7 +1951,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-05T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0490pk3a",
@@ -1836,7 +1966,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-05T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049zrnoz",
@@ -1850,7 +1981,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-05T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049odk5g",
@@ -1864,7 +1996,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-06T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0490i7ub",
@@ -1878,7 +2011,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-07T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04905ldu",
@@ -1892,7 +2026,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049s4xmh",
@@ -1906,7 +2041,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049ur6qq",
@@ -1920,7 +2056,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049978wq",
@@ -1934,7 +2071,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049uvc1e",
@@ -1948,7 +2086,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049k79u7",
@@ -1962,7 +2101,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049k3z20",
@@ -1976,7 +2116,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049jiqcz",
@@ -1990,7 +2131,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049iltlo",
@@ -2004,7 +2146,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0496rh18",
@@ -2018,7 +2161,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049hfhv6",
@@ -2032,7 +2176,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0492kyrx",
@@ -2046,7 +2191,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049rj17d",
@@ -2060,7 +2206,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0494ae09",
@@ -2074,7 +2221,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049tbixp",
@@ -2088,7 +2236,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049jeynd",
@@ -2102,7 +2251,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049rzp89",
@@ -2116,7 +2266,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0497jerw",
@@ -2130,7 +2281,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049foccx",
@@ -2144,7 +2296,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049m4ke7",
@@ -2158,7 +2311,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049w44k3",
@@ -2172,7 +2326,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049wi3hb",
@@ -2186,7 +2341,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0494dim9",
@@ -2200,7 +2356,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049qdnak",
@@ -2214,7 +2371,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04978via",
@@ -2230,7 +2388,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049aanou",
@@ -2244,7 +2403,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04901u4i",
@@ -2258,7 +2418,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0497xh7q",
@@ -2272,7 +2433,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049yajxd",
@@ -2286,7 +2448,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049lrmof",
@@ -2300,7 +2463,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0499u202",
@@ -2314,7 +2478,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049f4g8f",
@@ -2328,7 +2493,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049rfvzr",
@@ -2342,7 +2508,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049syyne",
@@ -2356,7 +2523,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049gm7r4",
@@ -2370,7 +2538,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049wdl4s",
@@ -2384,7 +2553,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-18T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049r8lnp",
@@ -2398,7 +2568,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049968u4",
@@ -2412,7 +2583,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049h6fmy",
@@ -2426,7 +2598,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049zc6i7",
@@ -2440,7 +2613,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049oe2zw",
@@ -2454,7 +2628,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0493h2hf",
@@ -2468,7 +2643,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049xjaqt",
@@ -2482,7 +2658,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c0495o9nx",
@@ -2496,7 +2673,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c049ewnl8",
@@ -2510,7 +2688,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04ac3y35",
@@ -2524,7 +2703,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a8y6h3",
@@ -2538,7 +2718,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a545ok",
@@ -2552,7 +2733,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04ajo7jf",
@@ -2566,7 +2748,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04al206l",
@@ -2580,7 +2763,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a4c1th",
@@ -2594,7 +2778,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a11wtt",
@@ -2608,7 +2793,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a20ugi",
@@ -2622,7 +2808,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04adlp24",
@@ -2636,7 +2823,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a6r4kp",
@@ -2650,7 +2838,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a202iy",
@@ -2664,7 +2853,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04atib9m",
@@ -2678,7 +2868,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-10T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a2m0j6",
@@ -2692,7 +2883,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04asl6n5",
@@ -2706,7 +2898,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a1mek6",
@@ -2720,7 +2913,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04ah0sjq",
@@ -2734,7 +2928,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04adqx8x",
@@ -2748,7 +2943,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-22T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04adncp4",
@@ -2762,7 +2958,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04as088l",
@@ -2776,7 +2973,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04aotgtr",
@@ -2790,7 +2988,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a9w46u",
@@ -2804,7 +3003,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a26w69",
@@ -2818,7 +3018,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04ain9h2",
@@ -2832,7 +3033,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04aeoorv",
@@ -2846,7 +3048,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04ak1qxe",
@@ -2860,7 +3063,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04azo4qr",
@@ -2874,7 +3078,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04arxs7c",
@@ -2888,7 +3093,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04adonu0",
@@ -2902,7 +3108,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-23T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04avjvm3",
@@ -2916,7 +3123,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-24T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04aytbxg",
@@ -2930,7 +3138,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-24T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04amjq8z",
@@ -2944,7 +3153,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-24T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04a4c4zl",
@@ -2958,7 +3168,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-25T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04az0c9w",
@@ -2974,7 +3185,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-25T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04adzhkp",
@@ -2988,7 +3200,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-25T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04aa22lx",
@@ -3002,7 +3215,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-05-25T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04axu1gk",
@@ -3016,7 +3230,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04aizypt",
@@ -3030,7 +3245,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-08T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04ay7fbf",
@@ -3044,7 +3260,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-28T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04af4r6w",
@@ -3058,7 +3275,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-06-29T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04ablkx5",
@@ -3072,7 +3290,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-06T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054d2c04apnf8s",
@@ -3086,7 +3305,8 @@
       "status": "inbox",
       "addedBy": "스마트아카이브",
       "addedAt": "2026-07-07T00:00:00.000Z",
-      "updatedAt": "2026-08-30T22:38:13.000Z"
+      "updatedAt": "2026-08-30T22:38:13.000Z",
+      "rating": 0
     },
     {
       "id": "1a054f1c0de9jv35",
@@ -3100,7 +3320,8 @@
       "status": "inbox",
       "addedBy": "500형",
       "addedAt": "2026-08-30T23:12:04.000Z",
-      "updatedAt": "2026-08-30T23:12:04.000Z"
+      "updatedAt": "2026-08-30T23:12:04.000Z",
+      "rating": 0
     },
     {
       "id": "1a0554766405dk7s",
@@ -3152,15 +3373,16 @@
       "url": "https://www.instagram.com/p/DZKQbs_DPr7/",
       "platform": "instagram",
       "embedId": "DZKQbs_DPr7",
-      "title": "",
-      "memo": "",
+      "title": "다이어트 이미지",
+      "memo": "다이어트에 대한 내용이 함축적으로 들어가있는 이미지라서 벤치마킹해도 좋음",
       "needs": [],
       "types": [],
-      "status": "inbox",
-      "rating": 0,
+      "status": "selected",
+      "rating": 5,
       "addedBy": "cokacdir",
       "addedAt": "2026-08-31T13:20:33.173Z",
-      "updatedAt": "2026-08-31T13:20:33.173Z"
+      "updatedAt": "2026-09-02T05:57:37.679Z",
+      "star": true
     },
     {
       "id": "1a057fa8d97bp2aj",
@@ -3471,17 +3693,19 @@
       "url": "https://www.instagram.com/reel/DaMU6JXz35T/",
       "platform": "instagram",
       "embedId": "DaMU6JXz35T",
-      "title": "",
+      "title": "모공 흉터",
       "memo": "",
       "needs": [],
       "types": [],
-      "status": "inbox",
-      "rating": 0,
+      "status": "selected",
+      "rating": 5,
       "addedBy": "눈길",
       "addedAt": "2026-09-02T03:53:18.124Z",
-      "updatedAt": "2026-09-02T05:44:59.643Z"
+      "updatedAt": "2026-09-02T06:23:46.245Z",
+      "star": true
     }
   ],
+  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -3530,10 +3754,70 @@
   ],
   "logs": [
     {
+      "t": "2026-08-30T23:39:46.852Z",
+      "u": "눈길",
+      "a": "로그인",
+      "d": ""
+    },
+    {
+      "t": "2026-08-30T23:40:07.299Z",
+      "u": "비에스",
+      "a": "로그인",
+      "d": ""
+    },
+    {
+      "t": "2026-08-30T23:40:18.924Z",
+      "u": "눈길",
+      "a": "로그인",
+      "d": ""
+    },
+    {
+      "t": "2026-08-31T00:28:37.240Z",
+      "u": "눈길",
+      "a": "상태변경",
+      "d": "올리브오일 → 🗑 제외"
+    },
+    {
+      "t": "2026-08-31T00:28:41.789Z",
+      "u": "눈길",
+      "a": "상태변경",
+      "d": "올리브오일 → 📥 수집됨"
+    },
+    {
+      "t": "2026-09-02T05:57:15.226Z",
+      "u": "눈길",
+      "a": "상태변경",
+      "d": "DZKQbs_DPr7 → ⭐ 선정"
+    },
+    {
       "t": "2026-09-02T05:57:17.000Z",
       "u": "눈길",
       "a": "계정변경",
       "d": "르네 → 느네"
+    },
+    {
+      "t": "2026-09-02T05:57:20.802Z",
+      "u": "눈길",
+      "a": "수정",
+      "d": "제목: 다이어트 이미지"
+    },
+    {
+      "t": "2026-09-02T05:57:37.679Z",
+      "u": "눈길",
+      "a": "메모",
+      "d": "다이어트 이미지"
+    },
+    {
+      "t": "2026-09-02T06:23:37.486Z",
+      "u": "눈길",
+      "a": "상태변경",
+      "d": "DaMU6JXz35T → ⭐ 선정"
+    },
+    {
+      "t": "2026-09-02T06:23:46.245Z",
+      "u": "눈길",
+      "a": "수정",
+      "d": "제목: 모공 흉터"
     }
   ],
   "vault": {
