@@ -1031,14 +1031,17 @@ function requireLogin(){
   document.getElementById("lHint").textContent = (state.accounts&&state.accounts.length)?"":"계정 정보를 불러오는 중… 몇 초 뒤 로그인해 주세요";
   document.getElementById("btnAdmin").style.display = isMaster()? "":"none";
   if(ok && conf.name!==sess.id){ conf.name=sess.id; localStorage.setItem(LS_CONF,JSON.stringify(conf)); }
-  // 팀 공유 토큰 자동 적용 (로그인한 계정만)
-  if(ok && !conf.token && state.vault && state.vault.gh){
+  // 팀 공유 토큰 자동 적용 (vault 토큰이 항상 이김 — 이전에 잘못 입력한 토큰 덮어씁)
+  if(ok && state.vault && state.vault.gh){
     try{
-      conf.token=atob(state.vault.gh).split("").reverse().join("");
-      conf.repo=state.vault.repo||"GEUNEEE/reference-box";
-      conf.branch=state.vault.branch||"main";
-      localStorage.setItem(LS_CONF,JSON.stringify(conf));
-      scheduleSync();
+      const vt=atob(state.vault.gh).split("").reverse().join("");
+      const vr=state.vault.repo||"GEUNEEE/reference-box";
+      const vb=state.vault.branch||"main";
+      if(conf.token!==vt || conf.repo!==vr || conf.branch!==vb){
+        conf.token=vt; conf.repo=vr; conf.branch=vb;
+        localStorage.setItem(LS_CONF,JSON.stringify(conf));
+        scheduleSync();
+      }
     }catch(e){}
   }
 }
