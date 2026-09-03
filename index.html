@@ -803,7 +803,12 @@ document.getElementById("btnHelp").onclick=()=>document.getElementById("mHelp").
 let syncState="idle", syncTimer=null;
 const GH_PATH="data/references.json";
 function ghHeaders(){ return {Authorization:"Bearer "+conf.token, Accept:"application/vnd.github+json"}; }
-function b64enc(str){ return btoa(String.fromCharCode(...new TextEncoder().encode(str))); }
+// 청크 인코딩: String.fromCharCode(...bytes)는 파일이 ~120KB를 넘으면 "Maximum call stack size exceeded"로 터짐 → 동기화 실패 원인
+function b64enc(str){
+  const bytes=new TextEncoder().encode(str); let bin="";
+  for(let i=0;i<bytes.length;i+=8192) bin+=String.fromCharCode.apply(null, bytes.subarray(i,i+8192));
+  return btoa(bin);
+}
 function b64dec(b){ return new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\n/g,"")),c=>c.charCodeAt(0))); }
 
 async function ghGet(){
@@ -819,6 +824,16 @@ async function ghPut(sha){
   if(sha) body.sha=sha;
   const r=await fetch(`https://api.github.com/repos/${conf.repo}/contents/${GH_PATH}`,
     {method:"PUT",headers:ghHeaders(),body:JSON.stringify(body)});
+  if(r.status===409||r.status===422){
+    // 봇(cokacdir/워크플로)이 그 사이 커밋함 → 최신 sha로 다시 병합 후 1회 재시도
+    const {sha:sha2,data}=await ghGet(); mergeRemote(data);
+    body.sha=sha2; body.content=b64enc(JSON.stringify(state,null,2));
+    const r2=await fetch(`https://api.github.com/repos/${conf.repo}/contents/${GH_PATH}`,
+      {method:"PUT",headers:ghHeaders(),body:JSON.stringify(body)});
+    if(!r2.ok) throw new Error("커밋 실패 "+r2.status+" (충돌 재시도 후)");
+    return;
+  }
+  if(r.status===401) throw new Error("토큰 만료/무효 (401) — ⚙️설정에서 토큰 재발급");
   if(!r.ok) throw new Error("커밋 실패 "+r.status);
 }
 function mergeRemote(remote){
