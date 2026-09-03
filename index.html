@@ -409,6 +409,30 @@ function uid(){ return Date.now().toString(36)+Math.random().toString(36).slice(
 function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2200); }
 function esc(s){ return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 function now(){ return new Date().toISOString(); }
+/* 필드 단위 타임스탬프: 같은 카드를 두 사람이 만져도 서로 다른 필드는 덮어쓰지 않음 */
+const MERGE_FIELDS=["title","memo","needs","types","status","rating","deleted","url"];
+function touch(it,...fields){ const t=now(); it.updatedAt=t; it.ft=it.ft||{}; fields.forEach(f=>{ it.ft[f]=t; }); }
+function ftOf(it,f){ return it.ft ? (it.ft[f]||"") : (it.updatedAt || it.addedAt || ""); } // ft 있으면 필드별, 없으면(구버전) 항목 시각
+function isEmptyVal(v){ return v==null || v==="" || v===false || v===0 || (Array.isArray(v)&&v.length===0); }
+function mergeItem(local,remote){
+  if(!local) return remote; if(!remote) return local;
+  const out=Object.assign({}, remote, local); // 기본: 로컬 값
+  out.ft=Object.assign({}, remote.ft||{}, local.ft||{});
+  MERGE_FIELDS.forEach(f=>{
+    const lt=ftOf(local,f), rt=ftOf(remote,f);
+    let src = rt>lt ? remote : local;
+    // 구버전(필드 기록 없음) 쪽이 빈 값이면, 기록이 있는 상대 값을 우선 (남이 쓴 메모·태그 증발 방지)
+    const lHas=!!(local.ft&&local.ft[f]), rHas=!!(remote.ft&&remote.ft[f]);
+    if(src===local && !lHas && rHas && isEmptyVal(local[f]) && !isEmptyVal(remote[f])) src=remote;
+    if(src===remote && !rHas && lHas && isEmptyVal(remote[f]) && !isEmptyVal(local[f])) src=local;
+    if(f==="url"){ out.url=src.url; out.platform=src.platform; out.embedId=src.embedId; }
+    else if(f==="rating"){ out.rating=src.rating; out.star=src.star; }
+    else out[f]=src[f];
+    const keep = src===remote ? rt : lt; if(keep) out.ft[f]=keep;
+  });
+  out.updatedAt = (local.updatedAt||"")>(remote.updatedAt||"") ? local.updatedAt : remote.updatedAt;
+  return out;
+}
 
 /* ====================== URL 파싱 ====================== */
 function parseUrl(url){
@@ -442,7 +466,7 @@ async function autoTitle(item){
     const j = await r.json();
     if(j.title){
       const it = state.items.find(x=>x.id===item.id);
-      if(it && !it.title){ it.title=j.title.slice(0,120); it.updatedAt=now(); persist(); }
+      if(it && !it.title){ it.title=j.title.slice(0,120); touch(it,"title"); persist(); }
     }
   }catch(e){}
 }
@@ -560,7 +584,7 @@ function renderGrid(){
   });
   grid.querySelectorAll("[data-status]").forEach(el=>el.onchange=()=>{
     const it=state.items.find(x=>x.id===el.dataset.status);
-    it.status=el.value; it.updatedAt=now();
+    it.status=el.value; touch(it,"status");
     addLog("상태변경",(it.title||it.embedId||"").slice(0,30)+" → "+STATUS[el.value]);
     persist(); toast("상태 변경: "+STATUS[el.value]);
   });
@@ -570,7 +594,7 @@ function renderGrid(){
     el.onchange=()=>{
       const it=state.items.find(x=>x.id===el.dataset.tedit);
       if(it.title===el.value.trim()) return;
-      it.title=el.value.trim(); it.updatedAt=now();
+      it.title=el.value.trim(); touch(it,"title");
       addLog("수정","제목: "+it.title.slice(0,40)); persistSoft(); toast("제목 저장됨");
     };
   });
@@ -578,7 +602,7 @@ function renderGrid(){
     el.onchange=()=>{
       const it=state.items.find(x=>x.id===el.dataset.medit);
       if(it.memo===el.value.trim()) return;
-      it.memo=el.value.trim(); it.updatedAt=now();
+      it.memo=el.value.trim(); touch(it,"memo");
       addLog("메모",(it.title||it.embedId||"").slice(0,30)); persistSoft(); toast("메모 저장됨");
     };
   });
@@ -587,13 +611,13 @@ function renderGrid(){
     const n=parseInt(el.dataset.n);
     it.rating = (it.rating===n)? 0 : n;
     it.star = it.rating>0;
-    it.updatedAt=now(); persist();
+    touch(it,"rating"); persist();
   });
   grid.querySelectorAll("[data-carddel]").forEach(el=>el.onclick=()=>{
     if(!canDelete()){ toast("삭제 권한이 없어요 (마스터에게 요청하세요)"); return; }
     const it=state.items.find(x=>x.id===el.dataset.carddel);
     if(!confirm("이 레퍼런스를 삭제할까요?\n"+(it.title||it.embedId||""))) return;
-    it.deleted=true; it.updatedAt=now();
+    it.deleted=true; touch(it,"deleted");
     addLog("삭제",(it.title||it.embedId||"").slice(0,40));
     persist(); toast("삭제됨");
   });
@@ -640,13 +664,13 @@ document.getElementById("bulkCancel").onclick=()=>{ selMode=false; selIds.clear(
 document.getElementById("bulkAll").onclick=()=>{ visibleItems().forEach(i=>selIds.add(i.id)); render(); };
 document.getElementById("bulkStatus").onchange=e=>{
   if(!e.target.value||!selIds.size) return;
-  state.items.forEach(i=>{ if(selIds.has(i.id)){ i.status=e.target.value; i.updatedAt=now(); } });
+  state.items.forEach(i=>{ if(selIds.has(i.id)){ i.status=e.target.value; touch(i,"status"); } });
   addLog("상태변경", selIds.size+"개 → "+STATUS[e.target.value]);
   toast(selIds.size+"개 → "+STATUS[e.target.value]); e.target.value=""; persist();
 };
 function bulkTag(group, val){
   if(!val||!selIds.size) return;
-  state.items.forEach(i=>{ if(selIds.has(i.id) && !i[group].includes(val)){ i[group].push(val); i.updatedAt=now(); } });
+  state.items.forEach(i=>{ if(selIds.has(i.id) && !i[group].includes(val)){ i[group].push(val); touch(i,group); } });
   toast(selIds.size+"개에 '"+val+"' 태그 추가"); persist();
 }
 document.getElementById("bulkNeed").onchange=e=>{ bulkTag("needs",e.target.value); e.target.value=""; };
@@ -655,7 +679,7 @@ document.getElementById("bulkDel").onclick=()=>{
   if(!canDelete()){ toast("삭제 권한이 없어요 (마스터에게 요청하세요)"); return; }
   if(!selIds.size) return;
   if(!confirm(selIds.size+"개 레퍼런스를 삭제할까요?")) return;
-  state.items.forEach(i=>{ if(selIds.has(i.id)){ i.deleted=true; i.updatedAt=now(); } });
+  state.items.forEach(i=>{ if(selIds.has(i.id)){ i.deleted=true; touch(i,"deleted"); } });
   addLog("삭제", selIds.size+"개 일괄");
   selIds.clear(); persist(); toast("삭제됨");
 };
@@ -708,7 +732,10 @@ document.getElementById("aSave").onclick=()=>{
     const p=parseUrl(urls[0]);
     if(!p){ toast("올바른 링크를 입력해 주세요"); return; }
     const it=state.items.find(x=>x.id===editId);
-    Object.assign(it, common, {url:p.url, platform:p.platform, embedId:p.embedId, updatedAt:now()});
+    const chg=Object.keys(common).filter(k=>JSON.stringify(common[k])!==JSON.stringify(it[k]));
+    if(it.url!==p.url) chg.push("url");
+    Object.assign(it, common, {url:p.url, platform:p.platform, embedId:p.embedId});
+    touch(it,...chg);
     addLog("수정",(common.title||"").slice(0,40));
     toast("수정 완료");
   }else{
@@ -733,7 +760,7 @@ document.getElementById("aDelete").onclick=()=>{
   if(!canDelete()){ toast("삭제 권한이 없어요 (마스터에게 요청하세요)"); return; }
   if(!confirm("이 레퍼런스를 삭제할까요?")) return;
   const it=state.items.find(x=>x.id===editId);
-  it.deleted=true; it.updatedAt=now();
+  it.deleted=true; touch(it,"deleted");
   addLog("삭제", (it.title||it.embedId||"").slice(0,40));
   mAdd.classList.remove("open"); persist(); toast("삭제됨");
 };
@@ -750,7 +777,7 @@ function renderTagMan(){
       const used = alive().filter(i=>i[g].includes(t)).length;
       if(!confirm(`'${t}' 태그를 삭제할까요?`+(used?`\n(${used}개 레퍼런스에서 제거됩니다)`:""))) return;
       state.tagGroups[g]=state.tagGroups[g].filter(x=>x!==t);
-      state.items.forEach(i=>{ if(i[g].includes(t)){ i[g]=i[g].filter(x=>x!==t); i.updatedAt=now(); } });
+      state.items.forEach(i=>{ if(i[g].includes(t)){ i[g]=i[g].filter(x=>x!==t); touch(i,g); } });
       if(!state.deletedTags) state.deletedTags={};
       state.deletedTags[g+":"+t]=now();  // 태그 삭제도 동기화되도록 기록
       persist(); renderTagMan(); toast("태그 삭제됨");
@@ -839,10 +866,7 @@ async function ghPut(sha){
 function mergeRemote(remote){
   if(!remote||!remote.items) return;
   const byId={}; remote.items.forEach(i=>{ i.needs=i.needs||[]; i.types=i.types||[]; if(i.rating==null) i.rating=i.star?5:0; byId[i.id]=i; });
-  state.items.forEach(i=>{
-    const r=byId[i.id];
-    if(!r || (i.updatedAt||i.addedAt) > (r.updatedAt||r.addedAt)) byId[i.id]=i;
-  });
+  state.items.forEach(i=>{ byId[i.id]=mergeItem(i, byId[i.id]); });
   state.items=Object.values(byId);
   // 태그 병합 (삭제 기록 반영)
   const delT = Object.assign({}, remote.deletedTags||{}, state.deletedTags||{});
@@ -1027,7 +1051,7 @@ function renderTagPick(){
       const t=b.dataset.t;
       if(it[group].includes(t)) it[group]=it[group].filter(x=>x!==t);
       else it[group].push(t);
-      it.updatedAt=now(); persistSoft(); renderTagPick(); renderGrid();
+      touch(it,group); persistSoft(); renderTagPick(); renderGrid();
     });
   };
   mk("pNeeds","needs"); mk("pTypes","types");
@@ -1039,7 +1063,7 @@ function addTagAndAssign(group){
     if(state.deletedTags) delete state.deletedTags[group+":"+t];
   }
   const it=state.items.find(x=>x.id===tagPickId);
-  if(it && !it[group].includes(t)){ it[group].push(t); it.updatedAt=now(); }
+  if(it && !it[group].includes(t)){ it[group].push(t); touch(it,group); }
   inp.value=""; persistSoft(); renderTagPick(); render();
   toast("'"+t+"' 태그 생성·적용됨");
 }
@@ -1157,7 +1181,7 @@ document.getElementById("inappCopy").onclick=()=>{
   else toast(url);
 };
 
-/* 주기 동기화: 5분마다 + 탭 복귀 시 원격 변경 자동 반영 */
+/* 주기 동기화: 45초마다 + 탭 복귀 시 원격 변경 자동 반영 */
 function effRepo(){
   return conf.repo || (location.hostname.endsWith("github.io")
     ? location.hostname.split(".")[0]+"/"+location.pathname.split("/").filter(Boolean)[0] : "");
@@ -1187,7 +1211,7 @@ async function silentPull(){
     }
   }catch(e){}
 }
-setInterval(silentPull, 300000);
+setInterval(silentPull, 45000);
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden) silentPull(); });
 
 if("serviceWorker" in navigator && location.protocol==="https:"){
