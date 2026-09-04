@@ -6902,6 +6902,21 @@
         "deleted": "2026-09-04T03:36:07.602Z",
         "url": "2026-09-04T03:36:07.602Z"
       }
+    },
+    {
+      "id": "1a06b18bfd3yv9g4",
+      "url": "https://www.instagram.com/reel/Dcszf4Nhnu3/",
+      "platform": "instagram",
+      "embedId": "Dcszf4Nhnu3",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-09-04T06:26:19.219Z",
+      "updatedAt": "2026-09-04T06:26:19.219Z"
     }
   ],
   "deletedTags": {},
