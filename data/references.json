@@ -6729,7 +6729,6 @@
       }
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -6810,6 +6809,12 @@
     {
       "t": "2026-09-01T02:23:58.174Z",
       "u": "눈길",
+      "a": "로그인",
+      "d": ""
+    },
+    {
+      "t": "2026-09-01T03:43:29.761Z",
+      "u": "스카이",
       "a": "로그인",
       "d": ""
     },
@@ -6958,6 +6963,7 @@
       "d": ""
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
