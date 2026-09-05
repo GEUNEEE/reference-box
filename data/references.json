@@ -7092,7 +7092,17 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-04T14:09:33.945Z",
-      "updatedAt": "2026-09-04T14:09:33.945Z"
+      "updatedAt": "2026-09-04T14:09:33.945Z",
+      "ft": {
+        "title": "2026-09-04T14:09:33.945Z",
+        "memo": "2026-09-04T14:09:33.945Z",
+        "needs": "2026-09-04T14:09:33.945Z",
+        "types": "2026-09-04T14:09:33.945Z",
+        "status": "2026-09-04T14:09:33.945Z",
+        "rating": "2026-09-04T14:09:33.945Z",
+        "deleted": "2026-09-04T14:09:33.945Z",
+        "url": "2026-09-04T14:09:33.945Z"
+      }
     },
     {
       "id": "1a06d533378kkxe7",
@@ -7107,7 +7117,17 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-04T16:49:24.344Z",
-      "updatedAt": "2026-09-04T16:49:24.344Z"
+      "updatedAt": "2026-09-04T16:49:24.344Z",
+      "ft": {
+        "title": "2026-09-04T16:49:24.344Z",
+        "memo": "2026-09-04T16:49:24.344Z",
+        "needs": "2026-09-04T16:49:24.344Z",
+        "types": "2026-09-04T16:49:24.344Z",
+        "status": "2026-09-04T16:49:24.344Z",
+        "rating": "2026-09-04T16:49:24.344Z",
+        "deleted": "2026-09-04T16:49:24.344Z",
+        "url": "2026-09-04T16:49:24.344Z"
+      }
     },
     {
       "id": "1a06f611a23umkly",
@@ -7122,10 +7142,19 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-05T02:23:49.795Z",
-      "updatedAt": "2026-09-05T02:23:49.795Z"
+      "updatedAt": "2026-09-05T02:23:49.795Z",
+      "ft": {
+        "title": "2026-09-05T02:23:49.795Z",
+        "memo": "2026-09-05T02:23:49.795Z",
+        "needs": "2026-09-05T02:23:49.795Z",
+        "types": "2026-09-05T02:23:49.795Z",
+        "status": "2026-09-05T02:23:49.795Z",
+        "rating": "2026-09-05T02:23:49.795Z",
+        "deleted": "2026-09-05T02:23:49.795Z",
+        "url": "2026-09-05T02:23:49.795Z"
+      }
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -7366,6 +7395,7 @@
       "d": "DbunwnnxiZ1"
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
