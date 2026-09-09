@@ -7415,17 +7415,17 @@
       "platform": "instagram",
       "embedId": "Dc8Ex4vMuyd",
       "title": "",
-      "memo": "",
+      "memo": "링크 접속해서 확인",
       "needs": [],
       "types": [],
       "status": "inbox",
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-07T00:47:28.367Z",
-      "updatedAt": "2026-09-07T00:47:28.367Z",
+      "updatedAt": "2026-09-08T05:02:19.036Z",
       "ft": {
         "title": "2026-09-07T00:47:28.367Z",
-        "memo": "2026-09-07T00:47:28.367Z",
+        "memo": "2026-09-08T05:02:19.036Z",
         "needs": "2026-09-07T00:47:28.367Z",
         "types": "2026-09-07T00:47:28.367Z",
         "status": "2026-09-07T00:47:28.367Z",
@@ -7660,6 +7660,7 @@
       }
     }
   ],
+  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -7982,9 +7983,14 @@
       "u": "눈길",
       "a": "메모",
       "d": "DctNF6QztCF"
+    },
+    {
+      "t": "2026-09-08T05:02:19.036Z",
+      "u": "눈길",
+      "a": "메모",
+      "d": "Dc8Ex4vMuyd"
     }
   ],
-  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
