@@ -8234,6 +8234,23 @@
       "addedBy": "눈길",
       "addedAt": "2026-09-18T03:24:47.000Z",
       "updatedAt": "2026-09-18T03:24:47.000Z"
+    },
+    {
+      "id": "1a0b345b21f+qpm42",
+      "url": "https://www.instagram.com/reel/DdF3Q0UTYSC/",
+      "platform": "instagram",
+      "embedId": "DdF3Q0UTYSC",
+      "title": "",
+      "memo": "AI 다",
+      "needs": [],
+      "types": [
+        "AI"
+      ],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-09-18T06:48:04.000Z",
+      "updatedAt": "2026-09-18T06:48:04.000Z"
     }
   ],
   "deletedTags": {},
