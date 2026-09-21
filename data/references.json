@@ -8523,17 +8523,17 @@
       "platform": "instagram",
       "embedId": "DddbJsOxbgC",
       "title": "",
-      "memo": "제안?",
+      "memo": "우리도 공동구매 컨택해보면 좋을거같은데",
       "needs": [],
       "types": [],
       "status": "inbox",
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-20T03:43:31.000Z",
-      "updatedAt": "2026-09-20T03:43:31.000Z",
+      "updatedAt": "2026-09-21T13:13:36.643Z",
       "ft": {
         "title": "2026-09-20T03:43:31.000Z",
-        "memo": "2026-09-20T03:43:31.000Z",
+        "memo": "2026-09-21T13:13:36.643Z",
         "needs": "2026-09-20T03:43:31.000Z",
         "types": "2026-09-20T03:43:31.000Z",
         "status": "2026-09-20T03:43:31.000Z",
@@ -8580,7 +8580,17 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-21T08:55:49.000Z",
-      "updatedAt": "2026-09-21T08:55:49.000Z"
+      "updatedAt": "2026-09-21T08:55:49.000Z",
+      "ft": {
+        "title": "2026-09-21T08:55:49.000Z",
+        "memo": "2026-09-21T08:55:49.000Z",
+        "needs": "2026-09-21T08:55:49.000Z",
+        "types": "2026-09-21T08:55:49.000Z",
+        "status": "2026-09-21T08:55:49.000Z",
+        "rating": "2026-09-21T08:55:49.000Z",
+        "deleted": "2026-09-21T08:55:49.000Z",
+        "url": "2026-09-21T08:55:49.000Z"
+      }
     },
     {
       "id": "1a0c32e4d33+qekvu",
@@ -8597,10 +8607,19 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-21T08:56:26.000Z",
-      "updatedAt": "2026-09-21T08:56:26.000Z"
+      "updatedAt": "2026-09-21T08:56:26.000Z",
+      "ft": {
+        "title": "2026-09-21T08:56:26.000Z",
+        "memo": "2026-09-21T08:56:26.000Z",
+        "needs": "2026-09-21T08:56:26.000Z",
+        "types": "2026-09-21T08:56:26.000Z",
+        "status": "2026-09-21T08:56:26.000Z",
+        "rating": "2026-09-21T08:56:26.000Z",
+        "deleted": "2026-09-21T08:56:26.000Z",
+        "url": "2026-09-21T08:56:26.000Z"
+      }
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -8929,8 +8948,15 @@
       "u": "눈길",
       "a": "메모",
       "d": "Dc8Ex4vMuyd"
+    },
+    {
+      "t": "2026-09-21T13:13:36.643Z",
+      "u": "눈길",
+      "a": "메모",
+      "d": "DddbJsOxbgC"
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
