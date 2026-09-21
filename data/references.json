@@ -8600,6 +8600,7 @@
       "updatedAt": "2026-09-21T08:56:26.000Z"
     }
   ],
+  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -8930,7 +8931,6 @@
       "d": "Dc8Ex4vMuyd"
     }
   ],
-  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
