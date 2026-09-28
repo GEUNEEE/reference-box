@@ -8770,7 +8770,6 @@
       }
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -9122,8 +9121,15 @@
       "u": "스카이",
       "a": "추가",
       "d": "1개"
+    },
+    {
+      "t": "2026-09-28T05:26:20.660Z",
+      "u": "재영",
+      "a": "로그인",
+      "d": ""
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
