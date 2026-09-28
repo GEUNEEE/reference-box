@@ -8803,6 +8803,17 @@
       "removed": false,
       "createdAt": "2026-09-02T05:57:17.000Z",
       "updatedAt": "2026-09-02T05:57:17.000Z"
+    },
+    {
+      "id": "재영",
+      "hash": "936637ef9607caf8b604d796c4b064a8dddc1b835d5ad1ec365aef508a44af3c",
+      "role": "member",
+      "perms": {
+        "delete": false
+      },
+      "removed": false,
+      "createdAt": "2026-09-28T05:20:25.000Z",
+      "updatedAt": "2026-09-28T05:20:25.000Z"
     }
   ],
   "logs": [
