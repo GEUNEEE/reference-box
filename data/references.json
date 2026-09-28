@@ -8756,9 +8756,21 @@
       "memo": "최소 20만원 아낀 체험단 어플 탑3, 3편 가지고 왔어요\n> 최소 20만원 아낀(궁금증 유발), 탑3(객관성 뉘앙스), 3편(탑3 공개 시 보통 마지막이 1위이기 때문에 가장 도움이 되는 방법일 것 같은 느낌을 줌)\n\n피부과에 1000만원 쓰고 찾은 가성비 탑3 스킨케어 3편",
       "needs": [],
       "types": [],
-      "status": "inbox"
+      "status": "inbox",
+      "rating": 0,
+      "ft": {
+        "title": "2026-09-28T01:20:44.618Z",
+        "memo": "2026-09-28T01:20:44.618Z",
+        "needs": "2026-09-28T01:20:44.618Z",
+        "types": "2026-09-28T01:20:44.618Z",
+        "status": "2026-09-28T01:20:44.618Z",
+        "rating": "2026-09-28T01:20:44.618Z",
+        "deleted": "2026-09-28T01:20:44.618Z",
+        "url": "2026-09-28T01:20:44.618Z"
+      }
     }
   ],
+  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -9112,7 +9124,6 @@
       "d": "1개"
     }
   ],
-  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
