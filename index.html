@@ -486,7 +486,7 @@ function renderTabs(){
     `<button class="tab ${filter.status===k?'on':''}" data-st="${k}">${k==='all'?'전체':STATUS[k]} ${counts[k]||0}</button>`).join("")
     + `<button class="tab ${filter.star==="any"?'on':''}" id="starTab">⭐ ${a.filter(i=>i.rating>0).length}</button>`
     + [1,2,3,4,5].map(n=>`<button class="tab ${filter.star===n?'on':''}" data-starn="${n}">${n}★ ${a.filter(i=>i.rating===n).length}</button>`).join("");
-  el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.status=b.dataset.st;render();});
+  el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.status=(filter.status===b.dataset.st)?"all":b.dataset.st;render();});
   document.getElementById("starTab").onclick=()=>{filter.star=(filter.star==="any")?0:"any";render();};
   el.querySelectorAll("[data-starn]").forEach(b=>b.onclick=()=>{
     const n=parseInt(b.dataset.starn);
