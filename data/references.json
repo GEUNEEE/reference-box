@@ -8782,7 +8782,6 @@
       }
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -9172,6 +9171,7 @@
       "d": "Ddi-6syktGy"
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
