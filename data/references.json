@@ -8794,9 +8794,20 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-09-30T07:23:33.000Z",
-      "updatedAt": "2026-09-30T07:23:33.000Z"
+      "updatedAt": "2026-09-30T07:23:33.000Z",
+      "ft": {
+        "title": "2026-09-30T07:23:33.000Z",
+        "memo": "2026-09-30T07:23:33.000Z",
+        "needs": "2026-09-30T07:23:33.000Z",
+        "types": "2026-09-30T07:23:33.000Z",
+        "status": "2026-09-30T07:23:33.000Z",
+        "rating": "2026-09-30T07:23:33.000Z",
+        "deleted": "2026-09-30T07:23:33.000Z",
+        "url": "2026-09-30T07:23:33.000Z"
+      }
     }
   ],
+  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -9186,7 +9197,6 @@
       "d": "Ddi-6syktGy"
     }
   ],
-  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
