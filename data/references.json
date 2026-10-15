@@ -9430,6 +9430,21 @@
         "deleted": "2026-10-14T14:50:00.000Z",
         "url": "2026-10-14T14:50:00.000Z"
       }
+    },
+    {
+      "id": "1a13de479fd+ekclg",
+      "url": "https://www.instagram.com/reel/DeaktqzyISR/",
+      "platform": "instagram",
+      "embedId": "DeaktqzyISR",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-10-15T04:49:06.000Z",
+      "updatedAt": "2026-10-15T04:49:06.000Z"
     }
   ],
   "deletedTags": {},
