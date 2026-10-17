@@ -9544,7 +9544,7 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-10-15T14:37:42.000Z",
-      "updatedAt": "2026-10-15T14:37:42.000Z",
+      "updatedAt": "2026-10-16T00:57:20.534Z",
       "ft": {
         "title": "2026-10-15T14:37:42.000Z",
         "memo": "2026-10-15T14:37:42.000Z",
@@ -9552,9 +9552,10 @@
         "types": "2026-10-15T14:37:42.000Z",
         "status": "2026-10-15T14:37:42.000Z",
         "rating": "2026-10-15T14:37:42.000Z",
-        "deleted": "2026-10-15T14:37:42.000Z",
+        "deleted": "2026-10-16T00:57:20.534Z",
         "url": "2026-10-15T14:37:42.000Z"
-      }
+      },
+      "deleted": true
     },
     {
       "id": "1a1400570dc+0jlv9",
@@ -9619,9 +9620,20 @@
       "rating": 0,
       "addedBy": "눈길",
       "addedAt": "2026-10-16T06:49:51.000Z",
-      "updatedAt": "2026-10-16T06:49:51.000Z"
+      "updatedAt": "2026-10-16T06:49:51.000Z",
+      "ft": {
+        "title": "2026-10-16T06:49:51.000Z",
+        "memo": "2026-10-16T06:49:51.000Z",
+        "needs": "2026-10-16T06:49:51.000Z",
+        "types": "2026-10-16T06:49:51.000Z",
+        "status": "2026-10-16T06:49:51.000Z",
+        "rating": "2026-10-16T06:49:51.000Z",
+        "deleted": "2026-10-16T06:49:51.000Z",
+        "url": "2026-10-16T06:49:51.000Z"
+      }
     }
   ],
+  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -10009,9 +10021,14 @@
       "u": "눈길",
       "a": "메모",
       "d": "Ddi-6syktGy"
+    },
+    {
+      "t": "2026-10-16T00:57:20.534Z",
+      "u": "눈길",
+      "a": "삭제",
+      "d": "Def1h2CSnwW"
     }
   ],
-  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
