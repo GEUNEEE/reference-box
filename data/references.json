@@ -9673,6 +9673,21 @@
       "types": [],
       "status": "inbox",
       "rating": 0
+    },
+    {
+      "id": "1a157838c5d+wm02r",
+      "url": "https://www.instagram.com/reel/DeY7SIPvcGO/",
+      "platform": "instagram",
+      "embedId": "DeY7SIPvcGO",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-10-20T04:13:21.000Z",
+      "updatedAt": "2026-10-20T04:13:21.000Z"
     }
   ],
   "deletedTags": {},
