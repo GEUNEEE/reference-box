@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-20T03:05:27Z",
+ "generatedAt": "2026-10-20T03:22:07Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -242,7 +242,7 @@
    "comments": 227,
    "shares": 0,
    "postedAt": "2026-08-15T15:45:15.000Z",
-   "ageHours": 1571,
+   "ageHours": 1572,
    "region": "global",
    "flags": [
     "abs"
@@ -374,7 +374,7 @@
    "comments": 504,
    "shares": 7503,
    "postedAt": "2026-08-04T12:41:22+00:00",
-   "ageHours": 1838,
+   "ageHours": 1839,
    "region": "domestic",
    "flags": [
     "abs"
@@ -478,7 +478,7 @@
    "comments": 214,
    "shares": 6780,
    "postedAt": "2026-08-23T00:45:17+00:00",
-   "ageHours": 1394,
+   "ageHours": 1395,
    "region": "domestic",
    "flags": [
     "abs",
@@ -531,7 +531,7 @@
    "comments": 1175,
    "shares": 0,
    "postedAt": "2026-08-03T22:43:05+00:00",
-   "ageHours": 1852,
+   "ageHours": 1853,
    "region": "domestic",
    "flags": [
     "abs"
@@ -557,7 +557,7 @@
    "comments": 971,
    "shares": 0,
    "postedAt": "2026-08-10T03:47:53+00:00",
-   "ageHours": 1703,
+   "ageHours": 1704,
    "region": "domestic",
    "flags": [
     "abs",
@@ -610,7 +610,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1215,
+   "ageHours": 1216,
    "region": "domestic",
    "flags": [
     "abs"
@@ -636,7 +636,7 @@
    "comments": 80,
    "shares": 6226,
    "postedAt": "2026-08-23T05:47:02+00:00",
-   "ageHours": 1389,
+   "ageHours": 1390,
    "region": "domestic",
    "flags": [
     "abs"
@@ -662,7 +662,7 @@
    "comments": 134,
    "shares": 508,
    "postedAt": "2026-08-15T09:49:17+00:00",
-   "ageHours": 1577,
+   "ageHours": 1578,
    "region": "domestic",
    "flags": [
     "abs"
@@ -688,7 +688,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1801,
+   "ageHours": 1802,
    "region": "domestic",
    "flags": [
     "abs"
@@ -818,7 +818,7 @@
    "comments": 263,
    "shares": 333,
    "postedAt": "2026-08-18T09:42:33+00:00",
-   "ageHours": 1505,
+   "ageHours": 1506,
    "region": "domestic",
    "flags": [
     "abs"
@@ -922,7 +922,7 @@
    "comments": 99,
    "shares": 0,
    "postedAt": "2026-08-19T10:49:05.000Z",
-   "ageHours": 1480,
+   "ageHours": 1481,
    "region": "global",
    "flags": [
     "abs"
@@ -948,7 +948,7 @@
    "comments": 904,
    "shares": 1939,
    "postedAt": "2026-08-19T21:48:32+00:00",
-   "ageHours": 1469,
+   "ageHours": 1470,
    "region": "domestic",
    "flags": [
     "abs",
@@ -1027,7 +1027,7 @@
    "comments": 28,
    "shares": 2032,
    "postedAt": "2026-08-09T21:45:44+00:00",
-   "ageHours": 1709,
+   "ageHours": 1710,
    "region": "global",
    "flags": [
     "abs"
@@ -1079,7 +1079,7 @@
    "comments": 155,
    "shares": 0,
    "postedAt": "2026-08-17T17:39:37.000Z",
-   "ageHours": 1521,
+   "ageHours": 1522,
    "region": "global",
    "flags": [
     "abs"
@@ -1105,7 +1105,7 @@
    "comments": 895,
    "shares": 1386,
    "postedAt": "2026-08-23T11:46:40+00:00",
-   "ageHours": 1383,
+   "ageHours": 1384,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1157,7 +1157,7 @@
    "comments": 39,
    "shares": 3819,
    "postedAt": "2026-08-06T09:50:32+00:00",
-   "ageHours": 1793,
+   "ageHours": 1794,
    "region": "global",
    "flags": [
     "abs"
@@ -1183,7 +1183,7 @@
    "comments": 77,
    "shares": 0,
    "postedAt": "2026-08-20T11:50:26.000Z",
-   "ageHours": 1455,
+   "ageHours": 1456,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1339,7 +1339,7 @@
    "comments": 80,
    "shares": 0,
    "postedAt": "2026-08-22T20:37:24.000Z",
-   "ageHours": 1398,
+   "ageHours": 1399,
    "region": "global",
    "flags": [
     "abs"
@@ -1469,7 +1469,7 @@
    "comments": 41,
    "shares": 0,
    "postedAt": "2026-08-21T14:49:06.000Z",
-   "ageHours": 1428,
+   "ageHours": 1429,
    "region": "global",
    "flags": [
     "abs"
@@ -1495,7 +1495,7 @@
    "comments": 3272,
    "shares": 0,
    "postedAt": "2026-08-07T04:42:18.000Z",
-   "ageHours": 1774,
+   "ageHours": 1775,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1625,7 +1625,7 @@
    "comments": 18,
    "shares": 0,
    "postedAt": "2026-08-19T08:49:06.000Z",
-   "ageHours": 1482,
+   "ageHours": 1483,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1651,7 +1651,7 @@
    "comments": 4163,
    "shares": 2590,
    "postedAt": "2026-08-19T08:40:08+00:00",
-   "ageHours": 1482,
+   "ageHours": 1483,
    "region": "domestic",
    "flags": [
     "abs"
