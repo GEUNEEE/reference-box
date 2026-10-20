@@ -80,6 +80,11 @@ main{padding:12px 16px;display:grid;gap:14px;grid-template-columns:repeat(auto-f
 .iconb{background:var(--panel2);border:1px solid var(--line);color:var(--sub);width:32px;height:32px;border-radius:8px;font-size:13px}
 .iconb:hover{color:var(--text)}
 .badge{font-size:11px;font-weight:800;padding:2px 8px;border-radius:6px}
+.b-viral{background:#3a1d0a;color:#ffb36b}.b-reg{background:#143a22;color:#7be0a4}.b-dom{background:#1d2a4a;color:#9fc2ff}.b-glb{background:#2a2a2a;color:#cfcfcf}
+.vmeta{font-size:12px;color:var(--sub);line-height:1.6;word-break:break-all}
+.vbtn{flex:1;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:8px 10px;font-weight:700;font-size:13px}
+.vbtn.ghost{background:var(--panel2);color:var(--sub);border:1px solid var(--line);flex:0 0 auto}
+.vbtn:disabled{opacity:.5}
 .b-inbox{background:#2d3646;color:#9fb4d8}.b-reviewed{background:#1e3d33;color:#5fd8ab}.b-selected{background:#3c2b52;color:#d0a5ff}.b-rejected{background:#43272b;color:#e59a9a}
 
 .fab{position:fixed;right:18px;bottom:18px;z-index:30;background:var(--accent);color:#fff;width:56px;height:56px;border-radius:50%;font-size:26px;font-weight:700;box-shadow:0 6px 20px rgba(91,140,255,.45)}
@@ -160,6 +165,7 @@ table.stats .hot{color:var(--accent);font-weight:800}
   <div class="tabs" id="statusTabs"></div>
   <div class="tagrow" id="fNeeds"></div>
   <div class="tagrow" id="fTypes"></div>
+  <div class="tagrow" id="viralBar" style="display:none"></div>
   <div class="searchrow">
     <input id="q" type="search" placeholder="제목·메모 검색">
     <select id="sortSel">
@@ -377,7 +383,9 @@ let state = load();
 let conf = JSON.parse(localStorage.getItem(LS_CONF)||"{}");
 const SALT="refbox:";
 let sess=null; try{ sess=JSON.parse(localStorage.getItem("refbox_sess")); }catch(e){}
-let filter = {status:"all", needs:[], types:[], q:"", sort:"new", star:false};
+let filter = {status:"all", needs:[], types:[], q:"", sort:"new", star:false, viral:false};
+let viralFeed = {items:[], generatedAt:""};
+let vfilter = {region:"all", sort:"score", minViews:0};
 let previewMode = localStorage.getItem("refbox_prev")||"auto";
 let editId = null;
 let selMode=false, selIds=new Set();
@@ -391,6 +399,7 @@ function load(){
   d.tagGroups.needs = d.tagGroups.needs||[]; d.tagGroups.types = d.tagGroups.types||[];
   d.items.forEach(i=>{ i.needs=i.needs||[]; i.types=i.types||[]; i.updatedAt=i.updatedAt||i.addedAt; if(i.rating==null) i.rating=i.star?5:0; });
   d.accounts=d.accounts||[]; d.logs=d.logs||[];
+  d.viralHidden = d.viralHidden || {};
   // 오래된 톰스톤(삭제 기록) 정리
   const cut = Date.now() - TOMB_DAYS*864e5;
   d.items = d.items.filter(i=> !i.deleted || new Date(i.updatedAt).getTime() > cut);
@@ -473,7 +482,7 @@ async function autoTitle(item){
 
 /* ====================== 렌더 ====================== */
 function render(){
-  renderTabs(); renderFilterChips(); renderGrid(); renderBulkbar();
+  renderTabs(); renderFilterChips(); renderViralBar(); renderGrid(); renderBulkbar();
   document.getElementById("syncDot").className = conf.repo ? (syncState==="err"?"err":syncState==="busy"?"busy":"on") : "";
   document.getElementById("btnSel").classList.toggle("on", selMode);
 }
@@ -485,13 +494,15 @@ function renderTabs(){
   el.innerHTML = ['all',...Object.keys(STATUS)].map(k=>
     `<button class="tab ${filter.status===k?'on':''}" data-st="${k}">${k==='all'?'전체':STATUS[k]} ${counts[k]||0}</button>`).join("")
     + `<button class="tab ${filter.star==="any"?'on':''}" id="starTab">⭐ ${a.filter(i=>i.rating>0).length}</button>`
-    + [1,2,3,4,5].map(n=>`<button class="tab ${filter.star===n?'on':''}" data-starn="${n}">${n}★ ${a.filter(i=>i.rating===n).length}</button>`).join("");
-  el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.status=(filter.status===b.dataset.st)?"all":b.dataset.st;render();});
-  document.getElementById("starTab").onclick=()=>{filter.star=(filter.star==="any")?0:"any";render();};
+    + [1,2,3,4,5].map(n=>`<button class="tab ${filter.star===n?'on':''}" data-starn="${n}">${n}★ ${a.filter(i=>i.rating===n).length}</button>`).join("")
+    + `<button class="tab ${filter.viral?'on':''}" id="viralTab" style="margin-left:auto;border-color:#ff8a3d">🔥 바이럴 ${viralCount()}</button>`;
+  el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.viral=false;filter.status=(filter.status===b.dataset.st)?"all":b.dataset.st;render();});
+  document.getElementById("starTab").onclick=()=>{filter.viral=false;filter.star=(filter.star==="any")?0:"any";render();};
   el.querySelectorAll("[data-starn]").forEach(b=>b.onclick=()=>{
     const n=parseInt(b.dataset.starn);
-    filter.star=(filter.star===n)?0:n; render();
+    filter.viral=false; filter.star=(filter.star===n)?0:n; render();
   });
+  document.getElementById("viralTab").onclick=()=>{ filter.viral=!filter.viral; selMode=false; selIds.clear(); render(); };
 }
 function renderFilterChips(){
   const mk=(rowId,group,key,label)=>{
@@ -521,12 +532,114 @@ function visibleItems(){
   });
   return arr;
 }
+/* ====================== 🔥 바이럴 피드 (data/viral.json, 읽기 전용) ====================== */
+const VIRAL_PATH="data/viral.json";
+async function fetchViral(){
+  const repo=effRepo();
+  const url = repo ? `https://raw.githubusercontent.com/${repo}/${conf.branch||"main"}/${VIRAL_PATH}?t=`+Date.now() : VIRAL_PATH+"?t="+Date.now();
+  try{
+    const r=await fetch(url);
+    if(!r.ok) return;
+    const j=await r.json(); if(!j||!Array.isArray(j.items)) return;
+    const changed = j.generatedAt!==viralFeed.generatedAt;
+    viralFeed=j;
+    if(changed){ renderTabs(); if(filter.viral) renderGrid(); }
+  }catch(e){}
+}
+function fmtN(n){ n=+n||0; return n>=1e6? (n/1e6).toFixed(n>=1e7?0:1)+"M" : n>=1e3? (n/1e3).toFixed(n>=1e5?0:1)+"K" : String(n); }
+function viralRegistered(v){ return alive().some(x=>x.platform===v.platform && x.embedId===v.embedId); }
+function viralItems(){
+  const hidden=state.viralHidden||{}; const q=filter.q.toLowerCase();
+  const arr=viralFeed.items.filter(v=> !hidden[v.key]
+    && (vfilter.region==="all"||v.region===vfilter.region)
+    && (v.views||0)>=vfilter.minViews
+    && (!q || ((v.title||"")+" "+(v.author||"")).toLowerCase().includes(q)));
+  arr.sort((a,b)=> vfilter.sort==="views" ? (b.views||0)-(a.views||0)
+    : vfilter.sort==="new" ? (b.postedAt||"").localeCompare(a.postedAt||"")
+    : ((b.score||0)-(a.score||0)) || ((b.views||0)-(a.views||0)));
+  return arr;
+}
+function viralCount(){ const h=state.viralHidden||{}; return viralFeed.items.filter(v=>!h[v.key]).length; }
+function renderViralBar(){
+  const el=document.getElementById("viralBar");
+  el.style.display = filter.viral? "" : "none";
+  document.getElementById("fNeeds").style.display = filter.viral? "none":"";
+  document.getElementById("fTypes").style.display = filter.viral? "none":"";
+  if(!filter.viral) return;
+  const regions=[["all","전체"],["domestic","🇰🇷 국내"],["global","🌏 해외"]];
+  const mins=[[0,"조회수 전체"],[100000,"10만+"],[500000,"50만+"],[1000000,"100만+"]];
+  el.innerHTML = `<span class="lbl">🔥</span>`
+    + regions.map(([k,l])=>`<button class="chip ${vfilter.region===k?'on':''}" data-vr="${k}">${l}</button>`).join("")
+    + `<select data-vsort style="width:auto;font-size:12px;padding:4px 6px"><option value="score">바이럴 점수순</option><option value="views">조회수순</option><option value="new">게시 최신순</option></select>`
+    + `<select data-vmin style="width:auto;font-size:12px;padding:4px 6px">${mins.map(([k,l])=>`<option value="${k}">${l}</option>`).join("")}</select>`
+    + `<span style="font-size:11px;color:var(--sub);margin-left:auto">피드 ${(viralFeed.generatedAt||"").slice(0,10)||"없음"}</span>`;
+  el.querySelectorAll("[data-vr]").forEach(b=>b.onclick=()=>{vfilter.region=b.dataset.vr; render();});
+  const s=el.querySelector("[data-vsort]"); s.value=vfilter.sort; s.onchange=()=>{vfilter.sort=s.value; renderGrid();};
+  const m=el.querySelector("[data-vmin]"); m.value=String(vfilter.minViews); m.onchange=()=>{vfilter.minViews=+m.value; renderGrid();};
+}
+function renderViralGrid(){
+  const grid=document.getElementById("grid");
+  const items=viralItems();
+  document.getElementById("cnt").textContent = items.length+"개";
+  if(!viralFeed.items.length){
+    grid.innerHTML=`<div class="empty">아직 바이럴 피드가 없어요.<br><span style="font-size:12px">매일 07:20 수집기(viral_feed.py)가 data/viral.json을 올리면 여기에 표시됩니다.</span></div>`; return;
+  }
+  if(!items.length){ grid.innerHTML=`<div class="empty">조건에 맞는 영상이 없어요. 지역·조회수 필터를 풀어보세요.</div>`; return; }
+  grid.innerHTML = items.map(v=>{
+    const reg=viralRegistered(v);
+    const stats=[`👁 ${fmtN(v.views)}`, v.likes?`❤ ${fmtN(v.likes)}`:"", v.comments?`💬 ${fmtN(v.comments)}`:"",
+      v.followers?`👥 ${fmtN(v.followers)}`:"", v.ratio?`<b>${v.ratio>=100?Math.round(v.ratio):v.ratio}×</b> 팔로워 대비`:"", v.medianX?`평소의 ${v.medianX>=100?Math.round(v.medianX):v.medianX}×`:""].filter(Boolean).join(" · ");
+    return `
+  <div class="card" data-vcard="${esc(v.key)}">
+    <div class="player">
+      <div class="plat">${PLAT_ICON[v.platform]||"🔗"} ${(v.platform||"").toUpperCase()}</div>
+      <div class="pholder" data-vplay="${esc(v.key)}" ${v.thumb?`style="background-image:url('${esc(v.thumb)}')"`:""}><div class="shade"></div><div class="pico">${PLAT_ICON[v.platform]||"🔗"}</div><div class="pbtn">▶ 재생</div></div>
+    </div>
+    <div class="cbody">
+      <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+        <span class="badge b-viral">${v.tier||"🔥"}</span>
+        <span class="badge ${v.region==="domestic"?"b-dom":"b-glb"}">${v.region==="domestic"?"국내":"해외"}</span>
+        ${reg?`<span class="badge b-reg">✅ 등록됨</span>`:""}
+        <span style="font-size:11px;color:var(--sub);margin-left:auto">${(v.postedAt||"").slice(0,10)}</span>
+      </div>
+      <div style="font-size:13.5px;font-weight:600;line-height:1.4">${esc(v.title)||"(캡션 없음)"}</div>
+      <div class="vmeta">@${esc(v.author)||"?"}<br>${stats}</div>
+      <div class="cfoot">
+        ${reg?`<button class="vbtn" disabled>등록됨</button>`:`<button class="vbtn" data-vadd="${esc(v.key)}">📥 레퍼런스함에 넣기</button>`}
+        <button class="vbtn ghost" data-vhide="${esc(v.key)}" title="피드에서 숨기기">🙈</button>
+        <button class="iconb" data-open="${esc(v.url)}" title="원본 열기">↗</button>
+      </div>
+    </div>
+  </div>`;}).join("");
+  grid.querySelectorAll("[data-vplay]").forEach(el=>el.onclick=()=>loadEmbed(el));
+  grid.querySelectorAll("[data-open]").forEach(el=>el.onclick=()=>window.open(el.dataset.open,"_blank"));
+  grid.querySelectorAll("[data-vadd]").forEach(el=>el.onclick=()=>addFromViral(el.dataset.vadd));
+  grid.querySelectorAll("[data-vhide]").forEach(el=>el.onclick=()=>hideViral(el.dataset.vhide));
+  setupAutoPreview(grid);
+}
+function addFromViral(key){
+  if(!me()){ toast("로그인 후 넘길 수 있어요"); return; }
+  const v=viralFeed.items.find(x=>x.key===key); if(!v) return;
+  if(viralRegistered(v)){ toast("이미 레퍼런스함에 있어요"); renderGrid(); return; }
+  const memo=["🔥 조회수 "+fmtN(v.views), v.followers?"팔로워 "+fmtN(v.followers):"", v.ratio?v.ratio+"×":"",
+    v.region==="domestic"?"국내":"해외", "바이럴피드 "+(viralFeed.generatedAt||"").slice(0,10)].filter(Boolean).join(" · ");
+  const it={id:uid(), addedAt:now(), updatedAt:now(), addedBy:conf.name||sess.id||"", url:v.url, platform:v.platform, embedId:v.embedId,
+    title:(v.title||"").slice(0,120), memo, needs:[], types:[], status:"inbox", rating:0};
+  state.items.push(it); addLog("바이럴→추가",(it.title||it.embedId).slice(0,40));
+  persist(); toast("📥 레퍼런스함에 추가됨");
+}
+function hideViral(key){
+  if(!me()){ toast("로그인 후 숨길 수 있어요"); return; }
+  state.viralHidden=state.viralHidden||{}; state.viralHidden[key]=now();
+  addLog("바이럴 숨김", key); persist(); toast("🙈 숨김 — 다음 피드부터 제외");
+}
 function thumbStyle(i){
   if(i.platform==="youtube") return `style="background-image:url('https://img.youtube.com/vi/${i.embedId}/hqdefault.jpg')"`;
   return "";
 }
 function renderGrid(){
   const grid=document.getElementById("grid");
+  if(filter.viral){ renderViralGrid(); return; }
   if(!me()){ grid.innerHTML=""; document.getElementById("cnt").textContent=""; return; }
   const items=visibleItems();
   document.getElementById("cnt").textContent = items.length+"개";
@@ -629,7 +742,9 @@ function toggleSel(id){ selIds.has(id)?selIds.delete(id):selIds.add(id); render(
 /* 자동 미리보기: 화면에 들어오는 카드의 임베드를 자동 로드 */
 let previewObs=null;
 function loadEmbed(holder){
-  const it=state.items.find(x=>x.id===holder.dataset.play);
+  let it;
+  if(holder.dataset.vplay) it=viralFeed.items.find(x=>x.key===holder.dataset.vplay);
+  else it=state.items.find(x=>x.id===holder.dataset.play);
   if(!it) return;
   holder.parentElement.innerHTML = `<iframe loading="lazy" src="${embedSrc(it)}" allow="autoplay; encrypted-media; fullscreen" allowfullscreen scrolling="no"></iframe>`;
 }
@@ -641,8 +756,8 @@ function setupAutoPreview(grid){
       if(en.isIntersecting){ previewObs.unobserve(en.target); loadEmbed(en.target); }
     });
   },{rootMargin:"250px"});
-  grid.querySelectorAll("[data-play]").forEach(el=>{
-    const it=state.items.find(x=>x.id===el.dataset.play);
+  grid.querySelectorAll("[data-play],[data-vplay]").forEach(el=>{
+    const it = el.dataset.vplay ? viralFeed.items.find(x=>x.key===el.dataset.vplay) : state.items.find(x=>x.id===el.dataset.play);
     if(it && (it.platform==="instagram"||it.platform==="tiktok")) previewObs.observe(el);
   });
 }
@@ -880,6 +995,7 @@ function mergeRemote(remote){
   });
   state.deletedTags=delT;
   if(remote.vault) state.vault=remote.vault;
+  state.viralHidden=Object.assign({}, remote.viralHidden||{}, state.viralHidden||{});
   // 계정·로그 병합
   const accs={}; (remote.accounts||[]).forEach(a=>accs[a.id]=a);
   (state.accounts||[]).forEach(a=>{ const r=accs[a.id]; if(!r||(a.updatedAt||"")>(r.updatedAt||"")) accs[a.id]=a; });
@@ -1024,6 +1140,7 @@ document.getElementById("sSaImport").onclick=async()=>{
 
 /* 최초 로드 */
 (async function initialPull(){
+  fetchViral();
   if(conf.repo&&conf.token){ syncNow(false); return; }
   const repo = conf.repo || (location.hostname.endsWith("github.io")
     ? location.hostname.split(".")[0]+"/"+location.pathname.split("/").filter(Boolean)[0] : "");
@@ -1194,6 +1311,7 @@ async function silentPull(){
   const ae=document.activeElement;
   if(ae && (ae.classList.contains("ctitle-in")||ae.classList.contains("cmemo-in"))) return; // 메모 작성 중엔 화면 갱신 보류
   lastPull=Date.now();
+  fetchViral();
   try{
     let data=null;
     if(conf.token&&conf.repo){ data=(await ghGet()).data; }
