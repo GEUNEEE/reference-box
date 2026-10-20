@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-20T03:22:07Z",
+ "generatedAt": "2026-10-20T04:12:51Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -22,7 +22,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1379,
+   "ageHours": 1380,
    "region": "global",
    "flags": [
     "abs",
@@ -50,7 +50,7 @@
    "comments": 1838,
    "shares": 31123,
    "postedAt": "2026-08-16T02:13:00+00:00",
-   "ageHours": 1561,
+   "ageHours": 1562,
    "region": "domestic",
    "flags": [
     "abs",
@@ -78,7 +78,7 @@
    "comments": 630,
    "shares": 57887,
    "postedAt": "2026-07-25T12:04:37+00:00",
-   "ageHours": 2079,
+   "ageHours": 2080,
    "region": "domestic",
    "flags": [
     "abs"
@@ -104,7 +104,7 @@
    "comments": 856,
    "shares": 18220,
    "postedAt": "2026-08-23T10:25:12+00:00",
-   "ageHours": 1385,
+   "ageHours": 1386,
    "region": "global",
    "flags": [
     "abs"
@@ -130,7 +130,7 @@
    "comments": 260,
    "shares": 18722,
    "postedAt": "2026-07-29T17:16:58+00:00",
-   "ageHours": 1978,
+   "ageHours": 1979,
    "region": "global",
    "flags": [
     "abs",
@@ -158,7 +158,7 @@
    "comments": 344,
    "shares": 42772,
    "postedAt": "2026-08-30T07:08:54+00:00",
-   "ageHours": 1220,
+   "ageHours": 1221,
    "region": "global",
    "flags": [
     "abs",
@@ -186,7 +186,7 @@
    "comments": 182,
    "shares": 3919,
    "postedAt": "2026-08-23T20:11:07+00:00",
-   "ageHours": 1375,
+   "ageHours": 1376,
    "region": "global",
    "flags": [
     "abs",
@@ -214,7 +214,7 @@
    "comments": 403,
    "shares": 23960,
    "postedAt": "2026-08-31T13:11:03+00:00",
-   "ageHours": 1190,
+   "ageHours": 1191,
    "region": "global",
    "flags": [
     "abs",
@@ -228,6 +228,60 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
+  },
+  {
+   "key": "tiktok:7696433898858827028",
+   "platform": "tiktok",
+   "embedId": "7696433898858827028",
+   "url": "https://www.tiktok.com/@beautielism/video/7696433898858827028",
+   "title": "#makeuptutorial #douyin #grwm #photogenic Dr. MYSTERY Purple Tea Bifida Ferment ",
+   "author": "beautielism",
+   "followers": 3893,
+   "views": 891200,
+   "likes": 129200,
+   "comments": 385,
+   "shares": 5608,
+   "postedAt": "2026-10-14T08:14:32.000Z",
+   "ageHours": 140,
+   "region": "global",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 228.9,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 55.4,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oIwerzEQbljSHgpgGCWVAcMMAQoCcDAe8nnI0f~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=BwQlDHxdmlgHZ9LUmrFJvKlUERM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
+  },
+  {
+   "key": "tiktok:7679752376344956181",
+   "platform": "tiktok",
+   "embedId": "7679752376344956181",
+   "url": "https://www.tiktok.com/@easy_yun__/video/7679752376344956181",
+   "title": "고양이를 곁들인 메이크업 튜토리얼 가져왔서욥 🐈‍⬛🖤 . . 화장품 정보🤍 Eyeshadow (아이섀도우) CLIO PRO EYE PALETTE",
+   "author": "easy_yun__",
+   "followers": 114800,
+   "views": 2800000,
+   "likes": 353300,
+   "comments": 383,
+   "shares": 16200,
+   "postedAt": "2026-08-30T09:21:36.000Z",
+   "ageHours": 1219,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 24.4,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 48.2,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/owrIAXTIXeo9GLqTiLeJRoI4TGeieWAAGBFvSQ~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=RQ38YHc1Ys8jd6mDetjdkn7Ifhg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DcEPI1xt6P4",
@@ -268,7 +322,7 @@
    "comments": 123,
    "shares": 16096,
    "postedAt": "2026-07-29T04:54:02+00:00",
-   "ageHours": 1990,
+   "ageHours": 1991,
    "region": "global",
    "flags": [
     "abs",
@@ -296,7 +350,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1239,
+   "ageHours": 1240,
    "region": "domestic",
    "flags": [
     "abs"
@@ -322,7 +376,7 @@
    "comments": 310,
    "shares": 24708,
    "postedAt": "2026-08-05T09:08:07+00:00",
-   "ageHours": 1818,
+   "ageHours": 1819,
    "region": "domestic",
    "flags": [
     "abs"
@@ -348,7 +402,7 @@
    "comments": 388,
    "shares": 31379,
    "postedAt": "2026-08-26T13:23:13+00:00",
-   "ageHours": 1310,
+   "ageHours": 1311,
    "region": "global",
    "flags": [
     "abs"
@@ -360,6 +414,33 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
+  },
+  {
+   "key": "tiktok:7690931436018224385",
+   "platform": "tiktok",
+   "embedId": "7690931436018224385",
+   "url": "https://www.tiktok.com/@me_.3ll/video/7690931436018224385",
+   "title": "#makeuptutorial ⁡ ❥Base ABOUT TONE — Skin Layer Fit Foundation 19 d’Alba — First",
+   "author": "me_.3ll",
+   "followers": 279800,
+   "views": 1800000,
+   "likes": 271600,
+   "comments": 334,
+   "shares": 8282,
+   "postedAt": "2026-09-29T12:22:16.000Z",
+   "ageHours": 496,
+   "region": "global",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 6.4,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 41.8,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oYXEnf67CgZRDQAIAU3EA2CUrBuFECQwqv1eAC~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=0kiRa2imptsF1gULCpVZdKRE0II%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DbnlNypqsMo",
@@ -374,7 +455,7 @@
    "comments": 504,
    "shares": 7503,
    "postedAt": "2026-08-04T12:41:22+00:00",
-   "ageHours": 1839,
+   "ageHours": 1840,
    "region": "domestic",
    "flags": [
     "abs"
@@ -400,7 +481,7 @@
    "comments": 279,
    "shares": 4284,
    "postedAt": "2026-08-22T03:59:39+00:00",
-   "ageHours": 1415,
+   "ageHours": 1416,
    "region": "domestic",
    "flags": [
     "abs"
@@ -426,7 +507,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1624,
+   "ageHours": 1625,
    "region": "domestic",
    "flags": [
     "abs"
@@ -452,7 +533,7 @@
    "comments": 248,
    "shares": 21685,
    "postedAt": "2026-08-10T07:21:36+00:00",
-   "ageHours": 1700,
+   "ageHours": 1701,
    "region": "global",
    "flags": [
     "abs"
@@ -505,7 +586,7 @@
    "comments": 23,
    "shares": 0,
    "postedAt": "2026-08-23T12:54:50.000Z",
-   "ageHours": 1382,
+   "ageHours": 1383,
    "region": "global",
    "flags": [
     "abs"
@@ -545,33 +626,6 @@
    "firstSeen": "2026-08-24"
   },
   {
-   "key": "instagram:Db2FPqexDjc",
-   "platform": "instagram",
-   "embedId": "Db2FPqexDjc",
-   "url": "https://www.instagram.com/reel/Db2FPqexDjc/",
-   "title": "📣1차공구마감🙂‍↕️ 9/7일 다시 옵니다🍀 난 거북목·일자목에 목디스크까지 있어서 목의 무거움과 뻐근함이 일상이었던 사람이에요. 조금만 무리해",
-   "author": "kkum.mi_homt",
-   "followers": 98259,
-   "views": 766656,
-   "likes": 1125,
-   "comments": 971,
-   "shares": 0,
-   "postedAt": "2026-08-10T03:47:53+00:00",
-   "ageHours": 1704,
-   "region": "domestic",
-   "flags": [
-    "abs",
-    "ratio"
-   ],
-   "ratio": 7.8,
-   "medianX": null,
-   "tier": "🔥🔥",
-   "score": 29.5,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
    "key": "instagram:DcVvJQTpq3m",
    "platform": "instagram",
    "embedId": "DcVvJQTpq3m",
@@ -584,7 +638,7 @@
    "comments": 267,
    "shares": 0,
    "postedAt": "2026-08-22T11:00:00.000Z",
-   "ageHours": 1408,
+   "ageHours": 1409,
    "region": "global",
    "flags": [
     "abs"
@@ -610,7 +664,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1216,
+   "ageHours": 1217,
    "region": "domestic",
    "flags": [
     "abs"
@@ -648,6 +702,32 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
+  },
+  {
+   "key": "tiktok:7695770542015663374",
+   "platform": "tiktok",
+   "embedId": "7695770542015663374",
+   "url": "https://www.tiktok.com/@kimcassironway/video/7695770542015663374",
+   "title": "Part 21 | clear skin 🍋 #koreanskincare #koreanbeauty #glowuptips #pores #acnesca",
+   "author": "kimcassironway",
+   "followers": 554500,
+   "views": 531600,
+   "likes": 41000,
+   "comments": 403,
+   "shares": 3367,
+   "postedAt": "2026-10-12T13:20:51.000Z",
+   "ageHours": 183,
+   "region": "global",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 1.0,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 24.2,
+   "source": "tiktok:스킨케어",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oEqBA91IMKyBzB93wYJrmfidiCAIDAZ5EF5AAE~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=VowApSX4kBpnR55I30B5JBEzcdo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DcDl20zuxMR",
@@ -714,7 +794,7 @@
    "comments": 14454,
    "shares": 12612,
    "postedAt": "2026-08-09T04:54:53+00:00",
-   "ageHours": 1726,
+   "ageHours": 1727,
    "region": "domestic",
    "flags": [
     "abs"
@@ -740,7 +820,7 @@
    "comments": 154,
    "shares": 2044,
    "postedAt": "2026-08-01T05:28:21+00:00",
-   "ageHours": 1918,
+   "ageHours": 1919,
    "region": "global",
    "flags": [
     "abs"
@@ -766,7 +846,7 @@
    "comments": 103,
    "shares": 7588,
    "postedAt": "2026-08-10T00:30:49+00:00",
-   "ageHours": 1707,
+   "ageHours": 1708,
    "region": "global",
    "flags": [
     "abs"
@@ -792,7 +872,7 @@
    "comments": 90,
    "shares": 4128,
    "postedAt": "2026-08-05T01:01:20+00:00",
-   "ageHours": 1826,
+   "ageHours": 1827,
    "region": "global",
    "flags": [
     "abs"
@@ -818,7 +898,7 @@
    "comments": 263,
    "shares": 333,
    "postedAt": "2026-08-18T09:42:33+00:00",
-   "ageHours": 1506,
+   "ageHours": 1507,
    "region": "domestic",
    "flags": [
     "abs"
@@ -830,6 +910,32 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
+  },
+  {
+   "key": "tiktok:7688935147059612929",
+   "platform": "tiktok",
+   "embedId": "7688935147059612929",
+   "url": "https://www.tiktok.com/@gomanan054/video/7688935147059612929",
+   "title": "가을이 왔다 즐깁시다 . 그런김에 튜토리얼도 ? 🍂🤎✌️ #가을메이크업 #학생메이크업 #연한메이크업 #웜톤메이크업#굽굽메이크업",
+   "author": "gomanan054",
+   "followers": 533700,
+   "views": 429800,
+   "likes": 25000,
+   "comments": 257,
+   "shares": 488,
+   "postedAt": "2026-09-24T03:15:26.000Z",
+   "ageHours": 625,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.8,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 21.1,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osCA7SO5IEEQ3Pv91YaiB0BncziJAArvzAlAV~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=Tp4MnKFA7eQIZCnK1KsltnwSlPA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DbiZe-4xLXF",
@@ -844,7 +950,7 @@
    "comments": 24,
    "shares": 518,
    "postedAt": "2026-08-02T12:26:59.000Z",
-   "ageHours": 1887,
+   "ageHours": 1888,
    "region": "domestic",
    "flags": [
     "abs"
@@ -856,6 +962,32 @@
    "source": "A",
    "thumb": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/764340090_2263580671061318_1889235823912226249_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=106&ig_cache_key=Mzk1NDgzNTUwMzA1NjIwNTI1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=YXnL9ibGzugQ7kNvwHb8g9o&_nc_oc=Adp_2eWlH8RsormPwrOTG--GEqIiNxXkZoSykD2SCllqLxdb3JhXUupE3hx2a9ui_eQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=RJygqVXw_UCUsOIZ34rQAQ&_nc_ss=7a3ba&oh=00_AQFEgdMbqSbja1kCRf_p9g5xy30VCiJuRHLJhKEXssR1-g&oe=6A919F6D",
    "firstSeen": "2026-08-24"
+  },
+  {
+   "key": "tiktok:7693108955899333909",
+   "platform": "tiktok",
+   "embedId": "7693108955899333909",
+   "url": "https://www.tiktok.com/@all_zero._.k/video/7693108955899333909",
+   "title": "#makeuptutorial #fyp",
+   "author": "all_zero._.k",
+   "followers": 87300,
+   "views": 384800,
+   "likes": 51400,
+   "comments": 41,
+   "shares": 1901,
+   "postedAt": "2026-10-05T09:11:57.000Z",
+   "ageHours": 355,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 4.4,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 19.5,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osgIGLVTtCDLDLGTgergP4aAIP0G4hztReMAje~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=aKN3w1Q9CJAQJYlc1CEC3ErRaME%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DbafHGVvtWQ",
@@ -870,7 +1002,7 @@
    "comments": 2483,
    "shares": 435,
    "postedAt": "2026-07-30T10:35:13+00:00",
-   "ageHours": 1961,
+   "ageHours": 1962,
    "region": "domestic",
    "flags": [
     "abs"
@@ -896,7 +1028,7 @@
    "comments": 22,
    "shares": 7719,
    "postedAt": "2026-08-14T11:06:41+00:00",
-   "ageHours": 1600,
+   "ageHours": 1601,
    "region": "domestic",
    "flags": [
     "abs"
@@ -908,6 +1040,32 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
+  },
+  {
+   "key": "tiktok:7695366640967355668",
+   "platform": "tiktok",
+   "embedId": "7695366640967355668",
+   "url": "https://www.tiktok.com/@gomanan054/video/7695366640967355668",
+   "title": "Douyin Makeup tutorial 🩷 도우인 메이크업 튜토리얼 #fyp#tiktok #makeuptutorial",
+   "author": "gomanan054",
+   "followers": 533700,
+   "views": 372700,
+   "likes": 31500,
+   "comments": 167,
+   "shares": 814,
+   "postedAt": "2026-10-11T11:12:53.000Z",
+   "ageHours": 209,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.7,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 19.0,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oIOKbaiELNp0EDAnTAvYB9nAAAstIzxQiBNbP~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=F9Tb2tLYpW1cEdcFCb95skbOk5A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DcOAgAYzbmy",
@@ -975,7 +1133,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1605,
+   "ageHours": 1606,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1001,7 +1159,7 @@
    "comments": 23,
    "shares": 7124,
    "postedAt": "2026-08-16T15:07:38+00:00",
-   "ageHours": 1548,
+   "ageHours": 1549,
    "region": "global",
    "flags": [
     "abs"
@@ -1053,7 +1211,7 @@
    "comments": 22,
    "shares": 2482,
    "postedAt": "2026-08-16T08:59:53+00:00",
-   "ageHours": 1554,
+   "ageHours": 1555,
    "region": "global",
    "flags": [
     "abs"
@@ -1079,7 +1237,7 @@
    "comments": 155,
    "shares": 0,
    "postedAt": "2026-08-17T17:39:37.000Z",
-   "ageHours": 1522,
+   "ageHours": 1523,
    "region": "global",
    "flags": [
     "abs"
@@ -1131,7 +1289,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1271,
+   "ageHours": 1272,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1169,6 +1327,33 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
+  },
+  {
+   "key": "tiktok:7687955964867218695",
+   "platform": "tiktok",
+   "embedId": "7687955964867218695",
+   "url": "https://www.tiktok.com/@_haewon22/video/7687955964867218695",
+   "title": "메컵 튜토 1편 #fyp #grwm #makeuptutorial #korean #transition",
+   "author": "_haewon22",
+   "followers": 19700,
+   "views": 221100,
+   "likes": 30200,
+   "comments": 17,
+   "shares": 978,
+   "postedAt": "2026-09-21T11:55:47.000Z",
+   "ageHours": 688,
+   "region": "global",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 11.2,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 11.7,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oIersDcDqBG4vcCFEYaRSAIGEBQxfsYgZRI0Ch~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=GIYVSCmstCOcCM3QVWamVXK8NtY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DcQsM5rPTmt",
@@ -1209,7 +1394,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1194,
+   "ageHours": 1195,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1221,6 +1406,32 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
+  },
+  {
+   "key": "tiktok:7689446599105187093",
+   "platform": "tiktok",
+   "embedId": "7689446599105187093",
+   "url": "https://www.tiktok.com/@_sxxxyeon_/video/7689446599105187093",
+   "title": "#grwm#koreanmakeup",
+   "author": "_sxxxyeon_",
+   "followers": 362400,
+   "views": 207400,
+   "likes": 30300,
+   "comments": 71,
+   "shares": 1027,
+   "postedAt": "2026-09-25T12:20:05.000Z",
+   "ageHours": 592,
+   "region": "global",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.6,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 10.6,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/o8Y2c7gIEqDAtciFmkB9CqZTkneBREDHIivzfS~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=V6%2Fv%2FbI4TpvSeY7meJQsx%2Bu2KQ0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DcPlgOuTv1n",
@@ -1235,7 +1446,7 @@
    "comments": 3,
    "shares": 0,
    "postedAt": "2026-08-20T01:31:46.000Z",
-   "ageHours": 1466,
+   "ageHours": 1467,
    "region": "global",
    "flags": [
     "abs"
@@ -1261,7 +1472,7 @@
    "comments": 427,
    "shares": 0,
    "postedAt": "2026-08-23T10:26:45.000Z",
-   "ageHours": 1385,
+   "ageHours": 1386,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1287,7 +1498,7 @@
    "comments": 81,
    "shares": 0,
    "postedAt": "2026-08-07T00:29:19.000Z",
-   "ageHours": 1779,
+   "ageHours": 1780,
    "region": "global",
    "flags": [
     "abs"
@@ -1313,7 +1524,7 @@
    "comments": 82,
    "shares": 242,
    "postedAt": "2026-08-13T11:32:24+00:00",
-   "ageHours": 1624,
+   "ageHours": 1625,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1339,7 +1550,7 @@
    "comments": 80,
    "shares": 0,
    "postedAt": "2026-08-22T20:37:24.000Z",
-   "ageHours": 1399,
+   "ageHours": 1400,
    "region": "global",
    "flags": [
     "abs"
@@ -1365,7 +1576,7 @@
    "comments": 61,
    "shares": 5283,
    "postedAt": "2026-08-10T09:33:40+00:00",
-   "ageHours": 1698,
+   "ageHours": 1699,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1391,7 +1602,7 @@
    "comments": 14,
    "shares": 0,
    "postedAt": "2026-07-25T06:59:29.000Z",
-   "ageHours": 2084,
+   "ageHours": 2085,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1417,7 +1628,7 @@
    "comments": 32,
    "shares": 0,
    "postedAt": "2026-08-21T14:26:24.000Z",
-   "ageHours": 1429,
+   "ageHours": 1430,
    "region": "global",
    "flags": [
     "abs"
@@ -1443,7 +1654,7 @@
    "comments": 53,
    "shares": 0,
    "postedAt": "2026-08-21T22:17:52.000Z",
-   "ageHours": 1421,
+   "ageHours": 1422,
    "region": "global",
    "flags": [
     "abs"
@@ -1495,7 +1706,7 @@
    "comments": 3272,
    "shares": 0,
    "postedAt": "2026-08-07T04:42:18.000Z",
-   "ageHours": 1775,
+   "ageHours": 1776,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1521,7 +1732,7 @@
    "comments": 2,
    "shares": 0,
    "postedAt": "2026-08-21T09:52:14.000Z",
-   "ageHours": 1433,
+   "ageHours": 1434,
    "region": "global",
    "flags": [
     "abs"
@@ -1547,7 +1758,7 @@
    "comments": 28,
    "shares": 0,
    "postedAt": "2026-08-21T11:23:41.000Z",
-   "ageHours": 1432,
+   "ageHours": 1433,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1573,7 +1784,7 @@
    "comments": 283,
    "shares": 58,
    "postedAt": "2026-08-23T10:02:58+00:00",
-   "ageHours": 1385,
+   "ageHours": 1386,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1599,7 +1810,7 @@
    "comments": 669,
    "shares": 0,
    "postedAt": "2026-08-11T02:14:55.000Z",
-   "ageHours": 1681,
+   "ageHours": 1682,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1651,7 +1862,7 @@
    "comments": 4163,
    "shares": 2590,
    "postedAt": "2026-08-19T08:40:08+00:00",
-   "ageHours": 1483,
+   "ageHours": 1484,
    "region": "domestic",
    "flags": [
     "abs"

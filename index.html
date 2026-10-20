@@ -495,14 +495,16 @@ function renderTabs(){
     `<button class="tab ${filter.status===k?'on':''}" data-st="${k}">${k==='all'?'전체':STATUS[k]} ${counts[k]||0}</button>`).join("")
     + `<button class="tab ${filter.star==="any"?'on':''}" id="starTab">⭐ ${a.filter(i=>i.rating>0).length}</button>`
     + [1,2,3,4,5].map(n=>`<button class="tab ${filter.star===n?'on':''}" data-starn="${n}">${n}★ ${a.filter(i=>i.rating===n).length}</button>`).join("")
-    + `<button class="tab ${filter.viral?'on':''}" id="viralTab" style="margin-left:auto;border-color:#ff8a3d">🔥 바이럴 ${viralCount()}</button>`;
+    + `<button class="tab ${filter.viral==="instagram"?'on':''}" id="viralTab" style="margin-left:auto;border-color:#ff8a3d">🔥 바이럴 ${viralCount("instagram")}</button>`
+    + `<button class="tab ${filter.viral==="tiktok"?'on':''}" id="tiktokTab" style="border-color:#69c9d0">🎵 틱톡 ${viralCount("tiktok")}</button>`;
   el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{filter.viral=false;filter.status=(filter.status===b.dataset.st)?"all":b.dataset.st;render();});
   document.getElementById("starTab").onclick=()=>{filter.viral=false;filter.star=(filter.star==="any")?0:"any";render();};
   el.querySelectorAll("[data-starn]").forEach(b=>b.onclick=()=>{
     const n=parseInt(b.dataset.starn);
     filter.viral=false; filter.star=(filter.star===n)?0:n; render();
   });
-  document.getElementById("viralTab").onclick=()=>{ filter.viral=!filter.viral; selMode=false; selIds.clear(); render(); };
+  document.getElementById("viralTab").onclick=()=>{ filter.viral=(filter.viral==="instagram")?false:"instagram"; selMode=false; selIds.clear(); render(); };
+  document.getElementById("tiktokTab").onclick=()=>{ filter.viral=(filter.viral==="tiktok")?false:"tiktok"; selMode=false; selIds.clear(); render(); };
 }
 function renderFilterChips(){
   const mk=(rowId,group,key,label)=>{
@@ -548,9 +550,11 @@ async function fetchViral(){
 }
 function fmtN(n){ n=+n||0; return n>=1e6? (n/1e6).toFixed(n>=1e7?0:1)+"M" : n>=1e3? (n/1e3).toFixed(n>=1e5?0:1)+"K" : String(n); }
 function viralRegistered(v){ return alive().some(x=>x.platform===v.platform && x.embedId===v.embedId); }
+function vplat(v){ return v.platform||"instagram"; }
 function viralItems(){
   const hidden=state.viralHidden||{}; const q=filter.q.toLowerCase();
   const arr=viralFeed.items.filter(v=> !hidden[v.key]
+    && vplat(v)===filter.viral
     && (vfilter.region==="all"||v.region===vfilter.region)
     && (v.views||0)>=vfilter.minViews
     && (!q || ((v.title||"")+" "+(v.author||"")).toLowerCase().includes(q)));
@@ -559,7 +563,7 @@ function viralItems(){
     : ((b.score||0)-(a.score||0)) || ((b.views||0)-(a.views||0)));
   return arr;
 }
-function viralCount(){ const h=state.viralHidden||{}; return viralFeed.items.filter(v=>!h[v.key]).length; }
+function viralCount(p){ const h=state.viralHidden||{}; return viralFeed.items.filter(v=>!h[v.key] && vplat(v)===p).length; }
 function renderViralBar(){
   const el=document.getElementById("viralBar");
   el.style.display = filter.viral? "" : "none";
@@ -568,7 +572,7 @@ function renderViralBar(){
   if(!filter.viral) return;
   const regions=[["all","전체"],["domestic","🇰🇷 국내"],["global","🌏 해외"]];
   const mins=[[0,"조회수 전체"],[100000,"10만+"],[500000,"50만+"],[1000000,"100만+"]];
-  el.innerHTML = `<span class="lbl">🔥</span>`
+  el.innerHTML = `<span class="lbl">${filter.viral==="tiktok"?"🎵":"🔥"}</span>`
     + regions.map(([k,l])=>`<button class="chip ${vfilter.region===k?'on':''}" data-vr="${k}">${l}</button>`).join("")
     + `<select data-vsort style="width:auto;font-size:12px;padding:4px 6px"><option value="score">바이럴 점수순</option><option value="views">조회수순</option><option value="new">게시 최신순</option></select>`
     + `<select data-vmin style="width:auto;font-size:12px;padding:4px 6px">${mins.map(([k,l])=>`<option value="${k}">${l}</option>`).join("")}</select>`
@@ -581,8 +585,9 @@ function renderViralGrid(){
   const grid=document.getElementById("grid");
   const items=viralItems();
   document.getElementById("cnt").textContent = items.length+"개";
-  if(!viralFeed.items.length){
-    grid.innerHTML=`<div class="empty">아직 바이럴 피드가 없어요.<br><span style="font-size:12px">매일 07:20 수집기(viral_feed.py)가 data/viral.json을 올리면 여기에 표시됩니다.</span></div>`; return;
+  if(!viralFeed.items.some(v=>vplat(v)===filter.viral)){
+    const nm = filter.viral==="tiktok" ? "틱톡" : "바이럴";
+    grid.innerHTML=`<div class="empty">아직 ${nm} 피드가 없어요.<br><span style="font-size:12px">매일 07:20 수집기(viral_feed.py)가 data/viral.json을 올리면 여기에 표시됩니다.</span></div>`; return;
   }
   if(!items.length){ grid.innerHTML=`<div class="empty">조건에 맞는 영상이 없어요. 지역·조회수 필터를 풀어보세요.</div>`; return; }
   grid.innerHTML = items.map(v=>{
@@ -621,11 +626,11 @@ function addFromViral(key){
   if(!me()){ toast("로그인 후 넘길 수 있어요"); return; }
   const v=viralFeed.items.find(x=>x.key===key); if(!v) return;
   if(viralRegistered(v)){ toast("이미 레퍼런스함에 있어요"); renderGrid(); return; }
-  const memo=["🔥 조회수 "+fmtN(v.views), v.followers?"팔로워 "+fmtN(v.followers):"", v.ratio?v.ratio+"×":"",
+  const memo=[(v.platform==="tiktok"?"🎵":"🔥")+" 조회수 "+fmtN(v.views), v.followers?"팔로워 "+fmtN(v.followers):"", v.ratio?v.ratio+"×":"",
     v.region==="domestic"?"국내":"해외", "바이럴피드 "+(viralFeed.generatedAt||"").slice(0,10)].filter(Boolean).join(" · ");
   const it={id:uid(), addedAt:now(), updatedAt:now(), addedBy:conf.name||sess.id||"", url:v.url, platform:v.platform, embedId:v.embedId,
     title:(v.title||"").slice(0,120), memo, needs:[], types:[], status:"inbox", rating:0};
-  state.items.push(it); addLog("바이럴→추가",(it.title||it.embedId).slice(0,40));
+  state.items.push(it); addLog((v.platform==="tiktok"?"틱톡":"바이럴")+"→추가",(it.title||it.embedId).slice(0,40));
   persist(); toast("📥 레퍼런스함에 추가됨");
 }
 function hideViral(key){
