@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-20T07:25:37Z",
+ "generatedAt": "2026-10-20T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1383,
+   "ageHours": 1398,
    "region": "global",
    "flags": [
     "abs",
@@ -51,7 +51,7 @@
    "comments": 1838,
    "shares": 31123,
    "postedAt": "2026-08-16T02:13:00+00:00",
-   "ageHours": 1565,
+   "ageHours": 1580,
    "region": "domestic",
    "flags": [
     "abs",
@@ -79,7 +79,7 @@
    "comments": 630,
    "shares": 57887,
    "postedAt": "2026-07-25T12:04:37+00:00",
-   "ageHours": 2083,
+   "ageHours": 2098,
    "region": "domestic",
    "flags": [
     "abs"
@@ -105,7 +105,7 @@
    "comments": 856,
    "shares": 18220,
    "postedAt": "2026-08-23T10:25:12+00:00",
-   "ageHours": 1389,
+   "ageHours": 1404,
    "region": "global",
    "flags": [
     "abs"
@@ -131,7 +131,7 @@
    "comments": 260,
    "shares": 18722,
    "postedAt": "2026-07-29T17:16:58+00:00",
-   "ageHours": 1982,
+   "ageHours": 1997,
    "region": "global",
    "flags": [
     "abs",
@@ -159,7 +159,7 @@
    "comments": 344,
    "shares": 42772,
    "postedAt": "2026-08-30T07:08:54+00:00",
-   "ageHours": 1224,
+   "ageHours": 1239,
    "region": "global",
    "flags": [
     "abs",
@@ -187,7 +187,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 143,
+   "ageHours": 158,
    "region": "global",
    "flags": [
     "abs",
@@ -214,7 +214,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1222,
+   "ageHours": 1237,
    "region": "domestic",
    "flags": [
     "abs",
@@ -235,20 +235,22 @@
    "url": "https://www.instagram.com/reel/Dcn3yC3y_YX/",
    "title": "고양이를 곁들인 메이크업 튜토리얼 가져왔서욥 🐈‍⬛🖤 화장품 정보🤍 Eyeshadow (아이섀도우) CLIO PRO EYE PALETTE AIR",
    "author": "easy_yun_",
-   "followers": 0,
+   "followers": 378562,
    "views": 1991343,
    "likes": 181673,
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1244,
+   "ageHours": 1258,
    "region": "domestic",
    "flags": [
-    "abs"
+    "abs",
+    "ratio",
+    "median"
    ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
+   "ratio": 5.3,
+   "medianX": 35.9,
+   "tier": "🔥🔥🔥",
    "score": 43.3,
    "source": "B",
    "thumb": "",
@@ -261,18 +263,18 @@
    "url": "https://www.instagram.com/reel/DbpxqxPRcuy/",
    "title": "#광고 신전떡볶이 신메뉴 먹방!!!❤️🔥 📍신전떡볶이 🍛맵크림리조또 🌽콘버터 🧀포테이토치즈스틱 🌶️신전떡볶이 🧀신전치즈김밥 🦑튀김 3종 (오징어",
    "author": "shu_kiiiii",
-   "followers": 0,
+   "followers": 717367,
    "views": 1977561,
    "likes": 0,
    "comments": 310,
    "shares": 24708,
    "postedAt": "2026-08-05T09:08:07+00:00",
-   "ageHours": 1822,
+   "ageHours": 1837,
    "region": "domestic",
    "flags": [
     "abs"
    ],
-   "ratio": null,
+   "ratio": 2.8,
    "medianX": null,
    "tier": "🔥",
    "score": 43.2,
@@ -287,19 +289,19 @@
    "url": "https://www.instagram.com/reel/DbnlNypqsMo/",
    "title": "#광고 송쭈집 쭈꾸미 500g(2인분) 2팩 구매 시, 2팩마다 설악칡냉면 증정! . . #송쭈집 #쭈꾸미볶음 #쭈꾸미 #먹방",
    "author": "ok_tuk_2",
-   "followers": 0,
+   "followers": 1201679,
    "views": 1761715,
    "likes": 47570,
    "comments": 504,
    "shares": 7503,
    "postedAt": "2026-08-04T12:41:22+00:00",
-   "ageHours": 1843,
+   "ageHours": 1858,
    "region": "domestic",
    "flags": [
     "abs"
    ],
-   "ratio": null,
-   "medianX": null,
+   "ratio": 1.5,
+   "medianX": 2.4,
    "tier": "🔥",
    "score": 41.5,
    "source": "B",
@@ -313,20 +315,21 @@
    "url": "https://www.instagram.com/reel/DcU_SIfRfs4/",
    "title": "여러분의 첫 라면의 맛은 어땠나요? #광고 우리에게는 이제 너무도 당연한 라면 한 그릇. 하지만 할아버지가 처음 라면을 접했던 때에는 라면이라는",
    "author": "grandpa.29_",
-   "followers": 0,
+   "followers": 300006,
    "views": 1297290,
    "likes": 28713,
    "comments": 279,
    "shares": 4284,
    "postedAt": "2026-08-22T03:59:39+00:00",
-   "ageHours": 1419,
+   "ageHours": 1434,
    "region": "domestic",
    "flags": [
-    "abs"
+    "abs",
+    "median"
    ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
+   "ratio": 4.3,
+   "medianX": 3.4,
+   "tier": "🔥🔥",
    "score": 37.1,
    "source": "B",
    "thumb": "",
@@ -339,20 +342,21 @@
    "url": "https://www.instagram.com/reel/Db-lIKKTQAq/",
    "title": "#광고 유니클로가 독을 풀었다… 피팅룸 가보면 다 배럴진 입고있음 진짜로; 🏷️ 유니클로 배럴 진 (57 OLIVE, 69 NAVY) 59,00",
    "author": "iamsejong",
-   "followers": 0,
+   "followers": 71428,
    "views": 1295082,
    "likes": 8947,
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1628,
+   "ageHours": 1643,
    "region": "domestic",
    "flags": [
-    "abs"
+    "abs",
+    "ratio"
    ],
-   "ratio": null,
+   "ratio": 18.1,
    "medianX": null,
-   "tier": "🔥",
+   "tier": "🔥🔥",
    "score": 37.1,
    "source": "B",
    "thumb": "",
@@ -365,22 +369,22 @@
    "url": "https://www.instagram.com/reel/DcXN5vWyCWB/",
    "title": "기력 보충이 필요한 날, 온 가족을 위한 특별한 건강 솥밥 만들어 보세요 내가 만들어 정성 가득이고, 밖에서 이 재료로 양껏 먹으려면 10만원은",
    "author": "jinucook",
-   "followers": 180621,
+   "followers": 279378,
    "views": 982133,
    "likes": 8776,
    "comments": 214,
    "shares": 6780,
    "postedAt": "2026-08-23T00:45:17+00:00",
-   "ageHours": 1399,
+   "ageHours": 1414,
    "region": "domestic",
    "flags": [
     "abs",
-    "ratio"
+    "median"
    ],
-   "ratio": 5.4,
-   "medianX": null,
+   "ratio": 3.5,
+   "medianX": 34.3,
    "tier": "🔥🔥",
-   "score": 33.1,
+   "score": 35.3,
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
@@ -398,7 +402,7 @@
    "comments": 1175,
    "shares": 0,
    "postedAt": "2026-08-03T22:43:05+00:00",
-   "ageHours": 1857,
+   "ageHours": 1872,
    "region": "domestic",
    "flags": [
     "abs"
@@ -424,7 +428,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1220,
+   "ageHours": 1235,
    "region": "domestic",
    "flags": [
     "abs"
@@ -450,7 +454,7 @@
    "comments": 80,
    "shares": 6226,
    "postedAt": "2026-08-23T05:47:02+00:00",
-   "ageHours": 1394,
+   "ageHours": 1409,
    "region": "domestic",
    "flags": [
     "abs"
@@ -476,7 +480,7 @@
    "comments": 134,
    "shares": 508,
    "postedAt": "2026-08-15T09:49:17+00:00",
-   "ageHours": 1582,
+   "ageHours": 1597,
    "region": "domestic",
    "flags": [
     "abs"
@@ -502,7 +506,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1806,
+   "ageHours": 1821,
    "region": "domestic",
    "flags": [
     "abs"
@@ -528,7 +532,7 @@
    "comments": 14454,
    "shares": 12612,
    "postedAt": "2026-08-09T04:54:53+00:00",
-   "ageHours": 1731,
+   "ageHours": 1745,
    "region": "domestic",
    "flags": [
     "abs"
@@ -554,7 +558,7 @@
    "comments": 263,
    "shares": 333,
    "postedAt": "2026-08-18T09:42:33+00:00",
-   "ageHours": 1510,
+   "ageHours": 1525,
    "region": "domestic",
    "flags": [
     "abs"
@@ -580,7 +584,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 628,
+   "ageHours": 643,
    "region": "domestic",
    "flags": [
     "abs"
@@ -606,7 +610,7 @@
    "comments": 24,
    "shares": 518,
    "postedAt": "2026-08-02T12:26:59.000Z",
-   "ageHours": 1891,
+   "ageHours": 1906,
    "region": "domestic",
    "flags": [
     "abs"
@@ -632,7 +636,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 358,
+   "ageHours": 373,
    "region": "domestic",
    "flags": [
     "abs"
@@ -658,7 +662,7 @@
    "comments": 2483,
    "shares": 435,
    "postedAt": "2026-07-30T10:35:13+00:00",
-   "ageHours": 1965,
+   "ageHours": 1980,
    "region": "domestic",
    "flags": [
     "abs"
@@ -684,7 +688,7 @@
    "comments": 22,
    "shares": 7719,
    "postedAt": "2026-08-14T11:06:41+00:00",
-   "ageHours": 1604,
+   "ageHours": 1619,
    "region": "domestic",
    "flags": [
     "abs"
@@ -710,7 +714,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 212,
+   "ageHours": 227,
    "region": "domestic",
    "flags": [
     "abs"
@@ -736,7 +740,7 @@
    "comments": 904,
    "shares": 1939,
    "postedAt": "2026-08-19T21:48:32+00:00",
-   "ageHours": 1474,
+   "ageHours": 1489,
    "region": "domestic",
    "flags": [
     "abs",
@@ -763,7 +767,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1609,
+   "ageHours": 1624,
    "region": "domestic",
    "flags": [
     "abs"
@@ -789,7 +793,7 @@
    "comments": 895,
    "shares": 1386,
    "postedAt": "2026-08-23T11:46:40+00:00",
-   "ageHours": 1388,
+   "ageHours": 1403,
    "region": "domestic",
    "flags": [
     "abs"
@@ -815,7 +819,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1275,
+   "ageHours": 1290,
    "region": "domestic",
    "flags": [
     "abs"
@@ -841,7 +845,7 @@
    "comments": 77,
    "shares": 0,
    "postedAt": "2026-08-20T11:50:26.000Z",
-   "ageHours": 1460,
+   "ageHours": 1474,
    "region": "domestic",
    "flags": [
     "abs"
@@ -867,7 +871,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1199,
+   "ageHours": 1213,
    "region": "domestic",
    "flags": [
     "abs"
@@ -893,7 +897,7 @@
    "comments": 427,
    "shares": 0,
    "postedAt": "2026-08-23T10:26:45.000Z",
-   "ageHours": 1389,
+   "ageHours": 1404,
    "region": "domestic",
    "flags": [
     "abs"
@@ -919,7 +923,7 @@
    "comments": 82,
    "shares": 242,
    "postedAt": "2026-08-13T11:32:24+00:00",
-   "ageHours": 1628,
+   "ageHours": 1643,
    "region": "domestic",
    "flags": [
     "abs"
@@ -945,7 +949,7 @@
    "comments": 61,
    "shares": 5283,
    "postedAt": "2026-08-10T09:33:40+00:00",
-   "ageHours": 1702,
+   "ageHours": 1717,
    "region": "domestic",
    "flags": [
     "abs"
@@ -971,7 +975,7 @@
    "comments": 14,
    "shares": 0,
    "postedAt": "2026-07-25T06:59:29.000Z",
-   "ageHours": 2088,
+   "ageHours": 2103,
    "region": "domestic",
    "flags": [
     "abs"
@@ -997,7 +1001,7 @@
    "comments": 3272,
    "shares": 0,
    "postedAt": "2026-08-07T04:42:18.000Z",
-   "ageHours": 1779,
+   "ageHours": 1794,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1023,7 +1027,7 @@
    "comments": 28,
    "shares": 0,
    "postedAt": "2026-08-21T11:23:41.000Z",
-   "ageHours": 1436,
+   "ageHours": 1451,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1049,7 +1053,7 @@
    "comments": 283,
    "shares": 58,
    "postedAt": "2026-08-23T10:02:58+00:00",
-   "ageHours": 1389,
+   "ageHours": 1404,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1075,7 +1079,7 @@
    "comments": 669,
    "shares": 0,
    "postedAt": "2026-08-11T02:14:55.000Z",
-   "ageHours": 1685,
+   "ageHours": 1700,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1101,7 +1105,7 @@
    "comments": 18,
    "shares": 0,
    "postedAt": "2026-08-19T08:49:06.000Z",
-   "ageHours": 1487,
+   "ageHours": 1502,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1127,7 +1131,7 @@
    "comments": 4163,
    "shares": 2590,
    "postedAt": "2026-08-19T08:40:08+00:00",
-   "ageHours": 1487,
+   "ageHours": 1502,
    "region": "domestic",
    "flags": [
     "abs"
