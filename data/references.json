@@ -9522,12 +9522,8 @@
       "embedId": "DeUBBfsBkDe",
       "title": "",
       "memo": "문제제기만 이미지와 텍스트를 통해서 하고 after를 보여줌 근데 오디오가 아예 없음",
-      "needs": [
-        "여드름 트러블"
-      ],
-      "types": [
-        "문제사연"
-      ],
+      "needs": [],
+      "types": [],
       "status": "inbox",
       "rating": 3,
       "addedBy": "눈길",
@@ -9578,9 +9574,7 @@
       "embedId": "Defq2t-zhgM",
       "title": "제목 후킹 참고",
       "memo": "",
-      "needs": [
-        "미백"
-      ],
+      "needs": [],
       "types": [],
       "status": "inbox",
       "rating": 3,
@@ -9785,7 +9779,6 @@
       }
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -10223,6 +10216,7 @@
       "d": "📣1차공구마감🙂‍↕️ 9/7일 다시 옵니다🍀 난 거북목·일자목에 목"
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
