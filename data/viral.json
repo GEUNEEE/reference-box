@@ -1,12 +1,13 @@
 {
  "version": 1,
- "generatedAt": "2026-10-20T04:12:51Z",
+ "generatedAt": "2026-10-20T07:25:37Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
   "median_x": 3.0,
   "ratio_min_views": 10000,
-  "min_age_h": 48
+  "min_age_h": 48,
+  "global_share": 0.1
  },
  "items": [
   {
@@ -22,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1380,
+   "ageHours": 1383,
    "region": "global",
    "flags": [
     "abs",
@@ -50,7 +51,7 @@
    "comments": 1838,
    "shares": 31123,
    "postedAt": "2026-08-16T02:13:00+00:00",
-   "ageHours": 1562,
+   "ageHours": 1565,
    "region": "domestic",
    "flags": [
     "abs",
@@ -78,7 +79,7 @@
    "comments": 630,
    "shares": 57887,
    "postedAt": "2026-07-25T12:04:37+00:00",
-   "ageHours": 2080,
+   "ageHours": 2083,
    "region": "domestic",
    "flags": [
     "abs"
@@ -104,7 +105,7 @@
    "comments": 856,
    "shares": 18220,
    "postedAt": "2026-08-23T10:25:12+00:00",
-   "ageHours": 1386,
+   "ageHours": 1389,
    "region": "global",
    "flags": [
     "abs"
@@ -130,7 +131,7 @@
    "comments": 260,
    "shares": 18722,
    "postedAt": "2026-07-29T17:16:58+00:00",
-   "ageHours": 1979,
+   "ageHours": 1982,
    "region": "global",
    "flags": [
     "abs",
@@ -158,7 +159,7 @@
    "comments": 344,
    "shares": 42772,
    "postedAt": "2026-08-30T07:08:54+00:00",
-   "ageHours": 1221,
+   "ageHours": 1224,
    "region": "global",
    "flags": [
     "abs",
@@ -169,62 +170,6 @@
    "medianX": 21.5,
    "tier": "🔥🔥🔥",
    "score": 65.4,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:DcZUC0ZC6NM",
-   "platform": "instagram",
-   "embedId": "DcZUC0ZC6NM",
-   "url": "https://www.instagram.com/reel/DcZUC0ZC6NM/",
-   "title": "sunday skincare routine @skin1004official to clear post acne blemishes 🫧 pink ce",
-   "author": "dianasidva",
-   "followers": 38794,
-   "views": 3793284,
-   "likes": 78015,
-   "comments": 182,
-   "shares": 3919,
-   "postedAt": "2026-08-23T20:11:07+00:00",
-   "ageHours": 1376,
-   "region": "global",
-   "flags": [
-    "abs",
-    "ratio",
-    "median"
-   ],
-   "ratio": 97.8,
-   "medianX": 241.3,
-   "tier": "🔥🔥🔥",
-   "score": 63.5,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:DctKWb0NFcS",
-   "platform": "instagram",
-   "embedId": "DctKWb0NFcS",
-   "url": "https://www.instagram.com/reel/DctKWb0NFcS/",
-   "title": "2026 K- Beauty Trend >> #skin #skincare #glow #skincareroutine #kbeauty",
-   "author": "albina",
-   "followers": 1091224,
-   "views": 7009295,
-   "likes": 40437,
-   "comments": 403,
-   "shares": 23960,
-   "postedAt": "2026-08-31T13:11:03+00:00",
-   "ageHours": 1191,
-   "region": "global",
-   "flags": [
-    "abs",
-    "ratio",
-    "median"
-   ],
-   "ratio": 6.4,
-   "medianX": 24.4,
-   "tier": "🔥🔥🔥",
-   "score": 61.5,
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
@@ -242,7 +187,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 140,
+   "ageHours": 143,
    "region": "global",
    "flags": [
     "abs",
@@ -269,7 +214,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1219,
+   "ageHours": 1222,
    "region": "domestic",
    "flags": [
     "abs",
@@ -284,60 +229,6 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "key": "instagram:DcEPI1xt6P4",
-   "platform": "instagram",
-   "embedId": "DcEPI1xt6P4",
-   "url": "https://www.instagram.com/reel/DcEPI1xt6P4/",
-   "title": "Korean skincare girlies, but make it low-maintenance 🤍✨ I love the glow, the hyd",
-   "author": "_krithikuttathil",
-   "followers": 0,
-   "views": 2428419,
-   "likes": 48407,
-   "comments": 227,
-   "shares": 0,
-   "postedAt": "2026-08-15T15:45:15.000Z",
-   "ageHours": 1572,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 46.2,
-   "source": "A",
-   "thumb": "https://instagram.frix7-1.fna.fbcdn.net/v/t51.82787-15/775871644_18624087238002723_7269186778418874920_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=109&ig_cache_key=Mzk2NDM2MDE1MDE4ODc5NDg3MjE4NjI0MDg3MjMyMDAyNzIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=XRXrhQ1d9IAQ7kNvwGvZNcO&_nc_oc=AdrSGrt1dubvtxeMLMZMPHPiuufm2O6AP_MGXxLWiTFWR2p1RWF_-sBk-jG8Wk4ZkFg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frix7-1.fna&_nc_gid=aWhqUhofRKIItqD7lKVvPg&_nc_ss=7a3ba&oh=00_AQHWEoYxGxg3V8KHoRItGgSy5pLxIK8iceN5A4ntJnKO8A&oe=6A919A9C",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DbXR1lLI_Ty",
-   "platform": "instagram",
-   "embedId": "DbXR1lLI_Ty",
-   "url": "https://www.instagram.com/reel/DbXR1lLI_Ty/",
-   "title": "Smokey makeup #makeup #makeuptutorial #eyemakeup #explore",
-   "author": "twiluma_",
-   "followers": 80835,
-   "views": 2063972,
-   "likes": 208215,
-   "comments": 123,
-   "shares": 16096,
-   "postedAt": "2026-07-29T04:54:02+00:00",
-   "ageHours": 1991,
-   "region": "global",
-   "flags": [
-    "abs",
-    "ratio",
-    "median"
-   ],
-   "ratio": 25.5,
-   "medianX": 4.8,
-   "tier": "🔥🔥🔥",
-   "score": 43.8,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
    "key": "instagram:Dcn3yC3y_YX",
    "platform": "instagram",
    "embedId": "Dcn3yC3y_YX",
@@ -350,7 +241,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1240,
+   "ageHours": 1244,
    "region": "domestic",
    "flags": [
     "abs"
@@ -376,7 +267,7 @@
    "comments": 310,
    "shares": 24708,
    "postedAt": "2026-08-05T09:08:07+00:00",
-   "ageHours": 1819,
+   "ageHours": 1822,
    "region": "domestic",
    "flags": [
     "abs"
@@ -388,59 +279,6 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcgTwifoU41",
-   "platform": "instagram",
-   "embedId": "DcgTwifoU41",
-   "url": "https://www.instagram.com/reel/DcgTwifoU41/",
-   "title": "Makeup tutorial!!💖#makeuptutorial",
-   "author": "fioletowu",
-   "followers": 0,
-   "views": 1847064,
-   "likes": 113323,
-   "comments": 388,
-   "shares": 31379,
-   "postedAt": "2026-08-26T13:23:13+00:00",
-   "ageHours": 1311,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 42.2,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "tiktok:7690931436018224385",
-   "platform": "tiktok",
-   "embedId": "7690931436018224385",
-   "url": "https://www.tiktok.com/@me_.3ll/video/7690931436018224385",
-   "title": "#makeuptutorial ⁡ ❥Base ABOUT TONE — Skin Layer Fit Foundation 19 d’Alba — First",
-   "author": "me_.3ll",
-   "followers": 279800,
-   "views": 1800000,
-   "likes": 271600,
-   "comments": 334,
-   "shares": 8282,
-   "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 496,
-   "region": "global",
-   "flags": [
-    "abs",
-    "ratio"
-   ],
-   "ratio": 6.4,
-   "medianX": null,
-   "tier": "🔥🔥",
-   "score": 41.8,
-   "source": "tiktok:메이크업",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oYXEnf67CgZRDQAIAU3EA2CUrBuFECQwqv1eAC~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=0kiRa2imptsF1gULCpVZdKRE0II%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DbnlNypqsMo",
@@ -455,7 +293,7 @@
    "comments": 504,
    "shares": 7503,
    "postedAt": "2026-08-04T12:41:22+00:00",
-   "ageHours": 1840,
+   "ageHours": 1843,
    "region": "domestic",
    "flags": [
     "abs"
@@ -481,7 +319,7 @@
    "comments": 279,
    "shares": 4284,
    "postedAt": "2026-08-22T03:59:39+00:00",
-   "ageHours": 1416,
+   "ageHours": 1419,
    "region": "domestic",
    "flags": [
     "abs"
@@ -507,7 +345,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1625,
+   "ageHours": 1628,
    "region": "domestic",
    "flags": [
     "abs"
@@ -516,32 +354,6 @@
    "medianX": null,
    "tier": "🔥",
    "score": 37.1,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:Db2dShntwDc",
-   "platform": "instagram",
-   "embedId": "Db2dShntwDc",
-   "url": "https://www.instagram.com/reel/Db2dShntwDc/",
-   "title": "میکاپ آیدل‌های کره‌ای ✨ چشم‌های نرم، رژگونه محو و لب‌های ژله‌ای براق… #KoreanMak",
-   "author": "yeganemoghaddam",
-   "followers": 0,
-   "views": 1023124,
-   "likes": 25705,
-   "comments": 248,
-   "shares": 21685,
-   "postedAt": "2026-08-10T07:21:36+00:00",
-   "ageHours": 1701,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 33.7,
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
@@ -559,7 +371,7 @@
    "comments": 214,
    "shares": 6780,
    "postedAt": "2026-08-23T00:45:17+00:00",
-   "ageHours": 1395,
+   "ageHours": 1399,
    "region": "domestic",
    "flags": [
     "abs",
@@ -571,32 +383,6 @@
    "score": 33.1,
    "source": "B",
    "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcYiDBPNpqV",
-   "platform": "instagram",
-   "embedId": "DcYiDBPNpqV",
-   "url": "https://www.instagram.com/reel/DcYiDBPNpqV/",
-   "title": "“Apparently, your face can look tired… even when you aren’t. 🥲 After hearing “Yo",
-   "author": "_krithikuttathil",
-   "followers": 0,
-   "views": 899583,
-   "likes": 25827,
-   "comments": 23,
-   "shares": 0,
-   "postedAt": "2026-08-23T12:54:50.000Z",
-   "ageHours": 1383,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 31.8,
-   "source": "A",
-   "thumb": "https://scontent-bru2-1.cdninstagram.com/v/t51.82787-15/781630404_18626868994002723_9059424195274372953_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk3MDA3MjgxMjU5NTg3ODU0OTE4NjI2ODY4OTkxMDAyNzIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=aALeqWAvpHkQ7kNvwEKptGU&_nc_oc=AdrhjMn-pEWjTIR5413DlJUKr2rs9nZEqIFMlSiq9Cmb8R6oRGIvi1wOqaOXxz_qK2U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_gid=67FQ8U__di-zkAWdOwOmuA&_nc_ss=7a3ba&oh=00_AQHDKJAQyYd4lwge6vRJqP_o89jIOxaijwsNSA8deAQDxQ&oe=6A91A63C",
    "firstSeen": "2026-08-24"
   },
   {
@@ -612,7 +398,7 @@
    "comments": 1175,
    "shares": 0,
    "postedAt": "2026-08-03T22:43:05+00:00",
-   "ageHours": 1853,
+   "ageHours": 1857,
    "region": "domestic",
    "flags": [
     "abs"
@@ -623,32 +409,6 @@
    "score": 30.1,
    "source": "B",
    "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcVvJQTpq3m",
-   "platform": "instagram",
-   "embedId": "DcVvJQTpq3m",
-   "url": "https://www.instagram.com/reel/DcVvJQTpq3m/",
-   "title": "Glow goals ✨💗 Skincare that feels as good as it looks! With Dot & Key, keeping m",
-   "author": "_amritasethi",
-   "followers": 0,
-   "views": 723112,
-   "likes": 9496,
-   "comments": 267,
-   "shares": 0,
-   "postedAt": "2026-08-22T11:00:00.000Z",
-   "ageHours": 1409,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 28.6,
-   "source": "A",
-   "thumb": "https://scontent-bru2-1.cdninstagram.com/v/t51.71878-15/784426922_1062635892794791_5883272789116684507_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=Mzk2OTI4NTk5MDc2NzgzMjU1MDIxNjY5ODA3MDc0OTU4MjI%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=proCMG1AnHkQ7kNvwE0ODiV&_nc_oc=AdoNoLuWgUySl4_6mRTPNvtppyJodT1hPBYEKj6lHBp22F-6306tzcSjinq-AankQRA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_gid=67FQ8U__di-zkAWdOwOmuA&_nc_ss=7a3ba&oh=00_AQEqhEv22EGbzbU5ki07PPeMIOSqeiP-9GG5SoJlZDe8oQ&oe=6A917DF3",
    "firstSeen": "2026-08-24"
   },
   {
@@ -664,7 +424,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1217,
+   "ageHours": 1220,
    "region": "domestic",
    "flags": [
     "abs"
@@ -690,7 +450,7 @@
    "comments": 80,
    "shares": 6226,
    "postedAt": "2026-08-23T05:47:02+00:00",
-   "ageHours": 1390,
+   "ageHours": 1394,
    "region": "domestic",
    "flags": [
     "abs"
@@ -702,32 +462,6 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "tiktok:7695770542015663374",
-   "platform": "tiktok",
-   "embedId": "7695770542015663374",
-   "url": "https://www.tiktok.com/@kimcassironway/video/7695770542015663374",
-   "title": "Part 21 | clear skin 🍋 #koreanskincare #koreanbeauty #glowuptips #pores #acnesca",
-   "author": "kimcassironway",
-   "followers": 554500,
-   "views": 531600,
-   "likes": 41000,
-   "comments": 403,
-   "shares": 3367,
-   "postedAt": "2026-10-12T13:20:51.000Z",
-   "ageHours": 183,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": 1.0,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 24.2,
-   "source": "tiktok:스킨케어",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oEqBA91IMKyBzB93wYJrmfidiCAIDAZ5EF5AAE~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=VowApSX4kBpnR55I30B5JBEzcdo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
-   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DcDl20zuxMR",
@@ -742,7 +476,7 @@
    "comments": 134,
    "shares": 508,
    "postedAt": "2026-08-15T09:49:17+00:00",
-   "ageHours": 1578,
+   "ageHours": 1582,
    "region": "domestic",
    "flags": [
     "abs"
@@ -768,7 +502,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1802,
+   "ageHours": 1806,
    "region": "domestic",
    "flags": [
     "abs"
@@ -794,7 +528,7 @@
    "comments": 14454,
    "shares": 12612,
    "postedAt": "2026-08-09T04:54:53+00:00",
-   "ageHours": 1727,
+   "ageHours": 1731,
    "region": "domestic",
    "flags": [
     "abs"
@@ -803,84 +537,6 @@
    "medianX": null,
    "tier": "🔥",
    "score": 22.9,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DbfFgeURa9e",
-   "platform": "instagram",
-   "embedId": "DbfFgeURa9e",
-   "url": "https://www.instagram.com/reel/DbfFgeURa9e/",
-   "title": "Let me show u…#makeup #transition #douyin",
-   "author": "shuyo_umu",
-   "followers": 0,
-   "views": 481203,
-   "likes": 18755,
-   "comments": 154,
-   "shares": 2044,
-   "postedAt": "2026-08-01T05:28:21+00:00",
-   "ageHours": 1919,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 22.7,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:Db1uszrBdEt",
-   "platform": "instagram",
-   "embedId": "Db1uszrBdEt",
-   "url": "https://www.instagram.com/reel/Db1uszrBdEt/",
-   "title": "Vitamin C vs Retinol which one is right for you? #kbeauty #koreanskincare #darks",
-   "author": "hudsonsqrd",
-   "followers": 0,
-   "views": 472894,
-   "likes": 7408,
-   "comments": 103,
-   "shares": 7588,
-   "postedAt": "2026-08-10T00:30:49+00:00",
-   "ageHours": 1708,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 22.5,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:Dbo6KGUpcLL",
-   "platform": "instagram",
-   "embedId": "Dbo6KGUpcLL",
-   "url": "https://www.instagram.com/reel/Dbo6KGUpcLL/",
-   "title": "asmr night routine 🌙 for oily combo skin girlies fighting bumps and breakouts 😤 ",
-   "author": "summercooljinny",
-   "followers": 0,
-   "views": 453198,
-   "likes": 23643,
-   "comments": 90,
-   "shares": 4128,
-   "postedAt": "2026-08-05T01:01:20+00:00",
-   "ageHours": 1827,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 21.9,
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
@@ -898,7 +554,7 @@
    "comments": 263,
    "shares": 333,
    "postedAt": "2026-08-18T09:42:33+00:00",
-   "ageHours": 1507,
+   "ageHours": 1510,
    "region": "domestic",
    "flags": [
     "abs"
@@ -924,7 +580,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 625,
+   "ageHours": 628,
    "region": "domestic",
    "flags": [
     "abs"
@@ -950,7 +606,7 @@
    "comments": 24,
    "shares": 518,
    "postedAt": "2026-08-02T12:26:59.000Z",
-   "ageHours": 1888,
+   "ageHours": 1891,
    "region": "domestic",
    "flags": [
     "abs"
@@ -976,7 +632,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 355,
+   "ageHours": 358,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1002,7 +658,7 @@
    "comments": 2483,
    "shares": 435,
    "postedAt": "2026-07-30T10:35:13+00:00",
-   "ageHours": 1962,
+   "ageHours": 1965,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1028,7 +684,7 @@
    "comments": 22,
    "shares": 7719,
    "postedAt": "2026-08-14T11:06:41+00:00",
-   "ageHours": 1601,
+   "ageHours": 1604,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1054,7 +710,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 209,
+   "ageHours": 212,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1066,32 +722,6 @@
    "source": "tiktok:메이크업",
    "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oIOKbaiELNp0EDAnTAvYB9nAAAstIzxQiBNbP~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=F9Tb2tLYpW1cEdcFCb95skbOk5A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
    "firstSeen": "2026-10-20"
-  },
-  {
-   "key": "instagram:DcOAgAYzbmy",
-   "platform": "instagram",
-   "embedId": "DcOAgAYzbmy",
-   "url": "https://www.instagram.com/reel/DcOAgAYzbmy/",
-   "title": "Still only shopping at Olive Young during your Korea trip? oi Check out OWM Phar",
-   "author": "bbrunasousa",
-   "followers": 0,
-   "views": 370840,
-   "likes": 0,
-   "comments": 99,
-   "shares": 0,
-   "postedAt": "2026-08-19T10:49:05.000Z",
-   "ageHours": 1481,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 19.0,
-   "source": "A",
-   "thumb": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/775307452_18613927852018523_1403501143124531905_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=110&ig_cache_key=Mzk2NzExMDUyMTE5OTM3NjgxODE4NjEzOTI3ODQ2MDE4NTIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=G9p9ubkVjocQ7kNvwEGbJYw&_nc_oc=AdpAtrXXn-Imn2FFFVHM9cQinfGuVJOvbRwPcywgkKT_M4sUcHQ0hwb5V9Z8nIctogbeG0-TpbyTC6GABZF2mo5d&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_gid=AxYZtop5IL1h_cxqDySKfQ&_nc_ss=7a3ba&oh=00_AQFQoFD5F_N6VAHMAlK7uqJzy7upkNy3IImaHWV1MJ6I7Q&oe=6A91A659",
-   "firstSeen": "2026-08-24"
   },
   {
    "key": "instagram:DcPL0AqzQLs",
@@ -1106,7 +736,7 @@
    "comments": 904,
    "shares": 1939,
    "postedAt": "2026-08-19T21:48:32+00:00",
-   "ageHours": 1470,
+   "ageHours": 1474,
    "region": "domestic",
    "flags": [
     "abs",
@@ -1133,7 +763,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1606,
+   "ageHours": 1609,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1145,110 +775,6 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:DcGvuuyspki",
-   "platform": "instagram",
-   "embedId": "DcGvuuyspki",
-   "url": "https://www.instagram.com/reel/DcGvuuyspki/",
-   "title": "Its the NIDA Youthful Ultimate Moisturizing Formula Cream link in bio 🔗 or https",
-   "author": "nida.skincare.ar",
-   "followers": 0,
-   "views": 287951,
-   "likes": 9224,
-   "comments": 23,
-   "shares": 7124,
-   "postedAt": "2026-08-16T15:07:38+00:00",
-   "ageHours": 1549,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 15.3,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:Db1b0gcy5g6",
-   "platform": "instagram",
-   "embedId": "Db1b0gcy5g6",
-   "url": "https://www.instagram.com/reel/Db1b0gcy5g6/",
-   "title": "🎀 ₍ᐢ. ̫.ᐢ₎ ♡ #makeuptutorial #makeuptutorials #douyinmakeup #koreanmakeup #japan",
-   "author": "lyrayeyeye_",
-   "followers": 0,
-   "views": 282747,
-   "likes": 28195,
-   "comments": 28,
-   "shares": 2032,
-   "postedAt": "2026-08-09T21:45:44+00:00",
-   "ageHours": 1710,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 15.0,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:DcGFpY5zCyY",
-   "platform": "instagram",
-   "embedId": "DcGFpY5zCyY",
-   "url": "https://www.instagram.com/reel/DcGFpY5zCyY/",
-   "title": "Makeup tutorial#makeup #makeupartist #makeuplooks #reel #beauty",
-   "author": "behira__makeup",
-   "followers": 0,
-   "views": 263022,
-   "likes": 18023,
-   "comments": 22,
-   "shares": 2482,
-   "postedAt": "2026-08-16T08:59:53+00:00",
-   "ageHours": 1555,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 14.0,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcJlGmWJryP",
-   "platform": "instagram",
-   "embedId": "DcJlGmWJryP",
-   "url": "https://www.instagram.com/reel/DcJlGmWJryP/",
-   "title": "FINISHED LOOK IN THE END 😭 save this for your next korea trip and visit @ecojard",
-   "author": "thatsheart",
-   "followers": 0,
-   "views": 261241,
-   "likes": 5524,
-   "comments": 155,
-   "shares": 0,
-   "postedAt": "2026-08-17T17:39:37.000Z",
-   "ageHours": 1523,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 13.9,
-   "source": "A",
-   "thumb": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/778172496_18622120438043845_3206867553918754594_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=106&ig_cache_key=Mzk2NTg2NDEyODA4ODAzMDM1MTE4NjIyMTIwNDM1MDQzODQ1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwOTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=LWN60J3r8V0Q7kNvwFBW9Z-&_nc_oc=AdoHfj3ilByeAyW-lMILbnXTaIBByBKYLu14cyYhKSx8x5WBbUSlmDT4TL0HIIgO0dg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=RJygqVXw_UCUsOIZ34rQAQ&_nc_ss=7a3ba&oh=00_AQE3Dg9PiKa6xWe9nxn3LdyhfpMMTa7Lb7JZET5OJh79bg&oe=6A918802",
-   "firstSeen": "2026-08-24"
   },
   {
    "key": "instagram:DcYZvGfCL1g",
@@ -1263,7 +789,7 @@
    "comments": 895,
    "shares": 1386,
    "postedAt": "2026-08-23T11:46:40+00:00",
-   "ageHours": 1384,
+   "ageHours": 1388,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1289,7 +815,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1272,
+   "ageHours": 1275,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1301,59 +827,6 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:DbsbczwzPz9",
-   "platform": "instagram",
-   "embedId": "DbsbczwzPz9",
-   "url": "https://www.instagram.com/reel/DbsbczwzPz9/",
-   "title": "Day 3 of 30 ✧˖° What makeup style best suits your face? Knowing if you’re high o",
-   "author": "crysta.bel",
-   "followers": 0,
-   "views": 233698,
-   "likes": 8911,
-   "comments": 39,
-   "shares": 3819,
-   "postedAt": "2026-08-06T09:50:32+00:00",
-   "ageHours": 1794,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 12.3,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "tiktok:7687955964867218695",
-   "platform": "tiktok",
-   "embedId": "7687955964867218695",
-   "url": "https://www.tiktok.com/@_haewon22/video/7687955964867218695",
-   "title": "메컵 튜토 1편 #fyp #grwm #makeuptutorial #korean #transition",
-   "author": "_haewon22",
-   "followers": 19700,
-   "views": 221100,
-   "likes": 30200,
-   "comments": 17,
-   "shares": 978,
-   "postedAt": "2026-09-21T11:55:47.000Z",
-   "ageHours": 688,
-   "region": "global",
-   "flags": [
-    "abs",
-    "ratio"
-   ],
-   "ratio": 11.2,
-   "medianX": null,
-   "tier": "🔥🔥",
-   "score": 11.7,
-   "source": "tiktok:메이크업",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oIersDcDqBG4vcCFEYaRSAIGEBQxfsYgZRI0Ch~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=GIYVSCmstCOcCM3QVWamVXK8NtY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-   "firstSeen": "2026-10-20"
   },
   {
    "key": "instagram:DcQsM5rPTmt",
@@ -1368,7 +841,7 @@
    "comments": 77,
    "shares": 0,
    "postedAt": "2026-08-20T11:50:26.000Z",
-   "ageHours": 1456,
+   "ageHours": 1460,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1394,7 +867,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1195,
+   "ageHours": 1199,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1406,58 +879,6 @@
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "tiktok:7689446599105187093",
-   "platform": "tiktok",
-   "embedId": "7689446599105187093",
-   "url": "https://www.tiktok.com/@_sxxxyeon_/video/7689446599105187093",
-   "title": "#grwm#koreanmakeup",
-   "author": "_sxxxyeon_",
-   "followers": 362400,
-   "views": 207400,
-   "likes": 30300,
-   "comments": 71,
-   "shares": 1027,
-   "postedAt": "2026-09-25T12:20:05.000Z",
-   "ageHours": 592,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": 0.6,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 10.6,
-   "source": "tiktok:메이크업",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/o8Y2c7gIEqDAtciFmkB9CqZTkneBREDHIivzfS~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=V6%2Fv%2FbI4TpvSeY7meJQsx%2Bu2KQ0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-   "firstSeen": "2026-10-20"
-  },
-  {
-   "key": "instagram:DcPlgOuTv1n",
-   "platform": "instagram",
-   "embedId": "DcPlgOuTv1n",
-   "url": "https://www.instagram.com/reel/DcPlgOuTv1n/",
-   "title": "Korean sleek layer. #리코너13 #kbeauty #koreanhairstyle",
-   "author": "lcn13_minlee",
-   "followers": 0,
-   "views": 198651,
-   "likes": 2225,
-   "comments": 3,
-   "shares": 0,
-   "postedAt": "2026-08-20T01:31:46.000Z",
-   "ageHours": 1467,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 9.9,
-   "source": "A",
-   "thumb": "https://instagram.frix7-1.fna.fbcdn.net/v/t51.82787-15/780982002_18620520664010715_7485082839060563947_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk2NzU1NDczOTI5MDE3Njg3MTE4NjIwNTIwNjYxMDEwNzE1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=UvQkmMDSQ-EQ7kNvwEJZMPX&_nc_oc=Adpsjc023o29prhEDJDXS6t02Zgnj4bSeLsDLzRY46PRcEfaXfPWn61_E7p65ozjUSY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frix7-1.fna&_nc_gid=aWhqUhofRKIItqD7lKVvPg&_nc_ss=7a3ba&oh=00_AQE5q37WPbB0Q6VdrSU801c8CEzkh60pzk_-OtvmvvkOxQ&oe=6A918E8D",
-   "firstSeen": "2026-08-24"
   },
   {
    "key": "instagram:DcYRDybytNg",
@@ -1472,7 +893,7 @@
    "comments": 427,
    "shares": 0,
    "postedAt": "2026-08-23T10:26:45.000Z",
-   "ageHours": 1386,
+   "ageHours": 1389,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1483,32 +904,6 @@
    "score": 8.1,
    "source": "A",
    "thumb": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/782191805_18620650159004974_8607400641230604053_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=Mzk2OTk5ODA5ODYyOTU3OTYxNjE4NjIwNjUwMTU2MDA0OTc0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=F_gW3kW6_o8Q7kNvwEWAktH&_nc_oc=AdrDWcXGGHbzk-jjuMrDTW2t7b6WhKgAYKLGeco8WHmoSnF7VipaHFvn8n97K7uNbUQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=ooggBNANvamK3oEvVEFgEw&_nc_ss=7a3ba&oh=00_AQG1TwJBx8pfs2De3XQBmkTzF2L-AK5Hua_vtR2aDAQjag&oe=6A917E48",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DbuAEwmAsrZ",
-   "platform": "instagram",
-   "embedId": "DbuAEwmAsrZ",
-   "url": "https://www.instagram.com/reel/DbuAEwmAsrZ/",
-   "title": "Are these VIRAL eye creams worth the hype? Honest reviews from a Korean pharmaci",
-   "author": "kglow.choi",
-   "followers": 0,
-   "views": 165920,
-   "likes": 4171,
-   "comments": 81,
-   "shares": 0,
-   "postedAt": "2026-08-07T00:29:19.000Z",
-   "ageHours": 1780,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 7.3,
-   "source": "A",
-   "thumb": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/764637279_17904228564526736_5750310333316945083_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=Mzk1ODEwMTQ0OTU2MDQ3NjM3NzE3OTA0MjI4NTYxNTI2NzM2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=aCT7iyK0NL4Q7kNvwFb2FCO&_nc_oc=AdpjK3LNQuv6QEsNVg5qgFCK0-Qyq6Bp-x3dzqS4YtpDjntzA9oUefWGTknW081v_IfnjOL0wn1s6-jY-Kff1YM9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_gid=AxYZtop5IL1h_cxqDySKfQ&_nc_ss=7a3ba&oh=00_AQGdh_KW95vIvkp7bhB9WBeQmzUhwumIJdiDE_R19RbPkQ&oe=6A91B053",
    "firstSeen": "2026-08-24"
   },
   {
@@ -1524,7 +919,7 @@
    "comments": 82,
    "shares": 242,
    "postedAt": "2026-08-13T11:32:24+00:00",
-   "ageHours": 1625,
+   "ageHours": 1628,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1535,32 +930,6 @@
    "score": 7.0,
    "source": "B",
    "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcWx4Y-J8lS",
-   "platform": "instagram",
-   "embedId": "DcWx4Y-J8lS",
-   "url": "https://www.instagram.com/reel/DcWx4Y-J8lS/",
-   "title": "3 ocasiões 3 makes diferentes w/ @kikomilanobr ✨ #kikomilano #makeup #makemarrom",
-   "author": "thacianamesquita",
-   "followers": 0,
-   "views": 160292,
-   "likes": 0,
-   "comments": 80,
-   "shares": 0,
-   "postedAt": "2026-08-22T20:37:24.000Z",
-   "ageHours": 1400,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 6.8,
-   "source": "A",
-   "thumb": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/780910202_18617565766004600_6706581570338155359_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=100&ig_cache_key=Mzk2OTU3OTUwMDk1NjAxMDgzNDE4NjE3NTY1NzYwMDA0NjAw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=DCpw2mbeP8MQ7kNvwGPlxle&_nc_oc=Adq8CQvU9grJ6mn3gjPHomE_oFUZCfMBmZJqsGji6qYNymP-7MoKjATwSHyqGNLXrPA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=zl7jY8rd8cTxetqsXvEzig&_nc_ss=7a3ba&oh=00_AQF740SCOfCvViQcgrOVzyf2BU9FgYPr-ELTg6NE37zTYA&oe=6A918492",
    "firstSeen": "2026-08-24"
   },
   {
@@ -1576,7 +945,7 @@
    "comments": 61,
    "shares": 5283,
    "postedAt": "2026-08-10T09:33:40+00:00",
-   "ageHours": 1699,
+   "ageHours": 1702,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1602,7 +971,7 @@
    "comments": 14,
    "shares": 0,
    "postedAt": "2026-07-25T06:59:29.000Z",
-   "ageHours": 2085,
+   "ageHours": 2088,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1613,84 +982,6 @@
    "score": 6.7,
    "source": "A",
    "thumb": "https://scontent-bru2-1.cdninstagram.com/v/t15.5256-10/756338651_1614606480232699_8931677879506228645_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=108&ig_cache_key=Mzk0ODg3NjIwNDY1MTUxMTk1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=r8sBwXqLv9oQ7kNvwFhvcCt&_nc_oc=AdpGYCl2I4x8XQxe8lsL4732BipYNQYA2LJobA9BtsOBw6bZPp8pEZnUSz2D6oTmpkE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_gid=0OJANTLL-uWELBIVi4EO4A&_nc_ss=7a3ba&oh=00_AQEuFWMI9ydiOAuYryrsVfZF_goJC4bZiYgkmQYsxDBoDw&oe=6A917ADE",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcTi7k8y8Kg",
-   "platform": "instagram",
-   "embedId": "DcTi7k8y8Kg",
-   "url": "https://www.instagram.com/reel/DcTi7k8y8Kg/",
-   "title": "Surprise! A pimple decided to join me for date night 🥲#QuenchAcnePatches #AcnePa",
-   "author": "bhavaydhawan",
-   "followers": 0,
-   "views": 147996,
-   "likes": 5534,
-   "comments": 32,
-   "shares": 0,
-   "postedAt": "2026-08-21T14:26:24.000Z",
-   "ageHours": 1430,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 5.7,
-   "source": "A",
-   "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/781137001_18620492416019613_5121904917918737050_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&ig_cache_key=Mzk2ODY2OTMyNDM0ODczNjE2MDE4NjIwNDkyNDEwMDE5NjEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=licbfxPMmiMQ7kNvwHSb_EQ&_nc_oc=Adr93DPvpJol0S98Pqf5MoOxesgtfTwQORcqhaQBglf_6E2ERH1olqQKu3aWz2JJpGAMLhXfmcVBIGYjyHVFPnBL&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=AxYZtop5IL1h_cxqDySKfQ&_nc_ss=7a3ba&oh=00_AQExCZDG_x-ulGtXHhXmm9enbgNptmrre9Tk42deNsJOYw&oe=6A91ABCB",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcUY0OSJuxC",
-   "platform": "instagram",
-   "embedId": "DcUY0OSJuxC",
-   "url": "https://www.instagram.com/reel/DcUY0OSJuxC/",
-   "title": "POV: una doctora obsesionada con la piel entrando al paraíso del skincare Korean",
-   "author": "marialejan.dra",
-   "followers": 0,
-   "views": 138571,
-   "likes": 3299,
-   "comments": 53,
-   "shares": 0,
-   "postedAt": "2026-08-21T22:17:52.000Z",
-   "ageHours": 1422,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 4.7,
-   "source": "A",
-   "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/782489949_18629848438013892_7195216827108456942_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=Mzk2ODkwNjMxMzQ4NjIzMjY0MjE4NjI5ODQ4NDMyMDEzODky.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=8kX7fsiybNEQ7kNvwE2js5m&_nc_oc=AdowCsuW_KxRdJUi0HqEgJ8CbpFmSZqW0VsceZU1lcHVcdnm4ETY8HRmpi82ce66X8U3WZOESEvyZkr932pp85o9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=AxYZtop5IL1h_cxqDySKfQ&_nc_ss=7a3ba&oh=00_AQGVZmQucCCGBvLjwnOGxnJILbqwQNyY1fIDqQZ2GOde6g&oe=6A917CC8",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcTlfVKNzct",
-   "platform": "instagram",
-   "embedId": "DcTlfVKNzct",
-   "url": "https://www.instagram.com/reel/DcTlfVKNzct/",
-   "title": "Este producto está al alcance de todos. Te atreverías a probarlo? Te leo en los ",
-   "author": "bambooib",
-   "followers": 0,
-   "views": 135931,
-   "likes": 2054,
-   "comments": 41,
-   "shares": 0,
-   "postedAt": "2026-08-21T14:49:06.000Z",
-   "ageHours": 1429,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 4.4,
-   "source": "A",
-   "thumb": "https://scontent-bru2-1.cdninstagram.com/v/t51.71878-15/780187359_1407192034624563_8464214343705186700_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=104&ig_cache_key=Mzk2ODY4MDU3NzM4ODE5NzY3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=9RIpXRYydbkQ7kNvwGcFwsT&_nc_oc=Adr1-WnSa548idxBDstxlOKsf-5MgMhKVKtUkNyv6U-txuaW7AysTuRmeDOJU7W_Fns&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_gid=67FQ8U__di-zkAWdOwOmuA&_nc_ss=7a3ba&oh=00_AQEDajgqQZd_Fa_4Vii_jDpiHXw-P_yGB3LjAYqLLSbJiQ&oe=6A919C47",
    "firstSeen": "2026-08-24"
   },
   {
@@ -1706,7 +997,7 @@
    "comments": 3272,
    "shares": 0,
    "postedAt": "2026-08-07T04:42:18.000Z",
-   "ageHours": 1776,
+   "ageHours": 1779,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1717,32 +1008,6 @@
    "score": 4.0,
    "source": "A",
    "thumb": "https://scontent-bru2-1.cdninstagram.com/v/t15.5256-10/765637436_27798604816465684_6742130953155341968_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=100&ig_cache_key=Mzk1ODIyODQwMjk2ODU4NTE4Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=-yNz2p025jIQ7kNvwF4tbx2&_nc_oc=AdrwmURGutFIM3PX_GjJ1yaH7viKlishBlu5qVlC0Svyxq_gBal6FMGX4vzZqKH3HGM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_gid=0OJANTLL-uWELBIVi4EO4A&_nc_ss=7a3ba&oh=00_AQEbCaCBX45DAxYVFFTTRAc29EfIIfeNs_C6GSklB3XcsA&oe=6A917ED2",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DcTDgWcCyBa",
-   "platform": "instagram",
-   "embedId": "DcTDgWcCyBa",
-   "url": "https://www.instagram.com/reel/DcTDgWcCyBa/",
-   "title": "✨ LUMI COSMETIC TOP TANLOVLARI ✨ BB & CC Cream 🤍 ☀️ SPF / Sun Cream 💧 Serum 💦 To",
-   "author": "lumi._cosmetic",
-   "followers": 0,
-   "views": 119296,
-   "likes": 668,
-   "comments": 2,
-   "shares": 0,
-   "postedAt": "2026-08-21T09:52:14.000Z",
-   "ageHours": 1434,
-   "region": "global",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 2.6,
-   "source": "A",
-   "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/782208280_18089525051241648_7699172286872028235_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=Mzk2ODUzMTExMzg5OTEzOTE2MjE4MDg5NTI1MDQ4MjQxNjQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyODQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=_dPVbld2FBwQ7kNvwERDtm2&_nc_oc=Adp3tQ585HDVaRzNdCvcU26s2660sfbK-ewiU-OqWsuqNwNCTxiXPLhmL7NWky-K43RbHOOsK0B4sd8x7typvWOg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=AxYZtop5IL1h_cxqDySKfQ&_nc_ss=7a3ba&oh=00_AQEaz0oqZ5uy--JhxQOrZWFoUHatssbwTMpIGd5Rw2rHzA&oe=6A91ADC9",
    "firstSeen": "2026-08-24"
   },
   {
@@ -1758,7 +1023,7 @@
    "comments": 28,
    "shares": 0,
    "postedAt": "2026-08-21T11:23:41.000Z",
-   "ageHours": 1433,
+   "ageHours": 1436,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1784,7 +1049,7 @@
    "comments": 283,
    "shares": 58,
    "postedAt": "2026-08-23T10:02:58+00:00",
-   "ageHours": 1386,
+   "ageHours": 1389,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1810,7 +1075,7 @@
    "comments": 669,
    "shares": 0,
    "postedAt": "2026-08-11T02:14:55.000Z",
-   "ageHours": 1682,
+   "ageHours": 1685,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1836,7 +1101,7 @@
    "comments": 18,
    "shares": 0,
    "postedAt": "2026-08-19T08:49:06.000Z",
-   "ageHours": 1483,
+   "ageHours": 1487,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1862,7 +1127,7 @@
    "comments": 4163,
    "shares": 2590,
    "postedAt": "2026-08-19T08:40:08+00:00",
-   "ageHours": 1484,
+   "ageHours": 1487,
    "region": "domestic",
    "flags": [
     "abs"
