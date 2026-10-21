@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-20T22:20:01Z",
+ "generatedAt": "2026-10-21T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1398,
+   "ageHours": 1422,
    "region": "global",
    "flags": [
     "abs",
@@ -51,7 +51,7 @@
    "comments": 1838,
    "shares": 31123,
    "postedAt": "2026-08-16T02:13:00+00:00",
-   "ageHours": 1580,
+   "ageHours": 1604,
    "region": "domestic",
    "flags": [
     "abs",
@@ -79,7 +79,7 @@
    "comments": 630,
    "shares": 57887,
    "postedAt": "2026-07-25T12:04:37+00:00",
-   "ageHours": 2098,
+   "ageHours": 2122,
    "region": "domestic",
    "flags": [
     "abs"
@@ -105,7 +105,7 @@
    "comments": 856,
    "shares": 18220,
    "postedAt": "2026-08-23T10:25:12+00:00",
-   "ageHours": 1404,
+   "ageHours": 1428,
    "region": "global",
    "flags": [
     "abs"
@@ -131,7 +131,7 @@
    "comments": 260,
    "shares": 18722,
    "postedAt": "2026-07-29T17:16:58+00:00",
-   "ageHours": 1997,
+   "ageHours": 2021,
    "region": "global",
    "flags": [
     "abs",
@@ -159,7 +159,7 @@
    "comments": 344,
    "shares": 42772,
    "postedAt": "2026-08-30T07:08:54+00:00",
-   "ageHours": 1239,
+   "ageHours": 1263,
    "region": "global",
    "flags": [
     "abs",
@@ -187,7 +187,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 158,
+   "ageHours": 182,
    "region": "global",
    "flags": [
     "abs",
@@ -214,7 +214,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1237,
+   "ageHours": 1261,
    "region": "domestic",
    "flags": [
     "abs",
@@ -241,7 +241,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1258,
+   "ageHours": 1282,
    "region": "domestic",
    "flags": [
     "abs",
@@ -269,7 +269,7 @@
    "comments": 310,
    "shares": 24708,
    "postedAt": "2026-08-05T09:08:07+00:00",
-   "ageHours": 1837,
+   "ageHours": 1861,
    "region": "domestic",
    "flags": [
     "abs"
@@ -295,7 +295,7 @@
    "comments": 504,
    "shares": 7503,
    "postedAt": "2026-08-04T12:41:22+00:00",
-   "ageHours": 1858,
+   "ageHours": 1882,
    "region": "domestic",
    "flags": [
     "abs"
@@ -321,7 +321,7 @@
    "comments": 279,
    "shares": 4284,
    "postedAt": "2026-08-22T03:59:39+00:00",
-   "ageHours": 1434,
+   "ageHours": 1458,
    "region": "domestic",
    "flags": [
     "abs",
@@ -348,7 +348,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1643,
+   "ageHours": 1667,
    "region": "domestic",
    "flags": [
     "abs",
@@ -363,6 +363,33 @@
    "firstSeen": "2026-09-03"
   },
   {
+   "key": "instagram:DbmFhcKT9IH",
+   "platform": "instagram",
+   "embedId": "DbmFhcKT9IH",
+   "url": "https://www.instagram.com/reel/DbmFhcKT9IH/",
+   "title": "최근 중국 광고 찍은 장원영…중국 광고계도 반했다 아이브(@ivestarship ) 장원영(@for_everyoung10 )이 중국 제품 광고 ",
+   "author": "kyeolmag",
+   "followers": 13837,
+   "views": 801026,
+   "likes": 22005,
+   "comments": 1175,
+   "shares": 0,
+   "postedAt": "2026-08-03T22:43:05+00:00",
+   "ageHours": 1896,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 57.9,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 35.5,
+   "source": "B",
+   "thumb": "",
+   "firstSeen": "2026-08-24"
+  },
+  {
    "key": "instagram:DcXN5vWyCWB",
    "platform": "instagram",
    "embedId": "DcXN5vWyCWB",
@@ -375,7 +402,7 @@
    "comments": 214,
    "shares": 6780,
    "postedAt": "2026-08-23T00:45:17+00:00",
-   "ageHours": 1414,
+   "ageHours": 1438,
    "region": "domestic",
    "flags": [
     "abs",
@@ -390,50 +417,24 @@
    "firstSeen": "2026-08-24"
   },
   {
-   "key": "instagram:DbmFhcKT9IH",
-   "platform": "instagram",
-   "embedId": "DbmFhcKT9IH",
-   "url": "https://www.instagram.com/reel/DbmFhcKT9IH/",
-   "title": "최근 중국 광고 찍은 장원영…중국 광고계도 반했다 아이브(@ivestarship ) 장원영(@for_everyoung10 )이 중국 제품 광고 ",
-   "author": "kyeolmag",
-   "followers": 0,
-   "views": 801026,
-   "likes": 22005,
-   "comments": 1175,
-   "shares": 0,
-   "postedAt": "2026-08-03T22:43:05+00:00",
-   "ageHours": 1872,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 30.1,
-   "source": "B",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
    "key": "instagram:DcqamUVyTDw",
    "platform": "instagram",
    "embedId": "DcqamUVyTDw",
    "url": "https://www.instagram.com/reel/DcqamUVyTDw/",
    "title": "#내일오픈 저 지금까지 칼 쓰면서 칼 제대로 갈아본 적이 없거든요 적당한 거 사서 쓰다가 무뎌지면 버리고 새거 사고.. 💸 근데 이건 칼 블록에",
    "author": "fairy__mom",
-   "followers": 165431,
+   "followers": 171960,
    "views": 687829,
    "likes": 6886,
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1235,
+   "ageHours": 1259,
    "region": "domestic",
    "flags": [
     "abs"
    ],
-   "ratio": 4.2,
+   "ratio": 4.0,
    "medianX": null,
    "tier": "🔥",
    "score": 27.9,
@@ -448,24 +449,51 @@
    "url": "https://www.instagram.com/reel/DcXxHqJojcZ/",
    "title": "Thank u next😉 #협찬#닉켈하우스#12",
    "author": "ddaengie_hy",
-   "followers": 0,
+   "followers": 90662,
    "views": 596702,
    "likes": 23572,
    "comments": 80,
    "shares": 6226,
    "postedAt": "2026-08-23T05:47:02+00:00",
-   "ageHours": 1409,
+   "ageHours": 1433,
    "region": "domestic",
    "flags": [
-    "abs"
+    "abs",
+    "ratio"
    ],
-   "ratio": null,
+   "ratio": 6.6,
    "medianX": null,
-   "tier": "🔥",
+   "tier": "🔥🔥",
    "score": 25.9,
    "source": "B",
    "thumb": "",
    "firstSeen": "2026-08-24"
+  },
+  {
+   "key": "tiktok:7698706276850748679",
+   "platform": "tiktok",
+   "embedId": "7698706276850748679",
+   "url": "https://www.tiktok.com/@bbangthug/video/7698706276850748679",
+   "title": "여리여리 메이크업 튜토리얼.mov",
+   "author": "bbangthug",
+   "followers": 1600000,
+   "views": 596400,
+   "likes": 65700,
+   "comments": 236,
+   "shares": 1032,
+   "postedAt": "2026-10-20T11:12:25.000Z",
+   "ageHours": 35,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.4,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 25.9,
+   "source": "tiktok:메이크업",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oQXfkFBRUDqD1pEwTgWcAWKsIf9p84BEulI70B~tplv-tiktokx-origin.image?dr=9636&x-expires=1792792800&x-signature=IfuF6a2UTnj3%2FAPMpuvv%2Bgzx118%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-22"
   },
   {
    "key": "instagram:DcDl20zuxMR",
@@ -474,18 +502,18 @@
    "url": "https://www.instagram.com/reel/DcDl20zuxMR/",
    "title": "Barrier cream = heavy? Not anymore 👀 Light texture, fast absorption, and makeup ",
    "author": "yezi.beauty",
-   "followers": 0,
+   "followers": 720672,
    "views": 510462,
    "likes": 6329,
    "comments": 134,
    "shares": 508,
    "postedAt": "2026-08-15T09:49:17+00:00",
-   "ageHours": 1597,
+   "ageHours": 1621,
    "region": "domestic",
    "flags": [
     "abs"
    ],
-   "ratio": null,
+   "ratio": 0.7,
    "medianX": null,
    "tier": "🔥",
    "score": 23.6,
@@ -506,7 +534,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1821,
+   "ageHours": 1845,
    "region": "domestic",
    "flags": [
     "abs"
@@ -532,7 +560,7 @@
    "comments": 14454,
    "shares": 12612,
    "postedAt": "2026-08-09T04:54:53+00:00",
-   "ageHours": 1745,
+   "ageHours": 1769,
    "region": "domestic",
    "flags": [
     "abs"
@@ -558,7 +586,7 @@
    "comments": 263,
    "shares": 333,
    "postedAt": "2026-08-18T09:42:33+00:00",
-   "ageHours": 1525,
+   "ageHours": 1549,
    "region": "domestic",
    "flags": [
     "abs"
@@ -584,7 +612,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 643,
+   "ageHours": 667,
    "region": "domestic",
    "flags": [
     "abs"
@@ -610,7 +638,7 @@
    "comments": 24,
    "shares": 518,
    "postedAt": "2026-08-02T12:26:59.000Z",
-   "ageHours": 1906,
+   "ageHours": 1930,
    "region": "domestic",
    "flags": [
     "abs"
@@ -636,7 +664,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 373,
+   "ageHours": 397,
    "region": "domestic",
    "flags": [
     "abs"
@@ -662,7 +690,7 @@
    "comments": 2483,
    "shares": 435,
    "postedAt": "2026-07-30T10:35:13+00:00",
-   "ageHours": 1980,
+   "ageHours": 2004,
    "region": "domestic",
    "flags": [
     "abs"
@@ -688,7 +716,7 @@
    "comments": 22,
    "shares": 7719,
    "postedAt": "2026-08-14T11:06:41+00:00",
-   "ageHours": 1619,
+   "ageHours": 1643,
    "region": "domestic",
    "flags": [
     "abs"
@@ -714,7 +742,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 227,
+   "ageHours": 251,
    "region": "domestic",
    "flags": [
     "abs"
@@ -740,7 +768,7 @@
    "comments": 904,
    "shares": 1939,
    "postedAt": "2026-08-19T21:48:32+00:00",
-   "ageHours": 1489,
+   "ageHours": 1513,
    "region": "domestic",
    "flags": [
     "abs",
@@ -767,7 +795,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1624,
+   "ageHours": 1648,
    "region": "domestic",
    "flags": [
     "abs"
@@ -793,7 +821,7 @@
    "comments": 895,
    "shares": 1386,
    "postedAt": "2026-08-23T11:46:40+00:00",
-   "ageHours": 1403,
+   "ageHours": 1427,
    "region": "domestic",
    "flags": [
     "abs"
@@ -819,7 +847,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1290,
+   "ageHours": 1314,
    "region": "domestic",
    "flags": [
     "abs"
@@ -845,7 +873,7 @@
    "comments": 77,
    "shares": 0,
    "postedAt": "2026-08-20T11:50:26.000Z",
-   "ageHours": 1474,
+   "ageHours": 1498,
    "region": "domestic",
    "flags": [
     "abs"
@@ -871,7 +899,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1213,
+   "ageHours": 1237,
    "region": "domestic",
    "flags": [
     "abs"
@@ -897,7 +925,7 @@
    "comments": 427,
    "shares": 0,
    "postedAt": "2026-08-23T10:26:45.000Z",
-   "ageHours": 1404,
+   "ageHours": 1428,
    "region": "domestic",
    "flags": [
     "abs"
@@ -923,7 +951,7 @@
    "comments": 82,
    "shares": 242,
    "postedAt": "2026-08-13T11:32:24+00:00",
-   "ageHours": 1643,
+   "ageHours": 1667,
    "region": "domestic",
    "flags": [
     "abs"
@@ -949,7 +977,7 @@
    "comments": 61,
    "shares": 5283,
    "postedAt": "2026-08-10T09:33:40+00:00",
-   "ageHours": 1717,
+   "ageHours": 1741,
    "region": "domestic",
    "flags": [
     "abs"
@@ -975,7 +1003,7 @@
    "comments": 14,
    "shares": 0,
    "postedAt": "2026-07-25T06:59:29.000Z",
-   "ageHours": 2103,
+   "ageHours": 2127,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1001,7 +1029,7 @@
    "comments": 3272,
    "shares": 0,
    "postedAt": "2026-08-07T04:42:18.000Z",
-   "ageHours": 1794,
+   "ageHours": 1818,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1027,7 +1055,7 @@
    "comments": 28,
    "shares": 0,
    "postedAt": "2026-08-21T11:23:41.000Z",
-   "ageHours": 1451,
+   "ageHours": 1475,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1053,7 +1081,7 @@
    "comments": 283,
    "shares": 58,
    "postedAt": "2026-08-23T10:02:58+00:00",
-   "ageHours": 1404,
+   "ageHours": 1428,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1079,7 +1107,7 @@
    "comments": 669,
    "shares": 0,
    "postedAt": "2026-08-11T02:14:55.000Z",
-   "ageHours": 1700,
+   "ageHours": 1724,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1105,7 +1133,7 @@
    "comments": 18,
    "shares": 0,
    "postedAt": "2026-08-19T08:49:06.000Z",
-   "ageHours": 1502,
+   "ageHours": 1526,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1131,7 +1159,7 @@
    "comments": 4163,
    "shares": 2590,
    "postedAt": "2026-08-19T08:40:08+00:00",
-   "ageHours": 1502,
+   "ageHours": 1526,
    "region": "domestic",
    "flags": [
     "abs"
