@@ -10208,6 +10208,21 @@
         "deleted": "2026-10-22T00:46:21.000Z",
         "url": "2026-10-22T00:46:21.000Z"
       }
+    },
+    {
+      "id": "1a161583b1a+mko43",
+      "url": "https://www.instagram.com/p/DevlZY9nVvL/",
+      "platform": "instagram",
+      "embedId": "DevlZY9nVvL",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-10-22T02:02:14.000Z",
+      "updatedAt": "2026-10-22T02:02:14.000Z"
     }
   ],
   "deletedTags": {},
