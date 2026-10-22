@@ -80,7 +80,7 @@ main{padding:12px 16px;display:grid;gap:14px;grid-template-columns:repeat(auto-f
 .iconb{background:var(--panel2);border:1px solid var(--line);color:var(--sub);width:32px;height:32px;border-radius:8px;font-size:13px}
 .iconb:hover{color:var(--text)}
 .badge{font-size:11px;font-weight:800;padding:2px 8px;border-radius:6px}
-.b-viral{background:#3a1d0a;color:#ffb36b}.b-reg{background:#143a22;color:#7be0a4}.b-dom{background:#1d2a4a;color:#9fc2ff}.b-glb{background:#2a2a2a;color:#cfcfcf}
+.b-viral{background:#3a1d0a;color:#ffb36b}.b-reg{background:#143a22;color:#7be0a4}.b-dom{background:#1d2a4a;color:#9fc2ff}.b-glb{background:#2a2a2a;color:#cfcfcf}.b-ad{background:#3a1a3a;color:#f3a6f3}
 .vmeta{font-size:12px;color:var(--sub);line-height:1.6;word-break:break-all}
 .vbtn{flex:1;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:8px 10px;font-weight:700;font-size:13px}
 .vbtn.ghost{background:var(--panel2);color:var(--sub);border:1px solid var(--line);flex:0 0 auto}
@@ -386,7 +386,7 @@ const SALT="refbox:";
 let sess=null; try{ sess=JSON.parse(localStorage.getItem("refbox_sess")); }catch(e){}
 let filter = {status:"all", needs:[], types:[], q:"", sort:"new", star:false, viral:false};
 let viralFeed = {items:[], generatedAt:""};
-let vfilter = {region:"all", sort:"score", minViews:0};
+let vfilter = {region:"all", sort:"score", minViews:0, ad:false};
 let previewMode = localStorage.getItem("refbox_prev")||"auto";
 let editId = null;
 let selMode=false, selIds=new Set();
@@ -559,6 +559,7 @@ function viralItems(){
     && vplat(v)===filter.viral
     && (vfilter.region==="all"||v.region===vfilter.region)
     && (v.views||0)>=vfilter.minViews
+    && (!vfilter.ad || v.isAd)
     && (!q || ((v.title||"")+" "+(v.author||"")).toLowerCase().includes(q)));
   arr.sort((a,b)=> vfilter.sort==="views" ? (b.views||0)-(a.views||0)
     : vfilter.sort==="new" ? (b.postedAt||"").localeCompare(a.postedAt||"")
@@ -566,6 +567,7 @@ function viralItems(){
   return arr;
 }
 function viralCount(p){ const h=state.viralHidden||{}; return viralFeed.items.filter(v=>!h[v.key] && vplat(v)===p).length; }
+function viralAdCount(p){ const h=state.viralHidden||{}; return viralFeed.items.filter(v=>!h[v.key] && vplat(v)===p && v.isAd).length; }
 function renderViralBar(){
   const el=document.getElementById("viralBar");
   el.style.display = filter.viral? "" : "none";
@@ -576,10 +578,12 @@ function renderViralBar(){
   const mins=[[0,"조회수 전체"],[100000,"10만+"],[500000,"50만+"],[1000000,"100만+"]];
   el.innerHTML = `<span class="lbl">${filter.viral==="tiktok"?"🎵":"🔥"}</span>`
     + regions.map(([k,l])=>`<button class="chip ${vfilter.region===k?'on':''}" data-vr="${k}">${l}</button>`).join("")
+    + `<button class="chip ${vfilter.ad?'on':''}" data-vad title="유료 파트너십 표시 또는 #광고·#협찬 표기가 있는 영상만">📢 광고만 ${viralAdCount(filter.viral)}</button>`
     + `<select data-vsort style="width:auto;font-size:12px;padding:4px 6px"><option value="score">바이럴 점수순</option><option value="views">조회수순</option><option value="new">게시 최신순</option></select>`
     + `<select data-vmin style="width:auto;font-size:12px;padding:4px 6px">${mins.map(([k,l])=>`<option value="${k}">${l}</option>`).join("")}</select>`
     + `<span style="font-size:11px;color:var(--sub);margin-left:auto">피드 ${(viralFeed.generatedAt||"").slice(0,10)||"없음"}</span>`;
   el.querySelectorAll("[data-vr]").forEach(b=>b.onclick=()=>{vfilter.region=b.dataset.vr; render();});
+  el.querySelector("[data-vad]").onclick=()=>{vfilter.ad=!vfilter.ad; render();};
   const s=el.querySelector("[data-vsort]"); s.value=vfilter.sort; s.onchange=()=>{vfilter.sort=s.value; renderGrid();};
   const m=el.querySelector("[data-vmin]"); m.value=String(vfilter.minViews); m.onchange=()=>{vfilter.minViews=+m.value; renderGrid();};
 }
@@ -591,7 +595,7 @@ function renderViralGrid(){
     const nm = filter.viral==="tiktok" ? "틱톡" : "바이럴";
     grid.innerHTML=`<div class="empty">아직 ${nm} 피드가 없어요.<br><span style="font-size:12px">매일 07:20 수집기(viral_feed.py)가 data/viral.json을 올리면 여기에 표시됩니다.</span></div>`; return;
   }
-  if(!items.length){ grid.innerHTML=`<div class="empty">조건에 맞는 영상이 없어요. 지역·조회수 필터를 풀어보세요.</div>`; return; }
+  if(!items.length){ grid.innerHTML=`<div class="empty">조건에 맞는 영상이 없어요. 지역·조회수·광고 필터를 풀어보세요.</div>`; return; }
   grid.innerHTML = items.map(v=>{
     const reg=viralRegistered(v);
     const stats=[`👁 ${fmtN(v.views)}`, v.likes?`❤ ${fmtN(v.likes)}`:"", v.comments?`💬 ${fmtN(v.comments)}`:"",
@@ -606,6 +610,7 @@ function renderViralGrid(){
       <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
         <span class="badge b-viral">${v.tier||"🔥"}</span>
         <span class="badge ${v.region==="domestic"?"b-dom":"b-glb"}">${v.region==="domestic"?"국내":"해외"}</span>
+        ${v.isAd?`<span class="badge b-ad" title="${v.adKind==="paid"?"인스타 유료 파트너십 표시":"#광고·#협찬 표기"}">📢 광고</span>`:""}
         ${reg?`<span class="badge b-reg">✅ 등록됨</span>`:""}
         <span style="font-size:11px;color:var(--sub);margin-left:auto">${(v.postedAt||"").slice(0,10)}</span>
       </div>
@@ -629,7 +634,7 @@ function addFromViral(key){
   const v=viralFeed.items.find(x=>x.key===key); if(!v) return;
   if(viralRegistered(v)){ toast("이미 레퍼런스함에 있어요"); renderGrid(); return; }
   const memo=[(v.platform==="tiktok"?"🎵":"🔥")+" 조회수 "+fmtN(v.views), v.followers?"팔로워 "+fmtN(v.followers):"", v.ratio?v.ratio+"×":"",
-    v.region==="domestic"?"국내":"해외", "바이럴피드 "+(viralFeed.generatedAt||"").slice(0,10)].filter(Boolean).join(" · ");
+    v.region==="domestic"?"국내":"해외", v.isAd?"📢 광고":"", "바이럴피드 "+(viralFeed.generatedAt||"").slice(0,10)].filter(Boolean).join(" · ");
   const it={id:uid(), addedAt:now(), updatedAt:now(), addedBy:conf.name||sess.id||"", url:v.url, platform:v.platform, embedId:v.embedId,
     title:(v.title||"").slice(0,120), memo, needs:[], types:[], status:"inbox", rating:0};
   state.items.push(it); addLog((v.platform==="tiktok"?"틱톡":"바이럴")+"→추가",(it.title||it.embedId).slice(0,40));
