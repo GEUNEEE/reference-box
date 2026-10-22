@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-22T06:06:51Z",
+ "generatedAt": "2026-10-22T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1430,
+   "ageHours": 1446,
    "region": "global",
    "flags": [
     "abs",
@@ -53,7 +53,7 @@
    "comments": 1838,
    "shares": 31123,
    "postedAt": "2026-08-16T02:13:00+00:00",
-   "ageHours": 1612,
+   "ageHours": 1628,
    "region": "domestic",
    "flags": [
     "abs",
@@ -83,7 +83,7 @@
    "comments": 630,
    "shares": 57887,
    "postedAt": "2026-07-25T12:04:37+00:00",
-   "ageHours": 2130,
+   "ageHours": 2146,
    "region": "domestic",
    "flags": [
     "abs"
@@ -111,7 +111,7 @@
    "comments": 856,
    "shares": 18220,
    "postedAt": "2026-08-23T10:25:12+00:00",
-   "ageHours": 1436,
+   "ageHours": 1452,
    "region": "global",
    "flags": [
     "abs"
@@ -139,7 +139,7 @@
    "comments": 260,
    "shares": 18722,
    "postedAt": "2026-07-29T17:16:58+00:00",
-   "ageHours": 2029,
+   "ageHours": 2045,
    "region": "global",
    "flags": [
     "abs",
@@ -169,7 +169,7 @@
    "comments": 344,
    "shares": 42772,
    "postedAt": "2026-08-30T07:08:54+00:00",
-   "ageHours": 1271,
+   "ageHours": 1287,
    "region": "global",
    "flags": [
     "abs",
@@ -199,7 +199,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 190,
+   "ageHours": 206,
    "region": "global",
    "flags": [
     "abs",
@@ -228,7 +228,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1269,
+   "ageHours": 1285,
    "region": "domestic",
    "flags": [
     "abs",
@@ -257,7 +257,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1290,
+   "ageHours": 1306,
    "region": "domestic",
    "flags": [
     "abs",
@@ -287,7 +287,7 @@
    "comments": 310,
    "shares": 24708,
    "postedAt": "2026-08-05T09:08:07+00:00",
-   "ageHours": 1869,
+   "ageHours": 1885,
    "region": "domestic",
    "flags": [
     "abs"
@@ -315,7 +315,7 @@
    "comments": 504,
    "shares": 7503,
    "postedAt": "2026-08-04T12:41:22+00:00",
-   "ageHours": 1889,
+   "ageHours": 1906,
    "region": "domestic",
    "flags": [
     "abs"
@@ -343,7 +343,7 @@
    "comments": 279,
    "shares": 4284,
    "postedAt": "2026-08-22T03:59:39+00:00",
-   "ageHours": 1466,
+   "ageHours": 1482,
    "region": "domestic",
    "flags": [
     "abs",
@@ -372,7 +372,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1675,
+   "ageHours": 1691,
    "region": "domestic",
    "flags": [
     "abs",
@@ -401,7 +401,7 @@
    "comments": 1175,
    "shares": 0,
    "postedAt": "2026-08-03T22:43:05+00:00",
-   "ageHours": 1903,
+   "ageHours": 1920,
    "region": "domestic",
    "flags": [
     "abs",
@@ -430,7 +430,7 @@
    "comments": 214,
    "shares": 6780,
    "postedAt": "2026-08-23T00:45:17+00:00",
-   "ageHours": 1445,
+   "ageHours": 1462,
    "region": "domestic",
    "flags": [
     "abs",
@@ -440,6 +440,36 @@
    "medianX": 34.3,
    "tier": "🔥🔥",
    "score": 35.3,
+   "source": "B",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "",
+   "firstSeen": "2026-08-24"
+  },
+  {
+   "key": "instagram:Dbzn8KMTSvb",
+   "platform": "instagram",
+   "embedId": "Dbzn8KMTSvb",
+   "url": "https://www.instagram.com/reel/Dbzn8KMTSvb/",
+   "title": "🚨보조제 공구나 광고❌ 의지 약한 사람도 다 뺄 수 있는 게으른 다이어트법 진짜 게으른 사람으로서 의지가 약해도, 식단이 어려워도 보다 강박없이",
+   "author": "seungnyung",
+   "followers": 41981,
+   "views": 486934,
+   "likes": 4881,
+   "comments": 14454,
+   "shares": 12612,
+   "postedAt": "2026-08-09T04:54:53+00:00",
+   "ageHours": 1793,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "ratio",
+    "median"
+   ],
+   "ratio": 11.6,
+   "medianX": 22.8,
+   "tier": "🔥🔥🔥",
+   "score": 29.4,
    "source": "B",
    "isAd": false,
    "adKind": "",
@@ -459,7 +489,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1267,
+   "ageHours": 1283,
    "region": "domestic",
    "flags": [
     "abs"
@@ -487,7 +517,7 @@
    "comments": 80,
    "shares": 6226,
    "postedAt": "2026-08-23T05:47:02+00:00",
-   "ageHours": 1440,
+   "ageHours": 1457,
    "region": "domestic",
    "flags": [
     "abs",
@@ -516,7 +546,7 @@
    "comments": 236,
    "shares": 1032,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 43,
+   "ageHours": 59,
    "region": "domestic",
    "flags": [
     "abs"
@@ -532,6 +562,35 @@
    "firstSeen": "2026-10-22"
   },
   {
+   "key": "instagram:DbrkTPnp17W",
+   "platform": "instagram",
+   "embedId": "DbrkTPnp17W",
+   "url": "https://www.instagram.com/reel/DbrkTPnp17W/",
+   "title": "김수현이 해외 팬미팅을 확정하며 활동에 속도를 내고 있습니다. 필리핀 패션 브랜드 벤치는 김수현이 오는 10월 2일 마닐라에서 약 2만 명 규모",
+   "author": "mirenmag",
+   "followers": 19331,
+   "views": 507685,
+   "likes": 8402,
+   "comments": 805,
+   "shares": 8249,
+   "postedAt": "2026-08-06T01:47:25+00:00",
+   "ageHours": 1869,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 26.3,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 24.0,
+   "source": "B",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "",
+   "firstSeen": "2026-09-03"
+  },
+  {
    "key": "instagram:DcDl20zuxMR",
    "platform": "instagram",
    "embedId": "DcDl20zuxMR",
@@ -544,7 +603,7 @@
    "comments": 134,
    "shares": 508,
    "postedAt": "2026-08-15T09:49:17+00:00",
-   "ageHours": 1628,
+   "ageHours": 1645,
    "region": "domestic",
    "flags": [
     "abs"
@@ -553,62 +612,6 @@
    "medianX": null,
    "tier": "🔥",
    "score": 23.6,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-08-24"
-  },
-  {
-   "key": "instagram:DbrkTPnp17W",
-   "platform": "instagram",
-   "embedId": "DbrkTPnp17W",
-   "url": "https://www.instagram.com/reel/DbrkTPnp17W/",
-   "title": "김수현이 해외 팬미팅을 확정하며 활동에 속도를 내고 있습니다. 필리핀 패션 브랜드 벤치는 김수현이 오는 10월 2일 마닐라에서 약 2만 명 규모",
-   "author": "mirenmag",
-   "followers": 0,
-   "views": 507685,
-   "likes": 8402,
-   "comments": 805,
-   "shares": 8249,
-   "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1852,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 23.5,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:Dbzn8KMTSvb",
-   "platform": "instagram",
-   "embedId": "Dbzn8KMTSvb",
-   "url": "https://www.instagram.com/reel/Dbzn8KMTSvb/",
-   "title": "🚨보조제 공구나 광고❌ 의지 약한 사람도 다 뺄 수 있는 게으른 다이어트법 진짜 게으른 사람으로서 의지가 약해도, 식단이 어려워도 보다 강박없이",
-   "author": "seungnyung",
-   "followers": 0,
-   "views": 486934,
-   "likes": 4881,
-   "comments": 14454,
-   "shares": 12612,
-   "postedAt": "2026-08-09T04:54:53+00:00",
-   "ageHours": 1777,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 22.9,
    "source": "B",
    "isAd": false,
    "adKind": "",
@@ -628,7 +631,7 @@
    "comments": 263,
    "shares": 333,
    "postedAt": "2026-08-18T09:42:33+00:00",
-   "ageHours": 1556,
+   "ageHours": 1573,
    "region": "domestic",
    "flags": [
     "abs"
@@ -656,7 +659,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 675,
+   "ageHours": 691,
    "region": "domestic",
    "flags": [
     "abs"
@@ -684,7 +687,7 @@
    "comments": 24,
    "shares": 518,
    "postedAt": "2026-08-02T12:26:59.000Z",
-   "ageHours": 1938,
+   "ageHours": 1954,
    "region": "domestic",
    "flags": [
     "abs"
@@ -712,7 +715,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 405,
+   "ageHours": 421,
    "region": "domestic",
    "flags": [
     "abs"
@@ -740,7 +743,7 @@
    "comments": 2483,
    "shares": 435,
    "postedAt": "2026-07-30T10:35:13+00:00",
-   "ageHours": 2012,
+   "ageHours": 2028,
    "region": "domestic",
    "flags": [
     "abs"
@@ -768,7 +771,7 @@
    "comments": 22,
    "shares": 7719,
    "postedAt": "2026-08-14T11:06:41+00:00",
-   "ageHours": 1651,
+   "ageHours": 1667,
    "region": "domestic",
    "flags": [
     "abs"
@@ -796,7 +799,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 259,
+   "ageHours": 275,
    "region": "domestic",
    "flags": [
     "abs"
@@ -824,7 +827,7 @@
    "comments": 904,
    "shares": 1939,
    "postedAt": "2026-08-19T21:48:32+00:00",
-   "ageHours": 1520,
+   "ageHours": 1537,
    "region": "domestic",
    "flags": [
     "abs",
@@ -853,7 +856,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1656,
+   "ageHours": 1672,
    "region": "domestic",
    "flags": [
     "abs"
@@ -881,7 +884,7 @@
    "comments": 895,
    "shares": 1386,
    "postedAt": "2026-08-23T11:46:40+00:00",
-   "ageHours": 1434,
+   "ageHours": 1451,
    "region": "domestic",
    "flags": [
     "abs"
@@ -909,7 +912,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1322,
+   "ageHours": 1338,
    "region": "domestic",
    "flags": [
     "abs"
@@ -937,7 +940,7 @@
    "comments": 77,
    "shares": 0,
    "postedAt": "2026-08-20T11:50:26.000Z",
-   "ageHours": 1506,
+   "ageHours": 1522,
    "region": "domestic",
    "flags": [
     "abs"
@@ -965,7 +968,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1245,
+   "ageHours": 1261,
    "region": "domestic",
    "flags": [
     "abs"
@@ -993,7 +996,7 @@
    "comments": 427,
    "shares": 0,
    "postedAt": "2026-08-23T10:26:45.000Z",
-   "ageHours": 1436,
+   "ageHours": 1452,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1021,7 +1024,7 @@
    "comments": 82,
    "shares": 242,
    "postedAt": "2026-08-13T11:32:24+00:00",
-   "ageHours": 1675,
+   "ageHours": 1691,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1049,7 +1052,7 @@
    "comments": 61,
    "shares": 5283,
    "postedAt": "2026-08-10T09:33:40+00:00",
-   "ageHours": 1749,
+   "ageHours": 1765,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1077,7 +1080,7 @@
    "comments": 14,
    "shares": 0,
    "postedAt": "2026-07-25T06:59:29.000Z",
-   "ageHours": 2135,
+   "ageHours": 2151,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1105,7 +1108,7 @@
    "comments": 3272,
    "shares": 0,
    "postedAt": "2026-08-07T04:42:18.000Z",
-   "ageHours": 1825,
+   "ageHours": 1842,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1133,7 +1136,7 @@
    "comments": 28,
    "shares": 0,
    "postedAt": "2026-08-21T11:23:41.000Z",
-   "ageHours": 1483,
+   "ageHours": 1499,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1161,7 +1164,7 @@
    "comments": 283,
    "shares": 58,
    "postedAt": "2026-08-23T10:02:58+00:00",
-   "ageHours": 1436,
+   "ageHours": 1452,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1189,7 +1192,7 @@
    "comments": 669,
    "shares": 0,
    "postedAt": "2026-08-11T02:14:55.000Z",
-   "ageHours": 1732,
+   "ageHours": 1748,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1217,7 +1220,7 @@
    "comments": 18,
    "shares": 0,
    "postedAt": "2026-08-19T08:49:06.000Z",
-   "ageHours": 1533,
+   "ageHours": 1550,
    "region": "domestic",
    "flags": [
     "abs"
@@ -1245,7 +1248,7 @@
    "comments": 4163,
    "shares": 2590,
    "postedAt": "2026-08-19T08:40:08+00:00",
-   "ageHours": 1533,
+   "ageHours": 1550,
    "region": "domestic",
    "flags": [
     "abs"
