@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-24T22:20:02Z",
+ "generatedAt": "2026-10-25T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1494,
+   "ageHours": 1518,
    "region": "global",
    "flags": [
     "abs",
@@ -53,7 +53,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 254,
+   "ageHours": 278,
    "region": "global",
    "flags": [
     "abs",
@@ -82,7 +82,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1333,
+   "ageHours": 1357,
    "region": "domestic",
    "flags": [
     "abs",
@@ -111,7 +111,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1354,
+   "ageHours": 1378,
    "region": "domestic",
    "flags": [
     "abs",
@@ -122,6 +122,35 @@
    "medianX": 35.9,
    "tier": "🔥🔥🔥",
    "score": 43.3,
+   "source": "B",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "",
+   "firstSeen": "2026-09-03"
+  },
+  {
+   "key": "instagram:Dcss40YT3QU",
+   "platform": "instagram",
+   "embedId": "Dcss40YT3QU",
+   "url": "https://www.instagram.com/reel/Dcss40YT3QU/",
+   "title": "오전 10시 오픈 🩷 원래 11900원짜리, 근데 용량도 미쳤음ㅎㅎㅎㅎ 거두절미하고 영상 보시면 알아요. 이거 얼마나 신박하고 강력크한지 ㅎㅎㅎ",
+   "author": "eunsoone",
+   "followers": 46980,
+   "views": 210194,
+   "likes": 1376,
+   "comments": 6301,
+   "shares": 873,
+   "postedAt": "2026-08-31T08:55:24+00:00",
+   "ageHours": 1333,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "median"
+   ],
+   "ratio": 4.5,
+   "medianX": 44.7,
+   "tier": "🔥🔥",
+   "score": 39.1,
    "source": "B",
    "isAd": false,
    "adKind": "",
@@ -141,7 +170,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1739,
+   "ageHours": 1763,
    "region": "domestic",
    "flags": [
     "abs",
@@ -158,6 +187,63 @@
    "firstSeen": "2026-09-03"
   },
   {
+   "key": "tiktok:7698706276850748679",
+   "platform": "tiktok",
+   "embedId": "7698706276850748679",
+   "url": "https://www.tiktok.com/@bbangthug/video/7698706276850748679",
+   "title": "여리여리 메이크업 튜토리얼.mov",
+   "author": "bbangthug",
+   "followers": 1600000,
+   "views": 992600,
+   "likes": 98000,
+   "comments": 318,
+   "shares": 1453,
+   "postedAt": "2026-10-20T11:12:25.000Z",
+   "ageHours": 131,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.6,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 33.2,
+   "source": "tiktok:메이크업",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oQXfkFBRUDqD1pEwTgWcAWKsIf9p84BEulI70B~tplv-tiktokx-origin.image?dr=9636&x-expires=1793138400&x-signature=xByz5l7hkgqcF71zWtrfUMGaKtw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "key": "tiktok:7696418410778938645",
+   "platform": "tiktok",
+   "embedId": "7696418410778938645",
+   "url": "https://www.tiktok.com/@qseoleon/video/7696418410778938645",
+   "title": "세림의 철칙 메이크업 #makeup #세림의철칙 #한세림",
+   "author": "qseoleon",
+   "followers": 9223,
+   "views": 430900,
+   "likes": 49600,
+   "comments": 86,
+   "shares": 1674,
+   "postedAt": "2026-10-14T07:14:19.000Z",
+   "ageHours": 279,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 46.7,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 32.4,
+   "source": "tiktok:메이크업",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oYUPX16himW5AisDdAKEAwAK0kAZBBB9CI8fIx~tplv-tiktokx-origin.image?dr=9636&x-expires=1793138400&x-signature=J5rMcy1hPa3Etl7xKT8K0%2BxL%2Bnc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-26"
+  },
+  {
    "key": "instagram:DcAqnQ9onKa",
    "platform": "instagram",
    "embedId": "DcAqnQ9onKa",
@@ -170,7 +256,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1720,
+   "ageHours": 1744,
    "region": "domestic",
    "flags": [
     "abs",
@@ -200,7 +286,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1331,
+   "ageHours": 1355,
    "region": "domestic",
    "flags": [
     "abs"
@@ -216,34 +302,6 @@
    "firstSeen": "2026-09-03"
   },
   {
-   "key": "tiktok:7698706276850748679",
-   "platform": "tiktok",
-   "embedId": "7698706276850748679",
-   "url": "https://www.tiktok.com/@bbangthug/video/7698706276850748679",
-   "title": "여리여리 메이크업 튜토리얼.mov",
-   "author": "bbangthug",
-   "followers": 1600000,
-   "views": 596400,
-   "likes": 65700,
-   "comments": 236,
-   "shares": 1032,
-   "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 107,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": 0.4,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 25.9,
-   "source": "tiktok:메이크업",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oQXfkFBRUDqD1pEwTgWcAWKsIf9p84BEulI70B~tplv-tiktokx-origin.image?dr=9636&x-expires=1792792800&x-signature=IfuF6a2UTnj3%2FAPMpuvv%2Bgzx118%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-   "firstSeen": "2026-10-22"
-  },
-  {
    "key": "tiktok:7691661337906187528",
    "platform": "tiktok",
    "embedId": "7691661337906187528",
@@ -256,7 +314,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 563,
+   "ageHours": 587,
    "region": "domestic",
    "flags": [
     "abs",
@@ -285,7 +343,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1917,
+   "ageHours": 1941,
    "region": "domestic",
    "flags": [
     "abs",
@@ -302,6 +360,36 @@
    "firstSeen": "2026-09-03"
   },
   {
+   "key": "instagram:DckgPqhTQqB",
+   "platform": "instagram",
+   "embedId": "DckgPqhTQqB",
+   "url": "https://www.instagram.com/reel/DckgPqhTQqB/",
+   "title": "#광고 9월 올영세일 때 선크림 살 거면 VT PDRN 에어 클라우드 선스크린 먼저 봐봐요☁️ 얼굴에 듬뿍 올려도 처음엔 수분크림처럼 촉촉하게 ",
+   "author": "seulview_beauty.kr",
+   "followers": 29164,
+   "views": 236360,
+   "likes": 684,
+   "comments": 18,
+   "shares": 334,
+   "postedAt": "2026-08-28T04:30:06+00:00",
+   "ageHours": 1410,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "ratio",
+    "median"
+   ],
+   "ratio": 8.1,
+   "medianX": 15.6,
+   "tier": "🔥🔥🔥",
+   "score": 23.9,
+   "source": "B",
+   "isAd": true,
+   "adKind": "caption",
+   "thumb": "",
+   "firstSeen": "2026-09-03"
+  },
+  {
    "key": "tiktok:7684293190479940884",
    "platform": "tiktok",
    "embedId": "7684293190479940884",
@@ -314,7 +402,7 @@
    "comments": 13,
    "shares": 87,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1039,
+   "ageHours": 1063,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -342,7 +430,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 739,
+   "ageHours": 763,
    "region": "domestic",
    "flags": [
     "abs"
@@ -370,7 +458,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 469,
+   "ageHours": 493,
    "region": "domestic",
    "flags": [
     "abs"
@@ -398,7 +486,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 323,
+   "ageHours": 347,
    "region": "domestic",
    "flags": [
     "abs"
@@ -412,62 +500,6 @@
    "adKind": "",
    "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oIOKbaiELNp0EDAnTAvYB9nAAAstIzxQiBNbP~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=F9Tb2tLYpW1cEdcFCb95skbOk5A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
    "firstSeen": "2026-10-20"
-  },
-  {
-   "key": "instagram:DckgPqhTQqB",
-   "platform": "instagram",
-   "embedId": "DckgPqhTQqB",
-   "url": "https://www.instagram.com/reel/DckgPqhTQqB/",
-   "title": "#광고 9월 올영세일 때 선크림 살 거면 VT PDRN 에어 클라우드 선스크린 먼저 봐봐요☁️ 얼굴에 듬뿍 올려도 처음엔 수분크림처럼 촉촉하게 ",
-   "author": "seulview_beauty.kr",
-   "followers": 0,
-   "views": 236360,
-   "likes": 684,
-   "comments": 18,
-   "shares": 334,
-   "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1386,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": null,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 12.5,
-   "source": "B",
-   "isAd": true,
-   "adKind": "caption",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:Dcss40YT3QU",
-   "platform": "instagram",
-   "embedId": "Dcss40YT3QU",
-   "url": "https://www.instagram.com/reel/Dcss40YT3QU/",
-   "title": "오전 10시 오픈 🩷 원래 11900원짜리, 근데 용량도 미쳤음ㅎㅎㅎㅎ 거두절미하고 영상 보시면 알아요. 이거 얼마나 신박하고 강력크한지 ㅎㅎㅎ",
-   "author": "eunsoone",
-   "followers": 44868,
-   "views": 210194,
-   "likes": 1376,
-   "comments": 6301,
-   "shares": 873,
-   "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1309,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": 4.7,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 10.8,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
   }
  ]
 }
