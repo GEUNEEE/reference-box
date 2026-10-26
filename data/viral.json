@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-25T22:20:01Z",
+ "generatedAt": "2026-10-26T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1518,
+   "ageHours": 1542,
    "region": "global",
    "flags": [
     "abs",
@@ -53,7 +53,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 278,
+   "ageHours": 302,
    "region": "global",
    "flags": [
     "abs",
@@ -82,7 +82,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1357,
+   "ageHours": 1381,
    "region": "domestic",
    "flags": [
     "abs",
@@ -111,7 +111,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1378,
+   "ageHours": 1402,
    "region": "domestic",
    "flags": [
     "abs",
@@ -141,7 +141,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1333,
+   "ageHours": 1357,
    "region": "domestic",
    "flags": [
     "abs",
@@ -170,7 +170,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1763,
+   "ageHours": 1787,
    "region": "domestic",
    "flags": [
     "abs",
@@ -187,6 +187,35 @@
    "firstSeen": "2026-09-03"
   },
   {
+   "key": "tiktok:7695957469419293973",
+   "platform": "tiktok",
+   "embedId": "7695957469419293973",
+   "url": "https://www.tiktok.com/@selly__home/video/7695957469419293973",
+   "title": "모듈 수납장 필요하신분들은 ”링크“ 적어주세요💟 공구기간: 10월13일(화)-18일 🎁 구매 이벤트 안내 1️⃣ 선착순 이벤트 선착순 구매 10",
+   "author": "selly__home",
+   "followers": 2807,
+   "views": 143000,
+   "likes": 847,
+   "comments": 340,
+   "shares": 188,
+   "postedAt": "2026-10-13T01:25:40.000Z",
+   "ageHours": 333,
+   "region": "domestic",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 50.9,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 33.6,
+   "source": "tiktok:공구",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oU1cu4NV9A4IsAiI9AKI1JZGSZCdwSf7tPiBis~tplv-tiktokx-origin.image?dr=9636&x-expires=1793224800&x-signature=sJx7IKMcvsIyOhgwg8vqtUyqR1U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "firstSeen": "2026-10-27"
+  },
+  {
    "key": "tiktok:7698706276850748679",
    "platform": "tiktok",
    "embedId": "7698706276850748679",
@@ -199,7 +228,7 @@
    "comments": 318,
    "shares": 1453,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 131,
+   "ageHours": 155,
    "region": "domestic",
    "flags": [
     "abs"
@@ -227,7 +256,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 279,
+   "ageHours": 303,
    "region": "domestic",
    "flags": [
     "abs",
@@ -256,7 +285,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1744,
+   "ageHours": 1768,
    "region": "domestic",
    "flags": [
     "abs",
@@ -286,7 +315,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1355,
+   "ageHours": 1379,
    "region": "domestic",
    "flags": [
     "abs"
@@ -314,7 +343,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 587,
+   "ageHours": 611,
    "region": "domestic",
    "flags": [
     "abs",
@@ -343,7 +372,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1941,
+   "ageHours": 1965,
    "region": "domestic",
    "flags": [
     "abs",
@@ -372,7 +401,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1410,
+   "ageHours": 1434,
    "region": "domestic",
    "flags": [
     "abs",
@@ -402,7 +431,7 @@
    "comments": 13,
    "shares": 87,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1063,
+   "ageHours": 1087,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -430,7 +459,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 763,
+   "ageHours": 787,
    "region": "domestic",
    "flags": [
     "abs"
@@ -458,7 +487,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 493,
+   "ageHours": 517,
    "region": "domestic",
    "flags": [
     "abs"
@@ -486,7 +515,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 347,
+   "ageHours": 371,
    "region": "domestic",
    "flags": [
     "abs"
@@ -500,6 +529,62 @@
    "adKind": "",
    "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oIOKbaiELNp0EDAnTAvYB9nAAAstIzxQiBNbP~tplv-tiktokx-origin.image?dr=9636&x-expires=1792641600&x-signature=F9Tb2tLYpW1cEdcFCb95skbOk5A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
    "firstSeen": "2026-10-20"
+  },
+  {
+   "key": "tiktok:7697185788886322452",
+   "platform": "tiktok",
+   "embedId": "7697185788886322452",
+   "url": "https://www.tiktok.com/@l.no.you/video/7697185788886322452",
+   "title": "🤎 호주 UGG 어그 OPEN 🐻🤎 호주 어그 공구 시작! 🛍️✨ 쌀쌀해지는 날씨에 꼭 필요한 겨울 필수템 ❄️ 포근하고 따뜻한 착용감은 물론,",
+   "author": "l.no.you",
+   "followers": 142700,
+   "views": 241100,
+   "likes": 3754,
+   "comments": 53,
+   "shares": 99,
+   "postedAt": "2026-10-16T08:52:10.000Z",
+   "ageHours": 253,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 1.7,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 12.7,
+   "source": "tiktok:공구",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osVoflM5QFeSC4PIQLIRZDApJjFbv4fRMAUDVE~tplv-tiktokx-origin.image?dr=9636&x-expires=1793224800&x-signature=Bd2oBF7LzJ3NlpJJ754WMSGt7f8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "key": "tiktok:7699062268457159956",
+   "platform": "tiktok",
+   "embedId": "7699062268457159956",
+   "url": "https://www.tiktok.com/@bbbangjuseayo/video/7699062268457159956",
+   "title": "바치케 찹쌀떡 2차 공구 open🥳🎉❤️❤️ 이벤트 : 댓글에 구매인증 해주신 분들 중 5분 추첨하여 요거트 찹쌀떡 6종 제공!! 기간 : 10",
+   "author": "bbbangjuseayo",
+   "followers": 103200,
+   "views": 113000,
+   "likes": 6851,
+   "comments": 80,
+   "shares": 426,
+   "postedAt": "2026-10-21T10:13:47.000Z",
+   "ageHours": 132,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 1.1,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 1.8,
+   "source": "tiktok:공구",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osCsGeSDIIp4gMII4JVALCGxQQjSAU6UeDeARM~tplv-tiktokx-origin.image?dr=9636&x-expires=1793224800&x-signature=JQB%2BbR58RLXLIkRdpIjguQa7vso%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "firstSeen": "2026-10-27"
   }
  ]
 }
