@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-27T22:20:01Z",
+ "generatedAt": "2026-10-28T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1566,
+   "ageHours": 1590,
    "region": "global",
    "flags": [
     "abs",
@@ -53,7 +53,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 326,
+   "ageHours": 350,
    "region": "global",
    "flags": [
     "abs",
@@ -82,7 +82,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1405,
+   "ageHours": 1429,
    "region": "domestic",
    "flags": [
     "abs",
@@ -111,7 +111,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1426,
+   "ageHours": 1450,
    "region": "domestic",
    "flags": [
     "abs",
@@ -141,7 +141,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1381,
+   "ageHours": 1405,
    "region": "domestic",
    "flags": [
     "abs",
@@ -170,7 +170,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1811,
+   "ageHours": 1835,
    "region": "domestic",
    "flags": [
     "abs",
@@ -199,7 +199,7 @@
    "comments": 340,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 357,
+   "ageHours": 381,
    "region": "domestic",
    "flags": [
     "abs",
@@ -228,7 +228,7 @@
    "comments": 318,
    "shares": 1453,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 179,
+   "ageHours": 203,
    "region": "domestic",
    "flags": [
     "abs"
@@ -256,7 +256,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 327,
+   "ageHours": 351,
    "region": "domestic",
    "flags": [
     "abs",
@@ -285,7 +285,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1792,
+   "ageHours": 1816,
    "region": "domestic",
    "flags": [
     "abs",
@@ -315,7 +315,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1403,
+   "ageHours": 1427,
    "region": "domestic",
    "flags": [
     "abs"
@@ -343,7 +343,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 635,
+   "ageHours": 659,
    "region": "domestic",
    "flags": [
     "abs",
@@ -372,7 +372,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 1989,
+   "ageHours": 2013,
    "region": "domestic",
    "flags": [
     "abs",
@@ -401,7 +401,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1458,
+   "ageHours": 1482,
    "region": "domestic",
    "flags": [
     "abs",
@@ -431,7 +431,7 @@
    "comments": 13,
    "shares": 87,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1111,
+   "ageHours": 1135,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -459,7 +459,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 811,
+   "ageHours": 835,
    "region": "domestic",
    "flags": [
     "abs"
@@ -487,7 +487,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 541,
+   "ageHours": 565,
    "region": "domestic",
    "flags": [
     "abs"
@@ -515,7 +515,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 395,
+   "ageHours": 419,
    "region": "domestic",
    "flags": [
     "abs"
@@ -543,7 +543,7 @@
    "comments": 53,
    "shares": 99,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 277,
+   "ageHours": 301,
    "region": "domestic",
    "flags": [
     "abs"
@@ -571,7 +571,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 156,
+   "ageHours": 180,
    "region": "domestic",
    "flags": [
     "abs"
@@ -585,6 +585,34 @@
    "adKind": "",
    "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osCsGeSDIIp4gMII4JVALCGxQQjSAU6UeDeARM~tplv-tiktokx-origin.image?dr=9636&x-expires=1793224800&x-signature=JQB%2BbR58RLXLIkRdpIjguQa7vso%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
    "firstSeen": "2026-10-27"
+  },
+  {
+   "key": "tiktok:7692738002501504276",
+   "platform": "tiktok",
+   "embedId": "7692738002501504276",
+   "url": "https://www.tiktok.com/@ayaageem/video/7692738002501504276",
+   "title": "뭘 발라도 건조하다고요? 속건조 한 방에 해결하는 환절기 나이트루틴 (건성을 위한 스킨케어 추천이기도 한 영상 . . 🧴)",
+   "author": "ayaageem",
+   "followers": 7550,
+   "views": 40500,
+   "likes": 978,
+   "comments": 13,
+   "shares": 18,
+   "postedAt": "2026-10-04T09:12:27.000Z",
+   "ageHours": 589,
+   "region": "domestic",
+   "flags": [
+    "ratio"
+   ],
+   "ratio": 5.4,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 1.0,
+   "source": "tiktok:스킨케어",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osuABffDcEg5RNqEnGKrTwNhCBHAsEh9FBxSIg~tplv-tiktokx-origin.image?dr=9636&x-expires=1793397600&x-signature=0tX1fGxe%2B0KwVh%2BnmosPackxzrU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "firstSeen": "2026-10-29"
   }
  ]
 }
