@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-28T22:20:01Z",
+ "generatedAt": "2026-10-29T22:20:02Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1590,
+   "ageHours": 1614,
    "region": "global",
    "flags": [
     "abs",
@@ -53,7 +53,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 350,
+   "ageHours": 374,
    "region": "global",
    "flags": [
     "abs",
@@ -82,7 +82,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1429,
+   "ageHours": 1453,
    "region": "domestic",
    "flags": [
     "abs",
@@ -111,7 +111,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1450,
+   "ageHours": 1474,
    "region": "domestic",
    "flags": [
     "abs",
@@ -129,6 +129,34 @@
    "firstSeen": "2026-09-03"
   },
   {
+   "key": "tiktok:7693880422274551048",
+   "platform": "tiktok",
+   "embedId": "7693880422274551048",
+   "url": "https://www.tiktok.com/@ssinxxi/video/7693880422274551048",
+   "title": "요즘 중딩 메이크업#추천 #틱톡뷰티",
+   "author": "ssinxxi",
+   "followers": 2400000,
+   "views": 1500000,
+   "likes": 64700,
+   "comments": 605,
+   "shares": 3951,
+   "postedAt": "2026-10-07T11:05:36.000Z",
+   "ageHours": 539,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.6,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 39.2,
+   "source": "tiktok:메이크업",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oUEvkmREQBAf4QrGFqegiEtyUBFdRJxDi4iFNs~tplv-tiktokx-dmt-logom:tos-alisg-i-0068/oA0OINKIAC5xEDBWAAwiuY3rEvJz1fiBQAOyGA.image?dr=9634&x-expires=1793484000&x-signature=azQTYjAA7Of20zhVaP1O6Q49xmk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-30"
+  },
+  {
    "key": "instagram:Dcss40YT3QU",
    "platform": "instagram",
    "embedId": "Dcss40YT3QU",
@@ -141,7 +169,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1405,
+   "ageHours": 1429,
    "region": "domestic",
    "flags": [
     "abs",
@@ -170,7 +198,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1835,
+   "ageHours": 1859,
    "region": "domestic",
    "flags": [
     "abs",
@@ -187,6 +215,34 @@
    "firstSeen": "2026-09-03"
   },
   {
+   "key": "tiktok:7698706276850748679",
+   "platform": "tiktok",
+   "embedId": "7698706276850748679",
+   "url": "https://www.tiktok.com/@bbangthug/video/7698706276850748679",
+   "title": "여리여리 메이크업 튜토리얼.mov",
+   "author": "bbangthug",
+   "followers": 1600000,
+   "views": 1100000,
+   "likes": 107400,
+   "comments": 348,
+   "shares": 1541,
+   "postedAt": "2026-10-20T11:12:25.000Z",
+   "ageHours": 227,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.7,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 34.7,
+   "source": "tiktok:메이크업",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oQXfkFBRUDqD1pEwTgWcAWKsIf9p84BEulI70B~tplv-tiktokx-origin.image?dr=9636&x-expires=1793484000&x-signature=fm%2FkC6ll1rU6%2BwdExHwJFgcGV4I%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-22"
+  },
+  {
    "key": "tiktok:7695957469419293973",
    "platform": "tiktok",
    "embedId": "7695957469419293973",
@@ -199,7 +255,7 @@
    "comments": 340,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 381,
+   "ageHours": 405,
    "region": "domestic",
    "flags": [
     "abs",
@@ -216,34 +272,6 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "key": "tiktok:7698706276850748679",
-   "platform": "tiktok",
-   "embedId": "7698706276850748679",
-   "url": "https://www.tiktok.com/@bbangthug/video/7698706276850748679",
-   "title": "여리여리 메이크업 튜토리얼.mov",
-   "author": "bbangthug",
-   "followers": 1600000,
-   "views": 992600,
-   "likes": 98000,
-   "comments": 318,
-   "shares": 1453,
-   "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 203,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": 0.6,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 33.2,
-   "source": "tiktok:메이크업",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oQXfkFBRUDqD1pEwTgWcAWKsIf9p84BEulI70B~tplv-tiktokx-origin.image?dr=9636&x-expires=1793138400&x-signature=xByz5l7hkgqcF71zWtrfUMGaKtw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-   "firstSeen": "2026-10-22"
-  },
-  {
    "key": "tiktok:7696418410778938645",
    "platform": "tiktok",
    "embedId": "7696418410778938645",
@@ -256,7 +284,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 351,
+   "ageHours": 375,
    "region": "domestic",
    "flags": [
     "abs",
@@ -285,7 +313,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1816,
+   "ageHours": 1840,
    "region": "domestic",
    "flags": [
     "abs",
@@ -315,7 +343,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1427,
+   "ageHours": 1451,
    "region": "domestic",
    "flags": [
     "abs"
@@ -343,7 +371,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 659,
+   "ageHours": 683,
    "region": "domestic",
    "flags": [
     "abs",
@@ -372,7 +400,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 2013,
+   "ageHours": 2037,
    "region": "domestic",
    "flags": [
     "abs",
@@ -401,7 +429,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1482,
+   "ageHours": 1506,
    "region": "domestic",
    "flags": [
     "abs",
@@ -431,7 +459,7 @@
    "comments": 13,
    "shares": 87,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1135,
+   "ageHours": 1159,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -459,7 +487,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 835,
+   "ageHours": 859,
    "region": "domestic",
    "flags": [
     "abs"
@@ -487,7 +515,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 565,
+   "ageHours": 589,
    "region": "domestic",
    "flags": [
     "abs"
@@ -515,7 +543,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 419,
+   "ageHours": 443,
    "region": "domestic",
    "flags": [
     "abs"
@@ -543,7 +571,7 @@
    "comments": 53,
    "shares": 99,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 301,
+   "ageHours": 325,
    "region": "domestic",
    "flags": [
     "abs"
@@ -571,7 +599,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 180,
+   "ageHours": 204,
    "region": "domestic",
    "flags": [
     "abs"
@@ -599,7 +627,7 @@
    "comments": 13,
    "shares": 18,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 589,
+   "ageHours": 613,
    "region": "domestic",
    "flags": [
     "ratio"
