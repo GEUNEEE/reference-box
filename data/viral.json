@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-31T22:20:01Z",
+ "generatedAt": "2026-11-01T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 16,
    "shares": 4796,
    "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1662,
+   "ageHours": 1686,
    "region": "global",
    "flags": [
     "abs",
@@ -53,7 +53,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 422,
+   "ageHours": 446,
    "region": "global",
    "flags": [
     "abs",
@@ -70,6 +70,34 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "key": "tiktok:7694520757828799745",
+   "platform": "tiktok",
+   "embedId": "7694520757828799745",
+   "url": "https://www.tiktok.com/@__the.sobok__/video/7694520757828799745",
+   "title": "[협찬] 마산 통술집에서 코끼리조개 수육까지 나오는 곳, 흔치 않습니다. 자산한의원 조금 아래 골목 안쪽에 숨어 있는 자산동 진가통술. 여기는 ",
+   "author": "__the.sobok__",
+   "followers": 93,
+   "views": 20600,
+   "likes": 188,
+   "comments": 12,
+   "shares": 68,
+   "postedAt": "2026-10-09T04:31:17.000Z",
+   "ageHours": 570,
+   "region": "domestic",
+   "flags": [
+    "ratio"
+   ],
+   "ratio": 221.5,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 54.9,
+   "source": "tiktok:협찬",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEhIqeNIXATjGlWQDswIADCobDkLIBHfVDsber~tplv-tiktokx-origin.image?dr=10395&x-expires=1793743200&x-signature=ht%2BJq4jSOUk4%2F%2FmwZcdDt9auwbs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+   "firstSeen": "2026-11-02"
+  },
+  {
    "key": "tiktok:7679752376344956181",
    "platform": "tiktok",
    "embedId": "7679752376344956181",
@@ -82,7 +110,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1501,
+   "ageHours": 1525,
    "region": "domestic",
    "flags": [
     "abs",
@@ -99,6 +127,35 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "key": "tiktok:7690931436018224385",
+   "platform": "tiktok",
+   "embedId": "7690931436018224385",
+   "url": "https://www.tiktok.com/@me_.3ll/video/7690931436018224385",
+   "title": "#makeuptutorial ⁡ ❥Base ABOUT TONE — Skin Layer Fit Foundation 19 d’Alba — First",
+   "author": "me_.3ll",
+   "followers": 285500,
+   "views": 2200000,
+   "likes": 310100,
+   "comments": 394,
+   "shares": 9770,
+   "postedAt": "2026-09-29T12:22:16.000Z",
+   "ageHours": 802,
+   "region": "global",
+   "flags": [
+    "abs",
+    "ratio"
+   ],
+   "ratio": 7.7,
+   "medianX": null,
+   "tier": "🔥🔥",
+   "score": 44.7,
+   "source": "tiktok:메이크업",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oYXEnf67CgZRDQAIAU3EA2CUrBuFECQwqv1eAC~tplv-tiktokx-origin.image?dr=9636&x-expires=1793484000&x-signature=wzwXQlnos%2B7zWBFbJbIOdMzhuQI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-20"
+  },
+  {
    "key": "instagram:Dcn3yC3y_YX",
    "platform": "instagram",
    "embedId": "Dcn3yC3y_YX",
@@ -111,7 +168,7 @@
    "comments": 189,
    "shares": 35002,
    "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1522,
+   "ageHours": 1546,
    "region": "domestic",
    "flags": [
     "abs",
@@ -141,7 +198,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 587,
+   "ageHours": 611,
    "region": "domestic",
    "flags": [
     "abs"
@@ -169,7 +226,7 @@
    "comments": 6301,
    "shares": 873,
    "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1477,
+   "ageHours": 1501,
    "region": "domestic",
    "flags": [
     "abs",
@@ -198,7 +255,7 @@
    "comments": 57,
    "shares": 15456,
    "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1907,
+   "ageHours": 1931,
    "region": "domestic",
    "flags": [
     "abs",
@@ -227,7 +284,7 @@
    "comments": 348,
    "shares": 1541,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 275,
+   "ageHours": 299,
    "region": "domestic",
    "flags": [
     "abs"
@@ -255,7 +312,7 @@
    "comments": 340,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 453,
+   "ageHours": 477,
    "region": "domestic",
    "flags": [
     "abs",
@@ -284,7 +341,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 423,
+   "ageHours": 447,
    "region": "domestic",
    "flags": [
     "abs",
@@ -313,7 +370,7 @@
    "comments": 31,
    "shares": 391,
    "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1888,
+   "ageHours": 1912,
    "region": "domestic",
    "flags": [
     "abs",
@@ -343,7 +400,7 @@
    "comments": 7774,
    "shares": 8726,
    "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1499,
+   "ageHours": 1523,
    "region": "domestic",
    "flags": [
     "abs"
@@ -371,7 +428,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 731,
+   "ageHours": 755,
    "region": "domestic",
    "flags": [
     "abs",
@@ -400,7 +457,7 @@
    "comments": 805,
    "shares": 8249,
    "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 2085,
+   "ageHours": 2109,
    "region": "domestic",
    "flags": [
     "abs",
@@ -429,7 +486,7 @@
    "comments": 18,
    "shares": 334,
    "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1554,
+   "ageHours": 1578,
    "region": "domestic",
    "flags": [
     "abs",
@@ -459,7 +516,7 @@
    "comments": 13,
    "shares": 87,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1207,
+   "ageHours": 1231,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -487,7 +544,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 907,
+   "ageHours": 931,
    "region": "domestic",
    "flags": [
     "abs"
@@ -515,7 +572,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 637,
+   "ageHours": 661,
    "region": "domestic",
    "flags": [
     "abs"
@@ -543,7 +600,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 491,
+   "ageHours": 515,
    "region": "domestic",
    "flags": [
     "abs"
@@ -571,7 +628,7 @@
    "comments": 53,
    "shares": 99,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 373,
+   "ageHours": 397,
    "region": "domestic",
    "flags": [
     "abs"
@@ -599,7 +656,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 252,
+   "ageHours": 276,
    "region": "domestic",
    "flags": [
     "abs"
@@ -627,7 +684,7 @@
    "comments": 13,
    "shares": 18,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 661,
+   "ageHours": 685,
    "region": "domestic",
    "flags": [
     "ratio"
