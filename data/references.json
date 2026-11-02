@@ -11335,6 +11335,21 @@
         "deleted": "2026-11-02T04:26:27.000Z",
         "url": "2026-11-02T04:26:27.000Z"
       }
+    },
+    {
+      "id": "1a19b536dca+3sro7",
+      "url": "https://www.youtube.com/shorts/A9Z58FKjo10",
+      "platform": "youtube",
+      "embedId": "A9Z58FKjo10",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-11-02T08:14:58.000Z",
+      "updatedAt": "2026-11-02T08:14:58.000Z"
     }
   ],
   "accounts": [
