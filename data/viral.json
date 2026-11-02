@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-01T22:20:01Z",
+ "generatedAt": "2026-11-02T22:20:02Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -10,36 +10,6 @@
   "global_share": 0.1
  },
  "items": [
-  {
-   "key": "instagram:DcY3d7NMc8R",
-   "platform": "instagram",
-   "embedId": "DcY3d7NMc8R",
-   "url": "https://www.instagram.com/reel/DcY3d7NMc8R/",
-   "title": "Four powerful skincare ingredients - four different skin concerns. ✨ 💧 Squalane ",
-   "author": "cachelstudio",
-   "followers": 20766,
-   "views": 11413246,
-   "likes": 0,
-   "comments": 16,
-   "shares": 4796,
-   "postedAt": "2026-08-23T16:00:04+00:00",
-   "ageHours": 1686,
-   "region": "global",
-   "flags": [
-    "abs",
-    "ratio",
-    "median"
-   ],
-   "ratio": 549.6,
-   "medianX": 1797.1,
-   "tier": "🔥🔥🔥",
-   "score": 92.6,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
   {
    "key": "tiktok:7696433898858827028",
    "platform": "tiktok",
@@ -53,7 +23,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 446,
+   "ageHours": 470,
    "region": "global",
    "flags": [
     "abs",
@@ -82,7 +52,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 570,
+   "ageHours": 594,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -110,7 +80,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1525,
+   "ageHours": 1549,
    "region": "domestic",
    "flags": [
     "abs",
@@ -139,7 +109,7 @@
    "comments": 394,
    "shares": 9770,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 802,
+   "ageHours": 826,
    "region": "global",
    "flags": [
     "abs",
@@ -156,36 +126,6 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "key": "instagram:Dcn3yC3y_YX",
-   "platform": "instagram",
-   "embedId": "Dcn3yC3y_YX",
-   "url": "https://www.instagram.com/reel/Dcn3yC3y_YX/",
-   "title": "고양이를 곁들인 메이크업 튜토리얼 가져왔서욥 🐈‍⬛🖤 화장품 정보🤍 Eyeshadow (아이섀도우) CLIO PRO EYE PALETTE AIR",
-   "author": "easy_yun_",
-   "followers": 378562,
-   "views": 1991343,
-   "likes": 181673,
-   "comments": 189,
-   "shares": 35002,
-   "postedAt": "2026-08-29T11:54:04+00:00",
-   "ageHours": 1546,
-   "region": "domestic",
-   "flags": [
-    "abs",
-    "ratio",
-    "median"
-   ],
-   "ratio": 5.3,
-   "medianX": 35.9,
-   "tier": "🔥🔥🔥",
-   "score": 43.3,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
    "key": "tiktok:7693880422274551048",
    "platform": "tiktok",
    "embedId": "7693880422274551048",
@@ -198,7 +138,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 611,
+   "ageHours": 635,
    "region": "domestic",
    "flags": [
     "abs"
@@ -214,64 +154,6 @@
    "firstSeen": "2026-10-30"
   },
   {
-   "key": "instagram:Dcss40YT3QU",
-   "platform": "instagram",
-   "embedId": "Dcss40YT3QU",
-   "url": "https://www.instagram.com/reel/Dcss40YT3QU/",
-   "title": "오전 10시 오픈 🩷 원래 11900원짜리, 근데 용량도 미쳤음ㅎㅎㅎㅎ 거두절미하고 영상 보시면 알아요. 이거 얼마나 신박하고 강력크한지 ㅎㅎㅎ",
-   "author": "eunsoone",
-   "followers": 46980,
-   "views": 210194,
-   "likes": 1376,
-   "comments": 6301,
-   "shares": 873,
-   "postedAt": "2026-08-31T08:55:24+00:00",
-   "ageHours": 1501,
-   "region": "domestic",
-   "flags": [
-    "abs",
-    "median"
-   ],
-   "ratio": 4.5,
-   "medianX": 44.7,
-   "tier": "🔥🔥",
-   "score": 39.1,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:Db-lIKKTQAq",
-   "platform": "instagram",
-   "embedId": "Db-lIKKTQAq",
-   "url": "https://www.instagram.com/reel/Db-lIKKTQAq/",
-   "title": "#광고 유니클로가 독을 풀었다… 피팅룸 가보면 다 배럴진 입고있음 진짜로; 🏷️ 유니클로 배럴 진 (57 OLIVE, 69 NAVY) 59,00",
-   "author": "iamsejong",
-   "followers": 71428,
-   "views": 1295082,
-   "likes": 8947,
-   "comments": 57,
-   "shares": 15456,
-   "postedAt": "2026-08-13T11:02:06+00:00",
-   "ageHours": 1931,
-   "region": "domestic",
-   "flags": [
-    "abs",
-    "ratio"
-   ],
-   "ratio": 18.1,
-   "medianX": null,
-   "tier": "🔥🔥",
-   "score": 37.1,
-   "source": "B",
-   "isAd": true,
-   "adKind": "caption",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
    "key": "tiktok:7698706276850748679",
    "platform": "tiktok",
    "embedId": "7698706276850748679",
@@ -284,7 +166,7 @@
    "comments": 348,
    "shares": 1541,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 299,
+   "ageHours": 323,
    "region": "domestic",
    "flags": [
     "abs"
@@ -312,7 +194,7 @@
    "comments": 340,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 477,
+   "ageHours": 501,
    "region": "domestic",
    "flags": [
     "abs",
@@ -341,7 +223,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 447,
+   "ageHours": 471,
    "region": "domestic",
    "flags": [
     "abs",
@@ -358,64 +240,6 @@
    "firstSeen": "2026-10-26"
   },
   {
-   "key": "instagram:DcAqnQ9onKa",
-   "platform": "instagram",
-   "embedId": "DcAqnQ9onKa",
-   "url": "https://www.instagram.com/reel/DcAqnQ9onKa/",
-   "title": "#광고 @avene 여름철 강한 햇빛과 더운 날씨에 피부가 예민 해지고 붉어지는 날이 많아졌다면. . .?🥲 저의 피부 컨디션이 흔들릴 때마다 ",
-   "author": "coehana297",
-   "followers": 48117,
-   "views": 306996,
-   "likes": 494,
-   "comments": 31,
-   "shares": 391,
-   "postedAt": "2026-08-14T06:27:13+00:00",
-   "ageHours": 1912,
-   "region": "domestic",
-   "flags": [
-    "abs",
-    "ratio",
-    "median"
-   ],
-   "ratio": 6.4,
-   "medianX": 23.5,
-   "tier": "🔥🔥🔥",
-   "score": 29.8,
-   "source": "B",
-   "isAd": true,
-   "adKind": "caption",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:DcqamUVyTDw",
-   "platform": "instagram",
-   "embedId": "DcqamUVyTDw",
-   "url": "https://www.instagram.com/reel/DcqamUVyTDw/",
-   "title": "#내일오픈 저 지금까지 칼 쓰면서 칼 제대로 갈아본 적이 없거든요 적당한 거 사서 쓰다가 무뎌지면 버리고 새거 사고.. 💸 근데 이건 칼 블록에",
-   "author": "fairy__mom",
-   "followers": 171960,
-   "views": 687829,
-   "likes": 6886,
-   "comments": 7774,
-   "shares": 8726,
-   "postedAt": "2026-08-30T11:35:28+00:00",
-   "ageHours": 1523,
-   "region": "domestic",
-   "flags": [
-    "abs"
-   ],
-   "ratio": 4.0,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 27.9,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
    "key": "tiktok:7691661337906187528",
    "platform": "tiktok",
    "embedId": "7691661337906187528",
@@ -428,7 +252,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 755,
+   "ageHours": 779,
    "region": "domestic",
    "flags": [
     "abs",
@@ -445,65 +269,6 @@
    "firstSeen": "2026-10-24"
   },
   {
-   "key": "instagram:DbrkTPnp17W",
-   "platform": "instagram",
-   "embedId": "DbrkTPnp17W",
-   "url": "https://www.instagram.com/reel/DbrkTPnp17W/",
-   "title": "김수현이 해외 팬미팅을 확정하며 활동에 속도를 내고 있습니다. 필리핀 패션 브랜드 벤치는 김수현이 오는 10월 2일 마닐라에서 약 2만 명 규모",
-   "author": "mirenmag",
-   "followers": 19331,
-   "views": 507685,
-   "likes": 8402,
-   "comments": 805,
-   "shares": 8249,
-   "postedAt": "2026-08-06T01:47:25+00:00",
-   "ageHours": 2109,
-   "region": "domestic",
-   "flags": [
-    "abs",
-    "ratio"
-   ],
-   "ratio": 26.3,
-   "medianX": null,
-   "tier": "🔥🔥",
-   "score": 24.0,
-   "source": "B",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
-   "key": "instagram:DckgPqhTQqB",
-   "platform": "instagram",
-   "embedId": "DckgPqhTQqB",
-   "url": "https://www.instagram.com/reel/DckgPqhTQqB/",
-   "title": "#광고 9월 올영세일 때 선크림 살 거면 VT PDRN 에어 클라우드 선스크린 먼저 봐봐요☁️ 얼굴에 듬뿍 올려도 처음엔 수분크림처럼 촉촉하게 ",
-   "author": "seulview_beauty.kr",
-   "followers": 29164,
-   "views": 236360,
-   "likes": 684,
-   "comments": 18,
-   "shares": 334,
-   "postedAt": "2026-08-28T04:30:06+00:00",
-   "ageHours": 1578,
-   "region": "domestic",
-   "flags": [
-    "abs",
-    "ratio",
-    "median"
-   ],
-   "ratio": 8.1,
-   "medianX": 15.6,
-   "tier": "🔥🔥🔥",
-   "score": 23.9,
-   "source": "B",
-   "isAd": true,
-   "adKind": "caption",
-   "thumb": "",
-   "firstSeen": "2026-09-03"
-  },
-  {
    "key": "tiktok:7684293190479940884",
    "platform": "tiktok",
    "embedId": "7684293190479940884",
@@ -516,7 +281,7 @@
    "comments": 13,
    "shares": 87,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1231,
+   "ageHours": 1255,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -544,7 +309,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 931,
+   "ageHours": 955,
    "region": "domestic",
    "flags": [
     "abs"
@@ -572,7 +337,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 661,
+   "ageHours": 685,
    "region": "domestic",
    "flags": [
     "abs"
@@ -600,7 +365,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 515,
+   "ageHours": 539,
    "region": "domestic",
    "flags": [
     "abs"
@@ -628,7 +393,7 @@
    "comments": 53,
    "shares": 99,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 397,
+   "ageHours": 421,
    "region": "domestic",
    "flags": [
     "abs"
@@ -644,6 +409,34 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "key": "tiktok:7692738002501504276",
+   "platform": "tiktok",
+   "embedId": "7692738002501504276",
+   "url": "https://www.tiktok.com/@ayaageem/video/7692738002501504276",
+   "title": "뭘 발라도 건조하다고요? 속건조 한 방에 해결하는 환절기 나이트루틴 (건성을 위한 스킨케어 추천이기도 한 영상 . . 🧴)",
+   "author": "ayaageem",
+   "followers": 7553,
+   "views": 44600,
+   "likes": 1065,
+   "comments": 12,
+   "shares": 19,
+   "postedAt": "2026-10-04T09:12:27.000Z",
+   "ageHours": 709,
+   "region": "domestic",
+   "flags": [
+    "ratio"
+   ],
+   "ratio": 5.9,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 2.4,
+   "source": "tiktok:스킨케어",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osuABffDcEg5RNqEnGKrTwNhCBHAsEh9FBxSIg~tplv-tiktokx-origin.image?dr=9636&x-expires=1793829600&x-signature=cN7yeX%2FconjtNQyvbYbBfWCIs5s%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-29"
+  },
+  {
    "key": "tiktok:7699062268457159956",
    "platform": "tiktok",
    "embedId": "7699062268457159956",
@@ -656,7 +449,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 276,
+   "ageHours": 300,
    "region": "domestic",
    "flags": [
     "abs"
@@ -670,34 +463,6 @@
    "adKind": "",
    "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osCsGeSDIIp4gMII4JVALCGxQQjSAU6UeDeARM~tplv-tiktokx-origin.image?dr=9636&x-expires=1793224800&x-signature=JQB%2BbR58RLXLIkRdpIjguQa7vso%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
    "firstSeen": "2026-10-27"
-  },
-  {
-   "key": "tiktok:7692738002501504276",
-   "platform": "tiktok",
-   "embedId": "7692738002501504276",
-   "url": "https://www.tiktok.com/@ayaageem/video/7692738002501504276",
-   "title": "뭘 발라도 건조하다고요? 속건조 한 방에 해결하는 환절기 나이트루틴 (건성을 위한 스킨케어 추천이기도 한 영상 . . 🧴)",
-   "author": "ayaageem",
-   "followers": 7550,
-   "views": 40500,
-   "likes": 978,
-   "comments": 13,
-   "shares": 18,
-   "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 685,
-   "region": "domestic",
-   "flags": [
-    "ratio"
-   ],
-   "ratio": 5.4,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 1.0,
-   "source": "tiktok:스킨케어",
-   "isAd": false,
-   "adKind": "",
-   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osuABffDcEg5RNqEnGKrTwNhCBHAsEh9FBxSIg~tplv-tiktokx-origin.image?dr=9636&x-expires=1793397600&x-signature=0tX1fGxe%2B0KwVh%2BnmosPackxzrU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
-   "firstSeen": "2026-10-29"
   }
  ]
 }
