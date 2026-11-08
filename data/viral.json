@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-07T22:20:01Z",
+ "generatedAt": "2026-11-08T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 590,
+   "ageHours": 614,
    "region": "global",
    "flags": [
     "abs",
@@ -52,7 +52,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 714,
+   "ageHours": 738,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -80,7 +80,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1669,
+   "ageHours": 1693,
    "region": "domestic",
    "flags": [
     "abs",
@@ -109,7 +109,7 @@
    "comments": 418,
    "shares": 10200,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 946,
+   "ageHours": 970,
    "region": "global",
    "flags": [
     "abs",
@@ -138,7 +138,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 755,
+   "ageHours": 779,
    "region": "domestic",
    "flags": [
     "abs"
@@ -166,7 +166,7 @@
    "comments": 383,
    "shares": 1638,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 443,
+   "ageHours": 467,
    "region": "domestic",
    "flags": [
     "abs"
@@ -188,26 +188,26 @@
    "url": "https://www.tiktok.com/@selly__home/video/7695957469419293973",
    "title": "모듈 수납장 필요하신분들은 ”링크“ 적어주세요💟 공구기간: 10월13일(화)-18일 🎁 구매 이벤트 안내 1️⃣ 선착순 이벤트 선착순 구매 10",
    "author": "selly__home",
-   "followers": 2807,
-   "views": 143000,
-   "likes": 847,
-   "comments": 340,
+   "followers": 2869,
+   "views": 143600,
+   "likes": 844,
+   "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 621,
+   "ageHours": 645,
    "region": "domestic",
    "flags": [
     "abs",
     "ratio"
    ],
-   "ratio": 50.9,
+   "ratio": 50.1,
    "medianX": null,
    "tier": "🔥🔥",
-   "score": 33.6,
+   "score": 33.3,
    "source": "tiktok:공구",
    "isAd": false,
    "adKind": "",
-   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oU1cu4NV9A4IsAiI9AKI1JZGSZCdwSf7tPiBis~tplv-tiktokx-origin.image?dr=9636&x-expires=1793224800&x-signature=sJx7IKMcvsIyOhgwg8vqtUyqR1U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oU1cu4NV9A4IsAiI9AKI1JZGSZCdwSf7tPiBis~tplv-tiktokx-origin.image?dr=9636&x-expires=1794348000&x-signature=o4OGGtcM5R8amNCaufLt64d5n0Q%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
    "firstSeen": "2026-10-27"
   },
   {
@@ -223,7 +223,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 591,
+   "ageHours": 615,
    "region": "domestic",
    "flags": [
     "abs",
@@ -252,7 +252,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 899,
+   "ageHours": 923,
    "region": "domestic",
    "flags": [
     "abs",
@@ -281,7 +281,7 @@
    "comments": 13,
    "shares": 87,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1375,
+   "ageHours": 1399,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -309,7 +309,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1075,
+   "ageHours": 1099,
    "region": "domestic",
    "flags": [
     "abs"
@@ -337,7 +337,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 805,
+   "ageHours": 829,
    "region": "domestic",
    "flags": [
     "abs"
@@ -365,7 +365,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 659,
+   "ageHours": 683,
    "region": "domestic",
    "flags": [
     "abs"
@@ -393,7 +393,7 @@
    "comments": 65,
    "shares": 167,
    "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 64,
+   "ageHours": 88,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -415,25 +415,25 @@
    "url": "https://www.tiktok.com/@l.no.you/video/7697185788886322452",
    "title": "🤎 호주 UGG 어그 OPEN 🐻🤎 호주 어그 공구 시작! 🛍️✨ 쌀쌀해지는 날씨에 꼭 필요한 겨울 필수템 ❄️ 포근하고 따뜻한 착용감은 물론,",
    "author": "l.no.you",
-   "followers": 142700,
-   "views": 241100,
-   "likes": 3754,
-   "comments": 53,
-   "shares": 99,
+   "followers": 143600,
+   "views": 269100,
+   "likes": 4014,
+   "comments": 56,
+   "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 541,
+   "ageHours": 565,
    "region": "domestic",
    "flags": [
     "abs"
    ],
-   "ratio": 1.7,
+   "ratio": 1.9,
    "medianX": null,
    "tier": "🔥",
-   "score": 12.7,
+   "score": 14.3,
    "source": "tiktok:공구",
    "isAd": false,
    "adKind": "",
-   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osVoflM5QFeSC4PIQLIRZDApJjFbv4fRMAUDVE~tplv-tiktokx-origin.image?dr=9636&x-expires=1793224800&x-signature=Bd2oBF7LzJ3NlpJJ754WMSGt7f8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osVoflM5QFeSC4PIQLIRZDApJjFbv4fRMAUDVE~tplv-tiktokx-origin.image?dr=9636&x-expires=1794348000&x-signature=e%2FquRVFB2uqrdGK3AXCn2LhKQW4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
    "firstSeen": "2026-10-27"
   },
   {
@@ -449,7 +449,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 224,
+   "ageHours": 248,
    "region": "domestic",
    "flags": [
     "abs"
@@ -477,7 +477,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 829,
+   "ageHours": 853,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -505,7 +505,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 420,
+   "ageHours": 444,
    "region": "domestic",
    "flags": [
     "abs"
