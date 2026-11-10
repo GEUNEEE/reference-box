@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T22:20:01Z",
+ "generatedAt": "2026-11-10T22:20:02Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 638,
+   "ageHours": 662,
    "region": "global",
    "flags": [
     "abs",
@@ -52,7 +52,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 762,
+   "ageHours": 786,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -80,7 +80,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1717,
+   "ageHours": 1741,
    "region": "domestic",
    "flags": [
     "abs",
@@ -109,7 +109,7 @@
    "comments": 418,
    "shares": 10200,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 994,
+   "ageHours": 1018,
    "region": "global",
    "flags": [
     "abs",
@@ -138,7 +138,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 803,
+   "ageHours": 827,
    "region": "domestic",
    "flags": [
     "abs"
@@ -166,7 +166,7 @@
    "comments": 383,
    "shares": 1638,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 491,
+   "ageHours": 515,
    "region": "domestic",
    "flags": [
     "abs"
@@ -194,7 +194,7 @@
    "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 669,
+   "ageHours": 693,
    "region": "domestic",
    "flags": [
     "abs",
@@ -223,7 +223,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 639,
+   "ageHours": 663,
    "region": "domestic",
    "flags": [
     "abs",
@@ -240,6 +240,34 @@
    "firstSeen": "2026-10-26"
   },
   {
+   "key": "tiktok:7684293190479940884",
+   "platform": "tiktok",
+   "embedId": "7684293190479940884",
+   "url": "https://www.tiktok.com/@ga.5x_y/video/7684293190479940884",
+   "title": "짱예뻐! #여리핏 #11 #추천 #협찬 #교복 @무센트",
+   "author": "ga.5x_y",
+   "followers": 1858,
+   "views": 63200,
+   "likes": 1678,
+   "comments": 17,
+   "shares": 103,
+   "postedAt": "2026-09-11T15:02:13.000Z",
+   "ageHours": 1447,
+   "region": "domestic",
+   "flags": [
+    "ratio"
+   ],
+   "ratio": 34.0,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 27.8,
+   "source": "tiktok:협찬",
+   "isAd": true,
+   "adKind": "caption",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osfkGefpRIUwQfLLoAqALJ4IIhGFAAJkFGRAHo~tplv-tiktokx-origin.image?dr=9636&x-expires=1794520800&x-signature=q6s3wqlcu4H4kjLcfJMZfHVW1Ds%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-10-24"
+  },
+  {
    "key": "tiktok:7691661337906187528",
    "platform": "tiktok",
    "embedId": "7691661337906187528",
@@ -252,7 +280,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 947,
+   "ageHours": 971,
    "region": "domestic",
    "flags": [
     "abs",
@@ -269,32 +297,33 @@
    "firstSeen": "2026-10-24"
   },
   {
-   "key": "tiktok:7684293190479940884",
+   "key": "tiktok:7704571336902921492",
    "platform": "tiktok",
-   "embedId": "7684293190479940884",
-   "url": "https://www.tiktok.com/@ga.5x_y/video/7684293190479940884",
-   "title": "짱예뻐! #여리핏 #11 #추천 #협찬 #교복 @무센트",
-   "author": "ga.5x_y",
-   "followers": 1641,
-   "views": 38000,
-   "likes": 1137,
-   "comments": 13,
-   "shares": 87,
-   "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1423,
+   "embedId": "7704571336902921492",
+   "url": "https://www.tiktok.com/@4sxzon/video/7704571336902921492",
+   "title": "렌즈 너무 이쁘징 #오렌즈 #협찬 #EOTD",
+   "author": "4sxzon",
+   "followers": 4607,
+   "views": 105800,
+   "likes": 11500,
+   "comments": 72,
+   "shares": 237,
+   "postedAt": "2026-11-05T06:31:48.000Z",
+   "ageHours": 136,
    "region": "domestic",
    "flags": [
+    "abs",
     "ratio"
    ],
-   "ratio": 23.2,
+   "ratio": 23.0,
    "medianX": null,
-   "tier": "🔥",
-   "score": 22.2,
+   "tier": "🔥🔥",
+   "score": 22.1,
    "source": "tiktok:협찬",
    "isAd": true,
    "adKind": "caption",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osfkGefpRIUwQfLLoAqALJ4IIhGFAAJkFGRAHo~tplv-tiktokx-origin.image?dr=9636&x-expires=1792965600&x-signature=XL8Ox6CHgZNn0xWrhFVdQChC6FI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-   "firstSeen": "2026-10-24"
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osIjseQYGnUibbG0CAewLfA4FWQTakwJDE2VRI~tplv-tiktokx-origin.image?dr=9636&x-expires=1794520800&x-signature=9xwu8mhAb5DUa7qZ416ci1EN3AU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-11-06"
   },
   {
    "key": "tiktok:7688935147059612929",
@@ -309,7 +338,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1123,
+   "ageHours": 1147,
    "region": "domestic",
    "flags": [
     "abs"
@@ -337,7 +366,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 853,
+   "ageHours": 877,
    "region": "domestic",
    "flags": [
     "abs"
@@ -365,7 +394,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 707,
+   "ageHours": 731,
    "region": "domestic",
    "flags": [
     "abs"
@@ -381,34 +410,6 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "key": "tiktok:7704571336902921492",
-   "platform": "tiktok",
-   "embedId": "7704571336902921492",
-   "url": "https://www.tiktok.com/@4sxzon/video/7704571336902921492",
-   "title": "렌즈 너무 이쁘징 #오렌즈 #협찬 #EOTD",
-   "author": "4sxzon",
-   "followers": 4414,
-   "views": 65700,
-   "likes": 7747,
-   "comments": 65,
-   "shares": 167,
-   "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 112,
-   "region": "domestic",
-   "flags": [
-    "ratio"
-   ],
-   "ratio": 14.9,
-   "medianX": null,
-   "tier": "🔥",
-   "score": 15.8,
-   "source": "tiktok:협찬",
-   "isAd": true,
-   "adKind": "caption",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osIjseQYGnUibbG0CAewLfA4FWQTakwJDE2VRI~tplv-tiktokx-origin.image?dr=9636&x-expires=1794088800&x-signature=LfnOd93cTDp8MZ0eqsCdiD2Uw1w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
-   "firstSeen": "2026-11-06"
-  },
-  {
    "key": "tiktok:7697185788886322452",
    "platform": "tiktok",
    "embedId": "7697185788886322452",
@@ -421,7 +422,7 @@
    "comments": 56,
    "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 589,
+   "ageHours": 613,
    "region": "domestic",
    "flags": [
     "abs"
@@ -449,7 +450,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 272,
+   "ageHours": 296,
    "region": "domestic",
    "flags": [
     "abs"
@@ -477,7 +478,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 877,
+   "ageHours": 901,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -505,7 +506,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 468,
+   "ageHours": 492,
    "region": "domestic",
    "flags": [
     "abs"
