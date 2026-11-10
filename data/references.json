@@ -11765,9 +11765,23 @@
       "addedBy": "눈길",
       "addedAt": "2026-11-09T13:42:53.000Z",
       "updatedAt": "2026-11-09T13:42:53.000Z"
+    },
+    {
+      "id": "muky4idca2y79",
+      "addedAt": "2026-09-28T07:48:41.088Z",
+      "updatedAt": "2026-09-28T07:48:41.088Z",
+      "addedBy": "스카이",
+      "url": "https://www.youtube.com/watch?v=jisvLM0LnGI",
+      "platform": "youtube",
+      "embedId": "jisvLM0LnGI",
+      "title": "곰보자국엔 진피재생크림",
+      "memo": "ai 생성 애니메이션\n의사 컨셉",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0
     }
   ],
-  "deletedTags": {},
   "accounts": [
     {
       "id": "눈길",
@@ -12139,6 +12153,12 @@
       "d": ""
     },
     {
+      "t": "2026-09-28T07:48:41.088Z",
+      "u": "스카이",
+      "a": "추가",
+      "d": "1개"
+    },
+    {
       "t": "2026-09-29T04:23:05.560Z",
       "u": "눈길",
       "a": "메모",
@@ -12205,6 +12225,7 @@
       "d": "📣1차공구마감🙂‍↕️ 9/7일 다시 옵니다🍀 난 거북목·일자목에 목"
     }
   ],
+  "deletedTags": {},
   "vault": {
     "gh": "VDBCVmZUSGpZMlYyVjRVU2w0dE11MnhtTFh3NW90djRQMGZmYVpZSXp2WUkxdWtTVEQ3cEtDbjI3eXlfQnVWUFNXekZ0dkNiMElZUERNNUExMV90YXBfYnVodGln",
     "repo": "GEUNEEE/reference-box",
