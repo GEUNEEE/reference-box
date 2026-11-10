@@ -11923,6 +11923,72 @@
       "memo": "",
       "needs": [],
       "types": [],
+      "status": "inbox",
+      "ft": {
+        "title": "2026-11-10T04:52:53.334Z",
+        "memo": "2026-11-10T04:52:53.334Z",
+        "needs": "2026-11-10T04:52:53.334Z",
+        "types": "2026-11-10T04:52:53.334Z",
+        "status": "2026-11-10T04:52:53.334Z",
+        "rating": "2026-11-10T04:52:53.334Z",
+        "deleted": "2026-11-10T04:52:53.334Z",
+        "url": "2026-11-10T04:52:53.334Z"
+      }
+    },
+    {
+      "id": "mwa7scfdapak4",
+      "addedAt": "2026-11-10T04:53:06.409Z",
+      "updatedAt": "2026-11-10T04:53:06.409Z",
+      "addedBy": "스카이",
+      "url": "https://www.instagram.com/p/DeO557uMCJY/",
+      "platform": "instagram",
+      "embedId": "DeO557uMCJY",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox"
+    },
+    {
+      "id": "mwa7sjs8gjx3q",
+      "addedAt": "2026-11-10T04:53:15.944Z",
+      "updatedAt": "2026-11-10T04:53:15.944Z",
+      "addedBy": "스카이",
+      "url": "https://www.instagram.com/p/DfZ4E0IsoJ3/",
+      "platform": "instagram",
+      "embedId": "DfZ4E0IsoJ3",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox"
+    },
+    {
+      "id": "mwa7sq2bhryy4",
+      "addedAt": "2026-11-10T04:53:24.083Z",
+      "updatedAt": "2026-11-10T04:53:24.083Z",
+      "addedBy": "스카이",
+      "url": "https://www.instagram.com/p/DfZ9_eCM8a1/",
+      "platform": "instagram",
+      "embedId": "DfZ9_eCM8a1",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox"
+    },
+    {
+      "id": "mwa7ttmfpot74",
+      "addedAt": "2026-11-10T04:54:15.351Z",
+      "updatedAt": "2026-11-10T04:54:15.351Z",
+      "addedBy": "스카이",
+      "url": "https://www.instagram.com/reel/Dfhfw9vpB4A/",
+      "platform": "instagram",
+      "embedId": "Dfhfw9vpB4A",
+      "title": "",
+      "memo": "해외 인플루언서 자동 번역 기능으로 접함\n이미지 배경 + 말하는 짧은 영상 반복 활용 + 더빙 음성으로 활용",
+      "needs": [],
+      "types": [],
       "status": "inbox"
     }
   ],
@@ -12370,6 +12436,30 @@
     },
     {
       "t": "2026-11-10T04:52:53.334Z",
+      "u": "스카이",
+      "a": "추가",
+      "d": "1개"
+    },
+    {
+      "t": "2026-11-10T04:53:06.409Z",
+      "u": "스카이",
+      "a": "추가",
+      "d": "1개"
+    },
+    {
+      "t": "2026-11-10T04:53:15.944Z",
+      "u": "스카이",
+      "a": "추가",
+      "d": "1개"
+    },
+    {
+      "t": "2026-11-10T04:53:24.083Z",
+      "u": "스카이",
+      "a": "추가",
+      "d": "1개"
+    },
+    {
+      "t": "2026-11-10T04:54:15.351Z",
       "u": "스카이",
       "a": "추가",
       "d": "1개"
