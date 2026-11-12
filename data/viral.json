@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-12T00:14:06Z",
+ "generatedAt": "2026-11-12T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 688,
+   "ageHours": 710,
    "region": "global",
    "flags": [
     "abs",
@@ -52,7 +52,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 812,
+   "ageHours": 834,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -80,7 +80,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1767,
+   "ageHours": 1789,
    "region": "domestic",
    "flags": [
     "abs",
@@ -103,26 +103,26 @@
    "url": "https://www.tiktok.com/@me_.3ll/video/7690931436018224385",
    "title": "#makeuptutorial ⁡ ❥Base ABOUT TONE — Skin Layer Fit Foundation 19 d’Alba — First",
    "author": "me_.3ll",
-   "followers": 287700,
-   "views": 2300000,
-   "likes": 321000,
-   "comments": 418,
-   "shares": 10200,
+   "followers": 291500,
+   "views": 2600000,
+   "likes": 352400,
+   "comments": 471,
+   "shares": 11500,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 1044,
+   "ageHours": 1066,
    "region": "global",
    "flags": [
     "abs",
     "ratio"
    ],
-   "ratio": 8.0,
+   "ratio": 8.9,
    "medianX": null,
    "tier": "🔥🔥",
-   "score": 45.4,
+   "score": 47.2,
    "source": "tiktok:메이크업",
    "isAd": false,
    "adKind": "",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oYXEnf67CgZRDQAIAU3EA2CUrBuFECQwqv1eAC~tplv-tiktokx-origin.image?dr=9636&x-expires=1793916000&x-signature=W15ikkLYo0VgMHm4VQUjQirhS7M%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oYXEnf67CgZRDQAIAU3EA2CUrBuFECQwqv1eAC~tplv-tiktokx-origin.image?dr=9636&x-expires=1794693600&x-signature=5%2Bz4rNAXR5s4o8DK443tyzunEuo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
    "firstSeen": "2026-10-20"
   },
   {
@@ -138,7 +138,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 853,
+   "ageHours": 875,
    "region": "domestic",
    "flags": [
     "abs"
@@ -166,7 +166,7 @@
    "comments": 490,
    "shares": 1726,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 541,
+   "ageHours": 563,
    "region": "domestic",
    "flags": [
     "abs"
@@ -194,7 +194,7 @@
    "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 719,
+   "ageHours": 741,
    "region": "domestic",
    "flags": [
     "abs",
@@ -223,7 +223,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 689,
+   "ageHours": 711,
    "region": "domestic",
    "flags": [
     "abs",
@@ -252,7 +252,7 @@
    "comments": 17,
    "shares": 103,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1473,
+   "ageHours": 1495,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -280,7 +280,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 997,
+   "ageHours": 1019,
    "region": "domestic",
    "flags": [
     "abs",
@@ -309,7 +309,7 @@
    "comments": 72,
    "shares": 237,
    "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 162,
+   "ageHours": 184,
    "region": "domestic",
    "flags": [
     "abs",
@@ -338,7 +338,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1173,
+   "ageHours": 1195,
    "region": "domestic",
    "flags": [
     "abs"
@@ -366,7 +366,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 903,
+   "ageHours": 925,
    "region": "domestic",
    "flags": [
     "abs"
@@ -394,7 +394,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 757,
+   "ageHours": 779,
    "region": "domestic",
    "flags": [
     "abs"
@@ -422,7 +422,7 @@
    "comments": 56,
    "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 639,
+   "ageHours": 661,
    "region": "domestic",
    "flags": [
     "abs"
@@ -450,7 +450,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 322,
+   "ageHours": 344,
    "region": "domestic",
    "flags": [
     "abs"
@@ -478,7 +478,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 927,
+   "ageHours": 949,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -506,7 +506,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 518,
+   "ageHours": 540,
    "region": "domestic",
    "flags": [
     "abs"
@@ -529,12 +529,12 @@
    "title": "[저장/공유💕]오늘 원래 다른 거 올릴예정이었는데 이 메이크업 튜토리얼 올려달라는 디엠이나 댓글이 엄청 많이 달려서 이거먼저 오늘 후딱 편집해서",
    "author": "xugarspice0",
    "followers": 32600,
-   "views": 110200,
-   "likes": 7655,
+   "views": 111600,
+   "likes": 7715,
    "comments": 33,
-   "shares": 159,
+   "shares": 160,
    "postedAt": "2026-10-18T10:35:25.000Z",
-   "ageHours": 590,
+   "ageHours": 612,
    "region": "domestic",
    "flags": [
     "abs"
@@ -542,11 +542,11 @@
    "ratio": 3.4,
    "medianX": null,
    "tier": "🔥",
-   "score": 1.4,
+   "score": 1.6,
    "source": "tiktok:메이크업",
    "isAd": false,
    "adKind": "",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oEAbAfLeDBDqFA5EsUEoKUEO1CcIYgZgxwRCDA~tplv-tiktokx-origin.image?dr=9636&x-expires=1794614400&x-signature=v4YewARgNZGXNSG4b5UqHXKWQOU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oEAbAfLeDBDqFA5EsUEoKUEO1CcIYgZgxwRCDA~tplv-tiktokx-origin.image?dr=9636&x-expires=1794693600&x-signature=vhQs4xXy%2FA%2BKfEpw7EcOXHbX3rk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
    "firstSeen": "2026-10-20"
   }
  ]
