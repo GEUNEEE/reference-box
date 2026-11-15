@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T22:20:01Z",
+ "generatedAt": "2026-11-15T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 758,
+   "ageHours": 782,
    "region": "global",
    "flags": [
     "abs",
@@ -52,7 +52,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 882,
+   "ageHours": 906,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -80,7 +80,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1837,
+   "ageHours": 1861,
    "region": "domestic",
    "flags": [
     "abs",
@@ -109,7 +109,7 @@
    "comments": 471,
    "shares": 11500,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 1114,
+   "ageHours": 1138,
    "region": "global",
    "flags": [
     "abs",
@@ -138,7 +138,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 923,
+   "ageHours": 947,
    "region": "domestic",
    "flags": [
     "abs"
@@ -166,7 +166,7 @@
    "comments": 490,
    "shares": 1726,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 611,
+   "ageHours": 635,
    "region": "domestic",
    "flags": [
     "abs"
@@ -194,7 +194,7 @@
    "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 789,
+   "ageHours": 813,
    "region": "domestic",
    "flags": [
     "abs",
@@ -223,7 +223,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 759,
+   "ageHours": 783,
    "region": "domestic",
    "flags": [
     "abs",
@@ -252,7 +252,7 @@
    "comments": 17,
    "shares": 103,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1543,
+   "ageHours": 1567,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -280,7 +280,7 @@
    "comments": 98,
    "shares": 462,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 1067,
+   "ageHours": 1091,
    "region": "domestic",
    "flags": [
     "abs",
@@ -309,7 +309,7 @@
    "comments": 72,
    "shares": 237,
    "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 232,
+   "ageHours": 256,
    "region": "domestic",
    "flags": [
     "abs",
@@ -338,7 +338,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1243,
+   "ageHours": 1267,
    "region": "domestic",
    "flags": [
     "abs"
@@ -366,7 +366,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 973,
+   "ageHours": 997,
    "region": "domestic",
    "flags": [
     "abs"
@@ -394,7 +394,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 827,
+   "ageHours": 851,
    "region": "domestic",
    "flags": [
     "abs"
@@ -410,6 +410,34 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "key": "tiktok:7699803341857049864",
+   "platform": "tiktok",
+   "embedId": "7699803341857049864",
+   "url": "https://www.tiktok.com/@binibeen_/video/7699803341857049864",
+   "title": "수다 떨면서 잘 준비해요 🌙 립밤 에뛰드 진저슈가 오버나이트 립 마스크 토너 닥터상떼 아줄렌 수더 토너 세럼 매드 스킨케어 레드니스 레스큐 세럼",
+   "author": "binibeen_",
+   "followers": 622900,
+   "views": 339600,
+   "likes": 42100,
+   "comments": 213,
+   "shares": 962,
+   "postedAt": "2026-10-23T10:09:35.000Z",
+   "ageHours": 564,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.5,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 17.7,
+   "source": "tiktok:스킨케어",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oUGE0Z8LIPoEcE2CD2rDfBWRJdAFAAzgAemqQj~tplv-tiktokx-origin.image?dr=9636&x-expires=1794952800&x-signature=p6NmRlb4Jbnluq8NOvVCFGbu6Gg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "firstSeen": "2026-11-16"
+  },
+  {
    "key": "tiktok:7697185788886322452",
    "platform": "tiktok",
    "embedId": "7697185788886322452",
@@ -422,7 +450,7 @@
    "comments": 56,
    "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 709,
+   "ageHours": 733,
    "region": "domestic",
    "flags": [
     "abs"
@@ -450,7 +478,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 392,
+   "ageHours": 416,
    "region": "domestic",
    "flags": [
     "abs"
@@ -478,7 +506,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 997,
+   "ageHours": 1021,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -506,7 +534,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 588,
+   "ageHours": 612,
    "region": "domestic",
    "flags": [
     "abs"
@@ -534,7 +562,7 @@
    "comments": 33,
    "shares": 160,
    "postedAt": "2026-10-18T10:35:25.000Z",
-   "ageHours": 660,
+   "ageHours": 684,
    "region": "domestic",
    "flags": [
     "abs"
