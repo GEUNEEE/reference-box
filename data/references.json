@@ -12273,7 +12273,8 @@
       "memo": "",
       "needs": [],
       "types": [],
-      "status": "inbox"
+      "status": "inbox",
+      "rating": 0
     },
     {
       "id": "mwd00i469k2do",
@@ -12287,7 +12288,8 @@
       "memo": "",
       "needs": [],
       "types": [],
-      "status": "inbox"
+      "status": "inbox",
+      "rating": 0
     },
     {
       "id": "1a1ced5aa15+1uun2",
