@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-17T22:20:02Z",
+ "generatedAt": "2026-11-18T22:20:02Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 830,
+   "ageHours": 854,
    "region": "global",
    "flags": [
     "abs",
@@ -52,7 +52,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 954,
+   "ageHours": 978,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -80,7 +80,7 @@
    "comments": 495,
    "shares": 12100,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 1186,
+   "ageHours": 1210,
    "region": "global",
    "flags": [
     "abs",
@@ -109,7 +109,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 1909,
+   "ageHours": 1933,
    "region": "domestic",
    "flags": [
     "abs",
@@ -138,7 +138,7 @@
    "comments": 591,
    "shares": 1761,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 683,
+   "ageHours": 707,
    "region": "domestic",
    "flags": [
     "abs"
@@ -166,7 +166,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 995,
+   "ageHours": 1019,
    "region": "domestic",
    "flags": [
     "abs"
@@ -194,7 +194,7 @@
    "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 861,
+   "ageHours": 885,
    "region": "domestic",
    "flags": [
     "abs",
@@ -223,7 +223,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 831,
+   "ageHours": 855,
    "region": "domestic",
    "flags": [
     "abs",
@@ -252,7 +252,7 @@
    "comments": 17,
    "shares": 103,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1615,
+   "ageHours": 1639,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -274,26 +274,26 @@
    "url": "https://www.tiktok.com/@_hxuil1/video/7691661337906187528",
    "title": "현체 때 모입지#추천#키쇼르#협찬",
    "author": "_hxuil1",
-   "followers": 10200,
-   "views": 277400,
-   "likes": 15300,
-   "comments": 98,
-   "shares": 462,
+   "followers": 10000,
+   "views": 299100,
+   "likes": 15800,
+   "comments": 95,
+   "shares": 472,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 1139,
+   "ageHours": 1163,
    "region": "domestic",
    "flags": [
     "abs",
     "ratio"
    ],
-   "ratio": 27.2,
+   "ratio": 29.9,
    "medianX": null,
    "tier": "🔥🔥",
-   "score": 24.5,
+   "score": 25.9,
    "source": "tiktok:협찬",
    "isAd": true,
    "adKind": "caption",
-   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oUWqoAfqfAl6G8HAQeSIFGiJQZ88QvoARf8AIM~tplv-tiktokx-origin.image?dr=9636&x-expires=1792965600&x-signature=r2A8w3zoWLzyND2ynjXp286D5iE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+   "thumb": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUWqoAfqfAl6G8HAQeSIFGiJQZ88QvoARf8AIM~tplv-tiktokx-origin.image?dr=14575&x-expires=1795212000&x-signature=43sx0TkOZP5voELMUDUR5UzJrds%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my3",
    "firstSeen": "2026-10-24"
   },
   {
@@ -309,7 +309,7 @@
    "comments": 72,
    "shares": 237,
    "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 304,
+   "ageHours": 328,
    "region": "domestic",
    "flags": [
     "abs",
@@ -338,7 +338,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1315,
+   "ageHours": 1339,
    "region": "domestic",
    "flags": [
     "abs"
@@ -366,7 +366,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 1045,
+   "ageHours": 1069,
    "region": "domestic",
    "flags": [
     "abs"
@@ -394,7 +394,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 899,
+   "ageHours": 923,
    "region": "domestic",
    "flags": [
     "abs"
@@ -422,7 +422,7 @@
    "comments": 213,
    "shares": 962,
    "postedAt": "2026-10-23T10:09:35.000Z",
-   "ageHours": 612,
+   "ageHours": 636,
    "region": "domestic",
    "flags": [
     "abs"
@@ -450,7 +450,7 @@
    "comments": 56,
    "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 781,
+   "ageHours": 805,
    "region": "domestic",
    "flags": [
     "abs"
@@ -478,7 +478,7 @@
    "comments": 35,
    "shares": 171,
    "postedAt": "2026-10-18T10:35:25.000Z",
-   "ageHours": 732,
+   "ageHours": 756,
    "region": "domestic",
    "flags": [
     "abs"
@@ -506,7 +506,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 464,
+   "ageHours": 488,
    "region": "domestic",
    "flags": [
     "abs"
@@ -534,7 +534,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 1069,
+   "ageHours": 1093,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -562,7 +562,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 660,
+   "ageHours": 684,
    "region": "domestic",
    "flags": [
     "abs"
