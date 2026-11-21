@@ -9523,8 +9523,12 @@
       "embedId": "DeUBBfsBkDe",
       "title": "",
       "memo": "문제제기만 이미지와 텍스트를 통해서 하고 after를 보여줌 근데 오디오가 아예 없음",
-      "needs": [],
-      "types": [],
+      "needs": [
+        "여드름 트러블"
+      ],
+      "types": [
+        "문제사연"
+      ],
       "status": "inbox",
       "rating": 3,
       "addedBy": "눈길",
@@ -9575,7 +9579,9 @@
       "embedId": "Defq2t-zhgM",
       "title": "제목 후킹 참고",
       "memo": "",
-      "needs": [],
+      "needs": [
+        "미백"
+      ],
       "types": [],
       "status": "inbox",
       "rating": 3,
