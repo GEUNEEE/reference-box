@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-21T22:20:02Z",
+ "generatedAt": "2026-11-22T22:20:01Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -10,6 +10,34 @@
   "global_share": 0.1
  },
  "items": [
+  {
+   "key": "tiktok:7706088724869795073",
+   "platform": "tiktok",
+   "embedId": "7706088724869795073",
+   "url": "https://www.tiktok.com/@ys.c500/video/7706088724869795073",
+   "title": "손가락 아프게 렌치 돌리던 시절은 끝! ⚙️ 버튼 하나로 육각 볼트·볼트 조립을 1초 만에 끝내는 스킬(SKIL) 전동 육각 렌치.가구 조립부터",
+   "author": "ys.c500",
+   "followers": 100,
+   "views": 25300,
+   "likes": 135,
+   "comments": 5,
+   "shares": 64,
+   "postedAt": "2026-11-09T08:41:31.000Z",
+   "ageHours": 326,
+   "region": "domestic",
+   "flags": [
+    "ratio"
+   ],
+   "ratio": 253.0,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 56.8,
+   "source": "tiktok:공구",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oslf8AM4eDHDhXrVV5CX4AoEAIBjEAbQAAewQR~tplv-tiktokx-origin.image?dr=14575&x-expires=1795557600&x-signature=CbPletn1BFY3tzJciMntlZy3RY4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my",
+   "firstSeen": "2026-11-23"
+  },
   {
    "key": "tiktok:7696433898858827028",
    "platform": "tiktok",
@@ -23,7 +51,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 926,
+   "ageHours": 950,
    "region": "global",
    "flags": [
     "abs",
@@ -52,7 +80,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 1050,
+   "ageHours": 1074,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -80,7 +108,7 @@
    "comments": 495,
    "shares": 12100,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 1282,
+   "ageHours": 1306,
    "region": "global",
    "flags": [
     "abs",
@@ -109,7 +137,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 2005,
+   "ageHours": 2029,
    "region": "domestic",
    "flags": [
     "abs",
@@ -138,7 +166,7 @@
    "comments": 591,
    "shares": 1761,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 779,
+   "ageHours": 803,
    "region": "domestic",
    "flags": [
     "abs"
@@ -166,7 +194,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 1091,
+   "ageHours": 1115,
    "region": "domestic",
    "flags": [
     "abs"
@@ -194,7 +222,7 @@
    "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 957,
+   "ageHours": 981,
    "region": "domestic",
    "flags": [
     "abs",
@@ -223,7 +251,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 927,
+   "ageHours": 951,
    "region": "domestic",
    "flags": [
     "abs",
@@ -252,7 +280,7 @@
    "comments": 17,
    "shares": 103,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1711,
+   "ageHours": 1735,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -280,7 +308,7 @@
    "comments": 95,
    "shares": 472,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 1235,
+   "ageHours": 1259,
    "region": "domestic",
    "flags": [
     "abs",
@@ -309,7 +337,7 @@
    "comments": 72,
    "shares": 237,
    "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 400,
+   "ageHours": 424,
    "region": "domestic",
    "flags": [
     "abs",
@@ -338,7 +366,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1411,
+   "ageHours": 1435,
    "region": "domestic",
    "flags": [
     "abs"
@@ -366,7 +394,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 1141,
+   "ageHours": 1165,
    "region": "domestic",
    "flags": [
     "abs"
@@ -394,7 +422,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 995,
+   "ageHours": 1019,
    "region": "domestic",
    "flags": [
     "abs"
@@ -422,7 +450,7 @@
    "comments": 225,
    "shares": 1044,
    "postedAt": "2026-10-23T10:09:35.000Z",
-   "ageHours": 708,
+   "ageHours": 732,
    "region": "domestic",
    "flags": [
     "abs"
@@ -450,7 +478,7 @@
    "comments": 56,
    "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 877,
+   "ageHours": 901,
    "region": "domestic",
    "flags": [
     "abs"
@@ -466,6 +494,34 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "key": "tiktok:7696133249482902792",
+   "platform": "tiktok",
+   "embedId": "7696133249482902792",
+   "url": "https://www.tiktok.com/@needleninadiy/video/7696133249482902792",
+   "title": "알림은 댓글로🔔 플레종 8차🖤 한 번 사면 10년 이상 쓰려고 고르는 국산 리빙박스‼️ #공구예고",
+   "author": "needleninadiy",
+   "followers": 2516,
+   "views": 25100,
+   "likes": 397,
+   "comments": 357,
+   "shares": 78,
+   "postedAt": "2026-10-13T12:47:43.000Z",
+   "ageHours": 970,
+   "region": "domestic",
+   "flags": [
+    "ratio"
+   ],
+   "ratio": 10.0,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 10.0,
+   "source": "tiktok:공구",
+   "isAd": false,
+   "adKind": "",
+   "thumb": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oowALixq1AA1Kk25ABBKDGrZiAQEOIfIGCXEOj~tplv-tiktokx-origin.image?dr=14575&x-expires=1795557600&x-signature=obFdjNzNs3PII%2BPb3OSY0edxiJI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my",
+   "firstSeen": "2026-11-23"
+  },
+  {
    "key": "tiktok:7697954565362109704",
    "platform": "tiktok",
    "embedId": "7697954565362109704",
@@ -478,7 +534,7 @@
    "comments": 35,
    "shares": 171,
    "postedAt": "2026-10-18T10:35:25.000Z",
-   "ageHours": 828,
+   "ageHours": 852,
    "region": "domestic",
    "flags": [
     "abs"
@@ -506,7 +562,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 560,
+   "ageHours": 584,
    "region": "domestic",
    "flags": [
     "abs"
@@ -534,7 +590,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 1165,
+   "ageHours": 1189,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -562,7 +618,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 756,
+   "ageHours": 780,
    "region": "domestic",
    "flags": [
     "abs"
