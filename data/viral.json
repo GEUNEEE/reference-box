@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-22T22:20:01Z",
+ "generatedAt": "2026-11-23T22:20:02Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 5,
    "shares": 64,
    "postedAt": "2026-11-09T08:41:31.000Z",
-   "ageHours": 326,
+   "ageHours": 350,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -51,7 +51,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 950,
+   "ageHours": 974,
    "region": "global",
    "flags": [
     "abs",
@@ -80,7 +80,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 1074,
+   "ageHours": 1098,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -108,7 +108,7 @@
    "comments": 495,
    "shares": 12100,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 1306,
+   "ageHours": 1330,
    "region": "global",
    "flags": [
     "abs",
@@ -137,7 +137,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 2029,
+   "ageHours": 2053,
    "region": "domestic",
    "flags": [
     "abs",
@@ -166,7 +166,7 @@
    "comments": 591,
    "shares": 1761,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 803,
+   "ageHours": 827,
    "region": "domestic",
    "flags": [
     "abs"
@@ -194,7 +194,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 1115,
+   "ageHours": 1139,
    "region": "domestic",
    "flags": [
     "abs"
@@ -222,7 +222,7 @@
    "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 981,
+   "ageHours": 1005,
    "region": "domestic",
    "flags": [
     "abs",
@@ -251,7 +251,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 951,
+   "ageHours": 975,
    "region": "domestic",
    "flags": [
     "abs",
@@ -280,7 +280,7 @@
    "comments": 17,
    "shares": 103,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1735,
+   "ageHours": 1759,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -308,7 +308,7 @@
    "comments": 95,
    "shares": 472,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 1259,
+   "ageHours": 1283,
    "region": "domestic",
    "flags": [
     "abs",
@@ -337,7 +337,7 @@
    "comments": 72,
    "shares": 237,
    "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 424,
+   "ageHours": 448,
    "region": "domestic",
    "flags": [
     "abs",
@@ -366,7 +366,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1435,
+   "ageHours": 1459,
    "region": "domestic",
    "flags": [
     "abs"
@@ -394,7 +394,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 1165,
+   "ageHours": 1189,
    "region": "domestic",
    "flags": [
     "abs"
@@ -422,7 +422,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 1019,
+   "ageHours": 1043,
    "region": "domestic",
    "flags": [
     "abs"
@@ -450,7 +450,7 @@
    "comments": 225,
    "shares": 1044,
    "postedAt": "2026-10-23T10:09:35.000Z",
-   "ageHours": 732,
+   "ageHours": 756,
    "region": "domestic",
    "flags": [
     "abs"
@@ -478,7 +478,7 @@
    "comments": 56,
    "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 901,
+   "ageHours": 925,
    "region": "domestic",
    "flags": [
     "abs"
@@ -506,7 +506,7 @@
    "comments": 357,
    "shares": 78,
    "postedAt": "2026-10-13T12:47:43.000Z",
-   "ageHours": 970,
+   "ageHours": 994,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -522,6 +522,34 @@
    "firstSeen": "2026-11-23"
   },
   {
+   "key": "tiktok:7710877366200896776",
+   "platform": "tiktok",
+   "embedId": "7710877366200896776",
+   "url": "https://www.tiktok.com/@wkorea/video/7710877366200896776",
+   "title": "#협찬 상상력으로 채워진 디올 카페에 미스 디올 오 드 퍼퓸의 향기가 스며들자, 눈앞의 풍경이 한층 풍성해집니다. 해린의 시선과 움직임을 따라 ",
+   "author": "wkorea",
+   "followers": 1400000,
+   "views": 158300,
+   "likes": 50900,
+   "comments": 585,
+   "shares": 4680,
+   "postedAt": "2026-11-22T06:22:30.000Z",
+   "ageHours": 40,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.1,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 6.6,
+   "source": "tiktok:협찬",
+   "isAd": true,
+   "adKind": "caption",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/okUgBf5QCiFuIiiYPC1wiATCIpIUAXuE8AgdE0~tplv-tiktokx-origin.image?dr=9636&x-expires=1795644000&x-signature=bB5jwetvKQmuJuavLNlvPPKBjrk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "firstSeen": "2026-11-24"
+  },
+  {
    "key": "tiktok:7697954565362109704",
    "platform": "tiktok",
    "embedId": "7697954565362109704",
@@ -534,7 +562,7 @@
    "comments": 35,
    "shares": 171,
    "postedAt": "2026-10-18T10:35:25.000Z",
-   "ageHours": 852,
+   "ageHours": 876,
    "region": "domestic",
    "flags": [
     "abs"
@@ -562,7 +590,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 584,
+   "ageHours": 608,
    "region": "domestic",
    "flags": [
     "abs"
@@ -590,7 +618,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 1189,
+   "ageHours": 1213,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -618,7 +646,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 780,
+   "ageHours": 804,
    "region": "domestic",
    "flags": [
     "abs"
