@@ -12766,6 +12766,31 @@
         "deleted": "2026-11-23T03:42:15.844Z",
         "url": "2026-11-23T03:42:15.844Z"
       }
+    },
+    {
+      "id": "8ece89b64ea929da",
+      "url": "https://www.instagram.com/p/DgFAAMxIPlO/",
+      "platform": "instagram",
+      "embedId": "DgFAAMxIPlO",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-11-24T05:15:09.083Z",
+      "updatedAt": "2026-11-24T05:15:09.083Z",
+      "ft": {
+        "title": "2026-11-24T05:15:09.083Z",
+        "memo": "2026-11-24T05:15:09.083Z",
+        "needs": "2026-11-24T05:15:09.083Z",
+        "types": "2026-11-24T05:15:09.083Z",
+        "status": "2026-11-24T05:15:09.083Z",
+        "rating": "2026-11-24T05:15:09.083Z",
+        "deleted": "2026-11-24T05:15:09.083Z",
+        "url": "2026-11-24T05:15:09.083Z"
+      }
     }
   ],
   "accounts": [
