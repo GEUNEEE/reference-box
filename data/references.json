@@ -12841,6 +12841,31 @@
         "deleted": "2026-11-25T02:53:19.328Z",
         "url": "2026-11-25T02:53:19.328Z"
       }
+    },
+    {
+      "id": "80a480c13e9fddaa",
+      "url": "https://www.instagram.com/p/DgB5dfXoCOL/",
+      "platform": "instagram",
+      "embedId": "DgB5dfXoCOL",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-11-26T23:24:05.477Z",
+      "updatedAt": "2026-11-26T23:24:05.477Z",
+      "ft": {
+        "title": "2026-11-26T23:24:05.477Z",
+        "memo": "2026-11-26T23:24:05.477Z",
+        "needs": "2026-11-26T23:24:05.477Z",
+        "types": "2026-11-26T23:24:05.477Z",
+        "status": "2026-11-26T23:24:05.477Z",
+        "rating": "2026-11-26T23:24:05.477Z",
+        "deleted": "2026-11-26T23:24:05.477Z",
+        "url": "2026-11-26T23:24:05.477Z"
+      }
     }
   ],
   "accounts": [
