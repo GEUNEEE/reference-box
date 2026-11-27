@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-26T22:20:02Z",
+ "generatedAt": "2026-11-27T22:20:02Z",
  "criteria": {
   "abs_views": 100000,
   "ratio_x": 5.0,
@@ -23,7 +23,7 @@
    "comments": 5,
    "shares": 64,
    "postedAt": "2026-11-09T08:41:31.000Z",
-   "ageHours": 422,
+   "ageHours": 446,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -51,7 +51,7 @@
    "comments": 385,
    "shares": 5608,
    "postedAt": "2026-10-14T08:14:32.000Z",
-   "ageHours": 1046,
+   "ageHours": 1070,
    "region": "global",
    "flags": [
     "abs",
@@ -80,7 +80,7 @@
    "comments": 12,
    "shares": 68,
    "postedAt": "2026-10-09T04:31:17.000Z",
-   "ageHours": 1170,
+   "ageHours": 1194,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -108,7 +108,7 @@
    "comments": 495,
    "shares": 12100,
    "postedAt": "2026-09-29T12:22:16.000Z",
-   "ageHours": 1402,
+   "ageHours": 1426,
    "region": "global",
    "flags": [
     "abs",
@@ -137,7 +137,7 @@
    "comments": 383,
    "shares": 16200,
    "postedAt": "2026-08-30T09:21:36.000Z",
-   "ageHours": 2125,
+   "ageHours": 2149,
    "region": "domestic",
    "flags": [
     "abs",
@@ -166,7 +166,7 @@
    "comments": 591,
    "shares": 1761,
    "postedAt": "2026-10-20T11:12:25.000Z",
-   "ageHours": 899,
+   "ageHours": 923,
    "region": "domestic",
    "flags": [
     "abs"
@@ -194,7 +194,7 @@
    "comments": 605,
    "shares": 3951,
    "postedAt": "2026-10-07T11:05:36.000Z",
-   "ageHours": 1211,
+   "ageHours": 1235,
    "region": "domestic",
    "flags": [
     "abs"
@@ -222,7 +222,7 @@
    "comments": 341,
    "shares": 188,
    "postedAt": "2026-10-13T01:25:40.000Z",
-   "ageHours": 1077,
+   "ageHours": 1101,
    "region": "domestic",
    "flags": [
     "abs",
@@ -251,7 +251,7 @@
    "comments": 86,
    "shares": 1674,
    "postedAt": "2026-10-14T07:14:19.000Z",
-   "ageHours": 1047,
+   "ageHours": 1071,
    "region": "domestic",
    "flags": [
     "abs",
@@ -280,7 +280,7 @@
    "comments": 17,
    "shares": 103,
    "postedAt": "2026-09-11T15:02:13.000Z",
-   "ageHours": 1831,
+   "ageHours": 1855,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -308,7 +308,7 @@
    "comments": 95,
    "shares": 472,
    "postedAt": "2026-10-01T11:34:29.000Z",
-   "ageHours": 1355,
+   "ageHours": 1379,
    "region": "domestic",
    "flags": [
     "abs",
@@ -337,7 +337,7 @@
    "comments": 72,
    "shares": 237,
    "postedAt": "2026-11-05T06:31:48.000Z",
-   "ageHours": 520,
+   "ageHours": 544,
    "region": "domestic",
    "flags": [
     "abs",
@@ -366,7 +366,7 @@
    "comments": 257,
    "shares": 488,
    "postedAt": "2026-09-24T03:15:26.000Z",
-   "ageHours": 1531,
+   "ageHours": 1555,
    "region": "domestic",
    "flags": [
     "abs"
@@ -394,7 +394,7 @@
    "comments": 41,
    "shares": 1901,
    "postedAt": "2026-10-05T09:11:57.000Z",
-   "ageHours": 1261,
+   "ageHours": 1285,
    "region": "domestic",
    "flags": [
     "abs"
@@ -422,7 +422,7 @@
    "comments": 167,
    "shares": 814,
    "postedAt": "2026-10-11T11:12:53.000Z",
-   "ageHours": 1115,
+   "ageHours": 1139,
    "region": "domestic",
    "flags": [
     "abs"
@@ -450,7 +450,7 @@
    "comments": 225,
    "shares": 1044,
    "postedAt": "2026-10-23T10:09:35.000Z",
-   "ageHours": 828,
+   "ageHours": 852,
    "region": "domestic",
    "flags": [
     "abs"
@@ -478,7 +478,7 @@
    "comments": 56,
    "shares": 108,
    "postedAt": "2026-10-16T08:52:10.000Z",
-   "ageHours": 997,
+   "ageHours": 1021,
    "region": "domestic",
    "flags": [
     "abs"
@@ -506,7 +506,7 @@
    "comments": 357,
    "shares": 78,
    "postedAt": "2026-10-13T12:47:43.000Z",
-   "ageHours": 1066,
+   "ageHours": 1090,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -534,7 +534,7 @@
    "comments": 585,
    "shares": 4680,
    "postedAt": "2026-11-22T06:22:30.000Z",
-   "ageHours": 112,
+   "ageHours": 136,
    "region": "domestic",
    "flags": [
     "abs"
@@ -550,6 +550,34 @@
    "firstSeen": "2026-11-24"
   },
   {
+   "key": "tiktok:7710879609683709202",
+   "platform": "tiktok",
+   "embedId": "7710879609683709202",
+   "url": "https://www.tiktok.com/@wkorea/video/7710879609683709202",
+   "title": "#협찬 마지막 쿠키 영상까지 달콤함으로 가득한 뉴진스 해린의 홀리데이. 그 분위기에 리듬감을 더하는 두 가지 뷰티 아이템, 디올 포에버 하이드라",
+   "author": "wkorea",
+   "followers": 1400000,
+   "views": 143700,
+   "likes": 42200,
+   "comments": 480,
+   "shares": 4161,
+   "postedAt": "2026-11-22T06:31:09.000Z",
+   "ageHours": 136,
+   "region": "domestic",
+   "flags": [
+    "abs"
+   ],
+   "ratio": 0.1,
+   "medianX": null,
+   "tier": "🔥",
+   "score": 5.2,
+   "source": "tiktok:협찬",
+   "isAd": true,
+   "adKind": "caption",
+   "thumb": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ooACCFfmwAqCDj8kRfNBo7EggcElBkXIzraSIp~tplv-tiktokx-origin.image?dr=9636&x-expires=1795989600&x-signature=6z3NUIScIVx5SCKZn3Ojo90XT5A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+   "firstSeen": "2026-11-28"
+  },
+  {
    "key": "tiktok:7697954565362109704",
    "platform": "tiktok",
    "embedId": "7697954565362109704",
@@ -562,7 +590,7 @@
    "comments": 35,
    "shares": 171,
    "postedAt": "2026-10-18T10:35:25.000Z",
-   "ageHours": 948,
+   "ageHours": 972,
    "region": "domestic",
    "flags": [
     "abs"
@@ -590,7 +618,7 @@
    "comments": 27,
    "shares": 227,
    "postedAt": "2026-10-29T14:06:35.000Z",
-   "ageHours": 680,
+   "ageHours": 704,
    "region": "domestic",
    "flags": [
     "abs"
@@ -618,7 +646,7 @@
    "comments": 12,
    "shares": 19,
    "postedAt": "2026-10-04T09:12:27.000Z",
-   "ageHours": 1285,
+   "ageHours": 1309,
    "region": "domestic",
    "flags": [
     "ratio"
@@ -646,7 +674,7 @@
    "comments": 80,
    "shares": 426,
    "postedAt": "2026-10-21T10:13:47.000Z",
-   "ageHours": 876,
+   "ageHours": 900,
    "region": "domestic",
    "flags": [
     "abs"
