@@ -12881,6 +12881,31 @@
       "types": [],
       "status": "inbox",
       "rating": 0
+    },
+    {
+      "id": "f40029c5fafed553",
+      "url": "https://www.instagram.com/p/DgOLBrakpC7/",
+      "platform": "instagram",
+      "embedId": "DgOLBrakpC7",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0,
+      "addedBy": "눈길",
+      "addedAt": "2026-11-27T16:23:44.069Z",
+      "updatedAt": "2026-11-27T16:23:44.069Z",
+      "ft": {
+        "title": "2026-11-27T16:23:44.069Z",
+        "memo": "2026-11-27T16:23:44.069Z",
+        "needs": "2026-11-27T16:23:44.069Z",
+        "types": "2026-11-27T16:23:44.069Z",
+        "status": "2026-11-27T16:23:44.069Z",
+        "rating": "2026-11-27T16:23:44.069Z",
+        "deleted": "2026-11-27T16:23:44.069Z",
+        "url": "2026-11-27T16:23:44.069Z"
+      }
     }
   ],
   "accounts": [
