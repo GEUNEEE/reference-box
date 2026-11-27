@@ -12866,6 +12866,21 @@
         "deleted": "2026-11-26T23:24:05.477Z",
         "url": "2026-11-26T23:24:05.477Z"
       }
+    },
+    {
+      "id": "mwd00tifr24ig",
+      "addedAt": "2026-11-12T03:39:03.399Z",
+      "updatedAt": "2026-11-12T03:39:03.399Z",
+      "addedBy": "스카이",
+      "url": "https://www.instagram.com/p/DeOYiiQMHJh/",
+      "platform": "instagram",
+      "embedId": "DeOYiiQMHJh",
+      "title": "",
+      "memo": "",
+      "needs": [],
+      "types": [],
+      "status": "inbox",
+      "rating": 0
     }
   ],
   "accounts": [
@@ -13348,6 +13363,12 @@
     },
     {
       "t": "2026-11-12T03:38:48.630Z",
+      "u": "스카이",
+      "a": "추가",
+      "d": "1개"
+    },
+    {
+      "t": "2026-11-12T03:39:03.399Z",
       "u": "스카이",
       "a": "추가",
       "d": "1개"
